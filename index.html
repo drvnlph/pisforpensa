@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+<meta name="theme-color" content="#FDFCFA">
+<title>P is for Pensa</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fira+Sans:wght@400;500;600;700&family=IBM+Plex+Mono:ital,wght@0,400;0,500;0,600;1,400&family=Literata:ital,opsz,wght@0,7..72,400;0,7..72,500;0,7..72,600;0,7..72,700;1,7..72,400&family=PT+Serif:ital,wght@0,400;0,700;1,400&family=Source+Sans+3:ital,wght@0,400;0,600;0,700;1,400&family=Source+Serif+4:ital,opsz,wght@0,8..60,400;0,8..60,600;0,8..60,700;1,8..60,400&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body data-font="a" data-color="slate" data-links="host">
+
+<!-- Reading progress bar -->
+<div class="progress-bar" id="progressBar"></div>
+
+<!-- Mobile: floating top bar. The list is cloned from the sidebar TOC by app.js. -->
+<div class="mobile-bar" id="mobileBar">
+  <div class="mobile-bar-top">
+    <div class="mobile-bar-chapter" id="mobileChapter">P is for Pensa</div>
+    <button class="mobile-bar-toc" id="mobileBarToc" aria-label="Оглавление">§</button>
+  </div>
+  <div class="mobile-dropdown" id="mobileDropdown">
+    <ol class="toc-list" id="tocMobileList"></ol>
+  </div>
+  <div class="mobile-progress" id="mobileProgress"></div>
+</div>
+
+<button class="back-to-top" id="backToTop" aria-label="Наверх">↑</button>
+
+<div class="page">
+<aside class="sidebar">
+  <nav class="toc-desktop" aria-label="Содержание">
+    <div class="toc-label">Содержание</div>
+    <!-- ─── The single source of truth for the table of contents. ───
+         app.js clones it into the mobile dropdown and the inline nav, and
+         reads the section names from it. Edit this list only. -->
+    <ol class="toc-list" id="tocDesktopList">
+      <li><a href="#text" class="active">Текст</a></li>
+      <li><a href="#sources">Источники</a></li>
+    </ol>
+  </nav>
+</aside>
+
+<main class="content">
+
+<header class="article-header">
+  <div class="article-kicker">Черновик</div>
+  <h1 class="article-title">P is for Pensa</h1>
+  <p class="article-subtitle">Заголовок, подзаголовок и текст — временные. Ждём готовый текст.</p>
+  <div class="article-meta">Черновик &nbsp;·&nbsp; текст не заполнен</div>
+</header>
+
+<!-- Cloned from the sidebar TOC by app.js; shown only below 960px. -->
+<nav class="toc-inline" aria-label="Содержание">
+  <div class="toc-inline-title">Содержание</div>
+  <ol class="toc-inline-list"></ol>
+</nav>
+
+<section id="text">
+  <h2>Текст</h2>
+
+  <div class="draft-note">
+    Каркас на дизайн-системе из <code>sample_lorem</code>. Текст сюда ещё не
+    вставлен. Доступные блоки: <code>.source-quote</code>, <code>.explainer</code>,
+    <code>.key-points</code>, <code>.timeline</code>, <code>.pullquote</code>,
+    <code>.marginalia</code>, <code>.def-list</code>, <code>.collapsible</code>,
+    <code>.sensitive</code>, сноски <code>.fn-ref</code>.
+  </div>
+
+  <p>
+    Здесь будет текст. Каждый раздел — <code>&lt;section id="…"&gt;</code>,
+    и его нужно добавить в оглавление в сайдбаре: остальные два оглавления
+    и подписи в мобильной шапке соберутся сами.
+  </p>
+</section>
+
+<hr class="section-rule">
+
+<section id="sources">
+  <h2>Источники</h2>
+  <p>
+    Сканы — <a href="scans.html">том 28</a>, 54 листа: протокол осмотра
+    предметов и приложение на 53 листах.
+  </p>
+</section>
+
+</main>
+</div>
+
+<!-- Settings footer -->
+<div class="settings-footer">
+  <div class="settings-inner">
+    <div class="settings-title">Настройки отображения</div>
+    <div class="settings-row">
+      <span class="ctrl-label">Шрифт</span>
+      <button class="ctrl-btn ctrl-fontbtn" data-f="a">Документ · Source Serif + Plex Mono</button>
+      <button class="ctrl-btn ctrl-fontbtn" data-f="b">Тёплая · PT Serif + Fira Sans</button>
+      <button class="ctrl-btn ctrl-fontbtn" data-f="c">Экранная · Literata + Source Sans</button>
+    </div>
+    <div class="settings-row">
+      <span class="ctrl-label">Цвет</span>
+      <button class="ctrl-swatch" data-c="slate" aria-label="Сине-серый" title="Сине-серый"></button>
+      <button class="ctrl-swatch" data-c="olive" aria-label="Оливковый" title="Оливковый"></button>
+      <button class="ctrl-swatch" data-c="charcoal" aria-label="Графит" title="Графит"></button>
+      <button class="ctrl-swatch" data-c="wine" aria-label="Тёмное вино" title="Тёмное вино"></button>
+    </div>
+    <div class="settings-row">
+      <span class="ctrl-label">Ссылки</span>
+      <button class="ctrl-btn ctrl-linkbtn" data-links="host">Домен ↗&#xFE0E;</button>
+      <button class="ctrl-btn ctrl-linkbtn" data-links="mark">Стрелка</button>
+      <button class="ctrl-btn ctrl-linkbtn" data-links="quiet">Тихо</button>
+    </div>
+  </div>
+</div>
+
+<script src="app.js"></script>
+</body>
+</html>
