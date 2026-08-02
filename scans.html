@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+<meta name="theme-color" content="#FDFCFA">
+<title>Том 28 — сканы материалов дела</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:ital,wght@0,400;0,500;0,600;1,400&family=Source+Serif+4:ital,opsz,wght@0,8..60,400;0,8..60,600;0,8..60,700;1,8..60,400&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+<style>
+/* ── Viewer chrome ──────────────────────
+   Built on the shared design tokens rather than the old viewer's #111 dark
+   shell, so the archive and the article read as one site. */
+html,body { height:100%; overflow:hidden; }
+body { display:flex; flex-direction:column; font-family:var(--body); }
+
+.viewer-bar {
+  display:flex; align-items:center; gap:16px; flex-wrap:wrap;
+  padding:10px 20px; background:var(--bg); border-bottom:1px solid var(--border);
+  font-family:var(--ui); font-size:12.5px; flex-shrink:0;
+}
+.viewer-bar .home { font-weight:600; }
+.viewer-bar .pos { color:var(--text-muted); font-variant-numeric:tabular-nums; }
+.viewer-bar .spacer { margin-left:auto; }
+
+#viewer {
+  flex:1; overflow:auto; position:relative; cursor:grab;
+  background:var(--bg-warm); touch-action:none;
+  scrollbar-width:thin; scrollbar-color:var(--edge,#C9C2B2) var(--bg-warm);
+}
+#viewer.grabbing { cursor:grabbing; }
+#img-wrapper { display:flex; align-items:center; justify-content:center; width:100%; height:100%; }
+#img { transform-origin:center center; user-select:none; -webkit-user-drag:none;
+       box-shadow:0 2px 18px rgba(0,0,0,.14); background:#fff; }
+
+.controls {
+  position:fixed; bottom:22px; left:50%; transform:translateX(-50%);
+  display:flex; align-items:center; gap:6px; z-index:20;
+  background:var(--bg); border:1px solid var(--border); border-radius:30px;
+  padding:6px 10px; box-shadow:0 3px 14px rgba(0,0,0,.12);
+}
+.controls button {
+  font-family:var(--ui); font-size:14px; line-height:1; cursor:pointer;
+  width:34px; height:34px; border-radius:50%; border:1px solid transparent;
+  background:none; color:var(--accent); display:flex; align-items:center; justify-content:center;
+  transition:background .12s,border-color .12s;
+}
+.controls button:hover:not(:disabled) { background:var(--accent-faint); border-color:var(--accent); }
+.controls button:disabled { opacity:.28; cursor:not-allowed; }
+#zoomLevel {
+  font-family:var(--ui); font-size:12px; color:var(--text-secondary); min-width:52px;
+  text-align:center; font-variant-numeric:tabular-nums; cursor:pointer; user-select:none;
+}
+
+/* Load failures used to be swallowed silently, leaving the previous page on
+   screen with no indication anything went wrong. */
+#status {
+  position:absolute; top:50%; left:50%; transform:translate(-50%,-50%);
+  font-family:var(--ui); font-size:13px; color:var(--text-secondary);
+  background:var(--bg); border:1px solid var(--border); border-radius:8px;
+  padding:12px 18px; display:none; z-index:15; max-width:80vw; text-align:center;
+}
+#status.error { border-color:#B13A2E; color:#B13A2E; }
+
+@media (max-width:640px) {
+  .viewer-bar { padding:8px 14px; gap:10px; font-size:12px; }
+  .controls { bottom:14px; }
+}
+</style>
+</head>
+
+<body data-color="slate">
+
+<div class="viewer-bar">
+  <a class="home" href="index.html">← К разбору</a>
+  <span class="pos" id="pos">—</span>
+  <span class="spacer"></span>
+  <a href="scans/tom-28.pdf" download>Скачать PDF (54 с., 15 МБ)</a>
+</div>
+
+<div id="viewer">
+  <div id="img-wrapper">
+    <img id="img" draggable="false" alt="">
+  </div>
+  <div id="status"></div>
+</div>
+
+<div class="controls">
+  <button id="prevBtn" title="Предыдущая (←)" aria-label="Предыдущая страница">◀</button>
+  <button id="zoomOutBtn" title="Отдалить (−)" aria-label="Отдалить">−</button>
+  <span id="zoomLevel" title="По размеру экрана (F)" role="button" tabindex="0">100%</span>
+  <button id="zoomInBtn" title="Приблизить (+)" aria-label="Приблизить">+</button>
+  <button id="nextBtn" title="Следующая (→)" aria-label="Следующая страница">▶</button>
+</div>
+
+<script>
+// ── Page manifest ────────────────────────
+// The original viewer generated this with a hardcoded `for i=1..58, skip
+// 1,2,4,5` loop, so adding or renaming a scan meant editing control flow.
+// The list of page numbers is data now; the filenames derive from it.
+const PAGES = [3, ...Array.from({length:53},(_,i)=>i+6)];   // 003, 006…058
+const files = PAGES.map(n => `scans/v28_gray-${String(n).padStart(3,'0')}.jpg`);
+
+const img=document.getElementById('img');
+const viewer=document.getElementById('viewer');
+const wrapper=document.getElementById('img-wrapper');
+const pos=document.getElementById('pos');
+const status=document.getElementById('status');
+const zoomLabel=document.getElementById('zoomLevel');
+const prevBtn=document.getElementById('prevBtn');
+const nextBtn=document.getElementById('nextBtn');
+
+let index=0, scale=1, naturalW=0, naturalH=0;
+let pinchStart=0, pinchScale=1;
+
+function showStatus(text,isError){
+  status.textContent=text;
+  status.classList.toggle('error',!!isError);
+  status.style.display=text?'block':'none';
+}
+
+function updateInfo(){
+  pos.textContent=`Лист ${PAGES[index]} · ${index+1} из ${files.length}`;
+  zoomLabel.textContent=`${Math.round(scale*100)}%`;
+  prevBtn.disabled=(index===0);
+  nextBtn.disabled=(index===files.length-1);
+}
+
+function applyZoom(){
+  img.style.transform=`scale(${scale})`;
+  wrapper.style.width=`${Math.max(viewer.clientWidth, naturalW*scale)}px`;
+  wrapper.style.height=`${Math.max(viewer.clientHeight, naturalH*scale)}px`;
+}
+
+function getFitScale(){
+  if(!naturalW||!naturalH) return 1;
+  return Math.min(viewer.clientWidth/naturalW, viewer.clientHeight/naturalH, 1);
+}
+
+function centerScroll(){
+  viewer.scrollLeft=(wrapper.offsetWidth-viewer.clientWidth)/2;
+  viewer.scrollTop=(wrapper.offsetHeight-viewer.clientHeight)/2;
+}
+
+function fitToScreen(){ scale=getFitScale(); applyZoom(); centerScroll(); updateInfo(); }
+
+// Zoom about a fixed point in the viewport (centre by default), so zooming
+// while panned no longer drifts off the part you were looking at.
+function zoomAbout(factor,clientX,clientY){
+  const rect=viewer.getBoundingClientRect();
+  const px=(clientX??rect.left+viewer.clientWidth/2)-rect.left;
+  const py=(clientY??rect.top+viewer.clientHeight/2)-rect.top;
+  const contentX=px+viewer.scrollLeft, contentY=py+viewer.scrollTop;
+  const old=scale;
+  scale=Math.max(.1,Math.min(20,scale*factor));
+  applyZoom();
+  const ratio=scale/old;
+  viewer.scrollLeft=contentX*ratio-px;
+  viewer.scrollTop=contentY*ratio-py;
+  updateInfo();
+}
+
+function showImage(i){
+  if(i<0||i>=files.length) return;
+  showStatus('Загрузка…');
+  const probe=new Image();
+  probe.onload=()=>{
+    showStatus('');
+    index=i;
+    img.src=probe.src;
+    img.alt=`Том 28, лист ${PAGES[i]} — скан материалов дела`;
+    naturalW=probe.naturalWidth; naturalH=probe.naturalHeight;
+    scale=getFitScale(); applyZoom(); centerScroll(); updateInfo();
+    if(index+1<files.length) new Image().src=files[index+1];
+    if(index-1>=0) new Image().src=files[index-1];
+    history.replaceState(null,'',`#${PAGES[index]}`);
+  };
+  // The old viewer discarded load errors, leaving the previous page visible
+  // with no hint that anything failed.
+  probe.onerror=()=>showStatus(`Не удалось загрузить лист ${PAGES[i]}`,true);
+  probe.src=files[i];
+}
+
+document.addEventListener('keydown',e=>{
+  if(e.key==='ArrowRight'||e.key==='PageDown'){ if(index<files.length-1) showImage(index+1); }
+  else if(e.key==='ArrowLeft'||e.key==='PageUp'){ if(index>0) showImage(index-1); }
+  else if(e.key==='+'||e.key==='='){ zoomAbout(1.25); }
+  else if(e.key==='-'){ zoomAbout(.8); }
+  else if(e.key==='0'){ scale=1; applyZoom(); centerScroll(); updateInfo(); }
+  else if(e.key==='f'||e.key==='F'||e.key==='а'||e.key==='А'){ fitToScreen(); }
+});
+
+viewer.addEventListener('wheel',e=>{
+  if(!e.ctrlKey) return;
+  e.preventDefault();
+  zoomAbout(e.deltaY<0?1.1:1/1.1,e.clientX,e.clientY);
+},{passive:false});
+
+let dragging=false,lastX=0,lastY=0;
+viewer.addEventListener('mousedown',e=>{ dragging=true; lastX=e.clientX; lastY=e.clientY; viewer.classList.add('grabbing'); });
+window.addEventListener('mouseup',()=>{ dragging=false; viewer.classList.remove('grabbing'); });
+window.addEventListener('mousemove',e=>{
+  if(!dragging) return;
+  viewer.scrollLeft-=e.clientX-lastX; viewer.scrollTop-=e.clientY-lastY;
+  lastX=e.clientX; lastY=e.clientY;
+});
+
+let touchStartX=0,touchStartY=0,touchStartTime=0,touchMoved=false;
+const dist=(a,b)=>Math.hypot(b.clientX-a.clientX,b.clientY-a.clientY);
+
+viewer.addEventListener('touchstart',e=>{
+  if(e.touches.length===1){
+    dragging=true; touchMoved=false;
+    lastX=touchStartX=e.touches[0].clientX;
+    lastY=touchStartY=e.touches[0].clientY;
+    touchStartTime=e.timeStamp;
+  } else if(e.touches.length===2){
+    dragging=false; pinchStart=dist(e.touches[0],e.touches[1]); pinchScale=scale;
+  }
+},{passive:true});
+
+viewer.addEventListener('touchmove',e=>{
+  if(e.touches.length===1&&dragging){
+    e.preventDefault(); touchMoved=true;
+    viewer.scrollLeft-=e.touches[0].clientX-lastX;
+    viewer.scrollTop-=e.touches[0].clientY-lastY;
+    lastX=e.touches[0].clientX; lastY=e.touches[0].clientY;
+  } else if(e.touches.length===2&&pinchStart){
+    e.preventDefault();
+    const cx=(e.touches[0].clientX+e.touches[1].clientX)/2;
+    const cy=(e.touches[0].clientY+e.touches[1].clientY)/2;
+    const target=Math.max(.1,Math.min(20,pinchScale*dist(e.touches[0],e.touches[1])/pinchStart));
+    zoomAbout(target/scale,cx,cy);
+  }
+},{passive:false});
+
+viewer.addEventListener('touchend',e=>{
+  if(e.touches.length) return;
+  // Only treat it as a swipe if this gesture actually started as a one-finger
+  // drag — otherwise releasing a pinch could jump a page.
+  if(dragging&&touchMoved){
+    const dx=lastX-touchStartX, dy=lastY-touchStartY;
+    if(e.timeStamp-touchStartTime<300&&Math.abs(dx)>50&&Math.abs(dx)>Math.abs(dy)){
+      if(dx>0&&index>0) showImage(index-1);
+      else if(dx<0&&index<files.length-1) showImage(index+1);
+    }
+  }
+  dragging=false; pinchStart=0;
+});
+
+prevBtn.addEventListener('click',()=>{ if(index>0) showImage(index-1); });
+nextBtn.addEventListener('click',()=>{ if(index<files.length-1) showImage(index+1); });
+document.getElementById('zoomInBtn').addEventListener('click',()=>zoomAbout(1.25));
+document.getElementById('zoomOutBtn').addEventListener('click',()=>zoomAbout(.8));
+zoomLabel.addEventListener('click',fitToScreen);
+zoomLabel.addEventListener('keydown',e=>{ if(e.key==='Enter'||e.key===' '){ e.preventDefault(); fitToScreen(); } });
+
+window.addEventListener('resize',()=>{ applyZoom(); });
+
+function indexFromHash(){
+  const m=(location.hash||'').match(/\d+/);
+  if(!m) return -1;
+  return PAGES.indexOf(parseInt(m[0],10));
+}
+window.addEventListener('hashchange',()=>{
+  const i=indexFromHash();
+  if(i!==-1&&i!==index) showImage(i);
+});
+
+showImage(Math.max(0,indexFromHash()));
+</script>
+</body>
+</html>

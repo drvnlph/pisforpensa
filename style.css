@@ -471,6 +471,27 @@ a:hover { color:var(--accent-hover); text-decoration-color:var(--accent-hover); 
   .marginalia { float:right; clear:right; width:160px; margin:6px -176px 24px 24px; }
 }
 
+/* ── Inline code (jabber handles, file and record names) ── */
+.content code {
+  font-family:var(--ui); font-size:0.86em; background:var(--bg-warm);
+  border:1px solid var(--border-light); border-radius:4px; padding:1px 5px;
+  word-break:break-word;
+}
+
+/* ── Missing-content marker ──────────────
+   Marks a place where the source text was collapsed or cut off in the
+   export. Deliberately loud so it cannot be mistaken for finished copy. */
+.gap {
+  margin:22px 0; padding:14px 18px; border-radius:8px;
+  background:repeating-linear-gradient(135deg,var(--draft-bg),var(--draft-bg) 10px,#FFF6E0 10px,#FFF6E0 20px);
+  border:1px dashed var(--draft-border);
+  font-family:var(--ui); font-size:12.5px; line-height:1.55; color:#8B7730;
+}
+.gap::before {
+  content:'⚠ пропуск'; display:block; font-weight:700; font-size:10px;
+  letter-spacing:1px; text-transform:uppercase; margin-bottom:6px; opacity:.7;
+}
+
 /* ── Link-style control in settings footer ── */
 .ctrl-linkbtn { font-family:var(--ui); }
 
