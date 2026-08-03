@@ -347,6 +347,7 @@ a:hover { color:var(--accent-hover); text-decoration-color:var(--accent-hover); 
 
 /* Semantic alias glossary: terms and decoded identities, without icon arrows. */
 .glossary { margin:24px 0; }
+.names-section { scroll-margin-top:76px; }
 .glossary-item {
   display:grid; grid-template-columns:minmax(112px,auto) minmax(0,1fr);
   gap:18px; padding:9px 0; border-bottom:1px solid var(--border-light);

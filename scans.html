@@ -23,7 +23,7 @@
 <link rel="icon" type="image/png" href="favicon.png">
 <link rel="apple-touch-icon" href="apple-touch-icon.png">
 <link rel="stylesheet" href="fonts.css?v=1">
-<link rel="stylesheet" href="style.css?v=5">
+<link rel="stylesheet" href="style.css?v=6">
 <style>
 /* ── Viewer chrome ──────────────────────
    Built on the shared design tokens rather than the old viewer's #111 dark
@@ -210,7 +210,7 @@ body { display:flex; flex-direction:column; font-family:var(--body); }
 
 <div class="viewer-bar">
   <div class="viewer-identity">
-    <a class="home" href="index.html">К разбору</a>
+    <a class="home" id="archiveHomeLink" href="index.html">К разбору</a>
     <div class="viewer-title">
       <span class="viewer-title-kicker">Архив источников</span>
       <h1>Том 28</h1>
@@ -382,6 +382,7 @@ const pageJumpInput=document.getElementById('pageJumpInput');
 const pageOrdinal=document.getElementById('pageOrdinal');
 const pageAnnouncement=document.getElementById('pageAnnouncement');
 const viewerBar=document.querySelector('.viewer-bar');
+const archiveHomeLink=document.getElementById('archiveHomeLink');
 
 let index=0, scale=1, naturalW=0, naturalH=0;
 let pinchStart=0, pinchScale=1;
@@ -932,6 +933,8 @@ const initialParams=new URLSearchParams(location.search);
 const initialPerson=initialParams.get('person');
 const initialQuery=initialParams.get('q')?.trim()||'';
 if(initialPerson&&PEOPLE[initialPerson]){
+  archiveHomeLink.href='index.html#names';
+  archiveHomeLink.textContent='К именам';
   searchPerson(initialPerson);
 } else if(initialQuery.length>=2){
   searchInput.value=initialQuery;
