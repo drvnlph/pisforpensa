@@ -1,18 +1,7 @@
 // ── Reading settings ──────────────────────
-// Colour and link style live on <body> as data attributes and persist
-// across visits. Storage can throw (private mode, blocked cookies), so every
-// access is guarded — a reader who blocks it still gets a working page.
-const PREFS='pfp:prefs';
-
-function readPrefs(){
-  try{ return JSON.parse(localStorage.getItem(PREFS))||{} }catch(e){ return {} }
-}
-function writePref(key,value){
-  try{
-    const p=readPrefs(); p[key]=value;
-    localStorage.setItem(PREFS,JSON.stringify(p));
-  }catch(e){ /* storage unavailable — setting still applies for this visit */ }
-}
+// The shared head script restores preferences before paint. This file only
+// owns the article controls that change them.
+function writePref(key,value){ window.PFPPreferences?.write(key,value) }
 
 // Mark the control matching `value` as active, within one group.
 function syncControls(selector,attr,value){
@@ -23,14 +12,14 @@ function syncControls(selector,attr,value){
   });
 }
 
-function setColor(c){ document.body.setAttribute('data-color',c); syncControls('.ctrl-swatch','c',c); writePref('color',c) }
-function setLinks(mode){ document.body.setAttribute('data-links',mode); syncControls('.ctrl-linkbtn','links',mode); writePref('links',mode) }
+function setColor(c){ document.documentElement.dataset.color=c; syncControls('.ctrl-swatch','c',c); writePref('color',c) }
+function setLinks(mode){ document.documentElement.dataset.links=mode; syncControls('.ctrl-linkbtn','links',mode); writePref('links',mode) }
 
-// Restore saved choices, falling back to whatever the markup already declares.
-(function restorePrefs(){
-  const p=readPrefs(), b=document.body;
-  setColor(p.color||b.getAttribute('data-color')||'slate');
-  setLinks(p.links||b.getAttribute('data-links')||'quiet');
+// Reflect the already-restored values without writing storage again.
+(function syncRestoredControls(){
+  const root=document.documentElement;
+  syncControls('.ctrl-swatch','c',root.dataset.color||'slate');
+  syncControls('.ctrl-linkbtn','links',root.dataset.links||'quiet');
 })();
 
 document.querySelectorAll('.ctrl-swatch').forEach(el=>el.addEventListener('click',()=>setColor(el.dataset.c)));
@@ -44,7 +33,23 @@ const mobileChapter=document.getElementById('mobileChapter');
 const mobileProgress=document.getElementById('mobileProgress');
 const mobileDropdown=document.getElementById('mobileDropdown');
 const tocBtn=document.getElementById('mobileBarToc');
+const desktopSidebar=document.querySelector('.sidebar');
+const articleHeader=document.querySelector('.article-header');
+const mobileLayout=window.matchMedia('(max-width:1120px)');
+const SCROLL_DIRECTION_TOLERANCE=5;
+const BACK_TO_TOP_VIEWPORT_RATIO=.6;
+const PROGRESS_TOP_MARGIN=50;
+const FOOTNOTE_EDGE={top:160,right:180,left:140};
+const SECTION_TRACKING_MARGIN='-15% 0px -70% 0px';
 let lastY=window.scrollY, barVisible=false, dropdownOpen=false;
+
+// Once the introductory header has left the viewport, the persistent desktop
+// navigation recedes. Pointer hover and keyboard focus restore it in CSS.
+if(desktopSidebar&&articleHeader){
+  new IntersectionObserver(([entry])=>{
+    desktopSidebar.classList.toggle('is-reading',!entry.isIntersecting);
+  }).observe(articleHeader);
+}
 
 // Reset scroll tracking when tab/app becomes visible again
 document.addEventListener('visibilitychange',()=>{ if(!document.hidden) lastY=window.scrollY; });
@@ -53,28 +58,51 @@ window.addEventListener('focus',()=>{ lastY=window.scrollY; });
 // Back to top
 if(btt) btt.addEventListener('click',()=>window.scrollTo({top:0,behavior:'smooth'}));
 
+function updateBackToTop(){
+  if(btt) btt.classList.toggle(
+    'visible',window.scrollY>window.innerHeight*BACK_TO_TOP_VIEWPORT_RATIO
+  );
+}
+
 // Progress bar
 function updateProgress(){
   if(!progressBar) return;
   const h=document.documentElement.scrollHeight-window.innerHeight;
   const pct=h>0?Math.min(100,window.scrollY/h*100):0;
   progressBar.style.width=pct+'%';
-  progressBar.classList.toggle('at-top',window.scrollY<50);
+  progressBar.classList.toggle('at-top',window.scrollY<PROGRESS_TOP_MARGIN);
   if(mobileProgress)mobileProgress.style.width=pct+'%';
 }
+
+function hideMobileBar(){
+  if(!mobileBar) return;
+  mobileBar.classList.remove('visible');
+  barVisible=false;
+  if(dropdownOpen) closeDropdown();
+  mobileBar.setAttribute('aria-hidden','true');
+  mobileBar.inert=true;
+  progressBar?.classList.remove('bar-hidden');
+}
+
+function resetMobileLayout(){
+  hideMobileBar();
+  lastY=window.scrollY;
+}
+if(mobileLayout.addEventListener) mobileLayout.addEventListener('change',resetMobileLayout);
+else mobileLayout.addListener(resetMobileLayout);
 
 // Scroll handler: back-to-top + mobile bar + progress
 window.addEventListener('scroll',()=>{
   // Back to top visibility
-  if(btt) btt.classList.toggle('visible',window.scrollY>window.innerHeight*.6);
+  updateBackToTop();
   // Progress
   updateProgress();
   // Mobile bar: show on scroll-up, hide on scroll-down
   const y=window.scrollY;
-  if(!mobileBar){ lastY=y; return; }
-  const scrolledPastHeader=y>300;
-  const scrollingUp=y<lastY-5;
-  const scrollingDown=y>lastY+5;
+  if(!mobileBar||!mobileLayout.matches){ lastY=y; return; }
+  const scrolledPastHeader=articleHeader?articleHeader.getBoundingClientRect().bottom<0:y>0;
+  const scrollingUp=y<lastY-SCROLL_DIRECTION_TOLERANCE;
+  const scrollingDown=y>lastY+SCROLL_DIRECTION_TOLERANCE;
   if(scrolledPastHeader&&scrollingUp&&!barVisible){
     mobileBar.classList.add('visible');barVisible=true;
     mobileBar.setAttribute('aria-hidden','false');
@@ -82,18 +110,15 @@ window.addEventListener('scroll',()=>{
     if(progressBar) progressBar.classList.add('bar-hidden');
   }
   if((scrollingDown||!scrolledPastHeader)&&barVisible){
-    mobileBar.classList.remove('visible');barVisible=false;
-    if(progressBar) progressBar.classList.remove('bar-hidden');
-    if(dropdownOpen) closeDropdown();
-    mobileBar.setAttribute('aria-hidden','true');
-    mobileBar.inert=true;
+    hideMobileBar();
   }
   lastY=y;
 },{passive:true});
 updateProgress();
+updateBackToTop();
 
 // Dropdown TOC
-let savedChapterText='';
+let savedChapterText=mobileChapter?.textContent||'Вступление';
 
 function openDropdown(){
   if(!mobileDropdown||!mobileBar||!tocBtn||!mobileChapter) return;
@@ -104,26 +129,8 @@ function openDropdown(){
   mobileBar.classList.add('dropdown-open');
   tocBtn.classList.add('open');
   tocBtn.setAttribute('aria-expanded','true');
-  // Crossfade the chapter name into "Содержание".
   savedChapterText=mobileChapter.textContent;
-  mobileChapter.classList.add('swapping');
-  setTimeout(()=>{
-    mobileChapter.textContent='Содержание';
-    mobileChapter.style.fontWeight='700';
-    mobileChapter.style.color='var(--text-muted)';
-    mobileChapter.style.fontSize='11px';
-    mobileChapter.style.letterSpacing='1.8px';
-    mobileChapter.style.textTransform='uppercase';
-    mobileChapter.classList.remove('swapping');
-  },120);
-  // Highlight current section
-  const mobileLinks=document.querySelectorAll('#tocMobileList a');
-  mobileLinks.forEach(a=>a.classList.remove('current'));
-  const currentId=mobileChapter.dataset.currentId;
-  if(currentId){
-    const cur=document.querySelector('#tocMobileList a[href="#'+currentId+'"]');
-    if(cur)cur.classList.add('current');
-  }
+  mobileChapter.textContent='Содержание';
 }
 function closeDropdown(){
   if(!mobileDropdown||!mobileBar||!tocBtn||!mobileChapter) return;
@@ -135,17 +142,7 @@ function closeDropdown(){
   mobileBar.classList.remove('dropdown-open');
   tocBtn.classList.remove('open');
   tocBtn.setAttribute('aria-expanded','false');
-  // Crossfade back to chapter name
-  mobileChapter.classList.add('swapping');
-  setTimeout(()=>{
-    mobileChapter.textContent=savedChapterText;
-    mobileChapter.style.fontWeight='';
-    mobileChapter.style.color='';
-    mobileChapter.style.fontSize='';
-    mobileChapter.style.letterSpacing='';
-    mobileChapter.style.textTransform='';
-    mobileChapter.classList.remove('swapping');
-  },120);
+  mobileChapter.textContent=sectionNames[mobileChapter.dataset.currentId]||savedChapterText;
 }
 
 if(tocBtn) tocBtn.addEventListener('click',()=>{
@@ -175,7 +172,10 @@ if(tocMobileList) tocMobileList.addEventListener('click',e=>{
     if(!target||target.children.length) return;
     Array.from(source.children).forEach(li=>{
       const copy=li.cloneNode(true);
-      copy.querySelectorAll('a').forEach(a=>a.classList.remove('active'));
+      copy.querySelectorAll('a').forEach(a=>{
+        a.classList.remove('active');
+        a.removeAttribute('aria-current');
+      });
       target.appendChild(copy);
     });
   });
@@ -189,22 +189,26 @@ document.querySelectorAll('#tocMobileList a[href^="#"]').forEach(a=>{
   sectionNames[a.getAttribute('href').slice(1)]=a.textContent.trim();
 });
 const sections=document.querySelectorAll('section[id]');
-const deskLinks=document.querySelectorAll('#tocDesktopList a');
-const obs=new IntersectionObserver(entries=>{entries.forEach(e=>{if(e.isIntersecting){
-  const id=e.target.id;
-  // Desktop sidebar
-  deskLinks.forEach(l=>l.classList.remove('active'));
-  const link=document.querySelector('#tocDesktopList a[href="#'+id+'"]');
-  if(link)link.classList.add('active');
-  // Mobile chapter name
-  if(mobileChapter&&sectionNames[id]){mobileChapter.textContent=sectionNames[id];mobileChapter.dataset.currentId=id}
-  // Mobile dropdown highlight (if open)
-  if(dropdownOpen){
-    document.querySelectorAll('#tocMobileList a').forEach(a=>a.classList.remove('current'));
-    const cur=document.querySelector('#tocMobileList a[href="#'+id+'"]');
-    if(cur)cur.classList.add('current');
+const allTocLinks=document.querySelectorAll('#tocDesktopList a,#tocMobileList a,.toc-inline-list a');
+
+function setCurrentSection(id){
+  allTocLinks.forEach(link=>{
+    const current=link.getAttribute('href')===`#${id}`;
+    link.classList.toggle('active',current&&!!link.closest('#tocDesktopList'));
+    link.classList.toggle('current',current&&!!link.closest('#tocMobileList'));
+    if(current) link.setAttribute('aria-current','location');
+    else link.removeAttribute('aria-current');
+  });
+  if(mobileChapter&&sectionNames[id]){
+    mobileChapter.dataset.currentId=id;
+    if(!dropdownOpen) mobileChapter.textContent=sectionNames[id];
   }
-}})},{rootMargin:'-15% 0px -70% 0px'});
+}
+
+setCurrentSection('intro');
+const obs=new IntersectionObserver(entries=>{entries.forEach(e=>{if(e.isIntersecting){
+  setCurrentSection(e.target.id);
+}})},{rootMargin:SECTION_TRACKING_MARGIN});
 sections.forEach(s=>obs.observe(s));
 
 // Footnote popovers - position detection
@@ -212,9 +216,9 @@ function updateFnPositions(){
   document.querySelectorAll('.fn-ref').forEach(ref=>{
     const rect=ref.getBoundingClientRect();
     const vw=window.innerWidth;
-    ref.classList.toggle('flip',rect.top<160);
-    ref.classList.toggle('anchor-right',rect.left>vw-180);
-    ref.classList.toggle('anchor-left',rect.left<140);
+    ref.classList.toggle('flip',rect.top<FOOTNOTE_EDGE.top);
+    ref.classList.toggle('anchor-right',rect.left>vw-FOOTNOTE_EDGE.right);
+    ref.classList.toggle('anchor-left',rect.left<FOOTNOTE_EDGE.left);
   });
 }
 window.addEventListener('scroll',updateFnPositions,{passive:true});

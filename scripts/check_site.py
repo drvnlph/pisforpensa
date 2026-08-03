@@ -33,11 +33,17 @@ class SiteHTMLParser(HTMLParser):
         self.metadata: dict[str, str] = {}
         self.canonical = ""
         self.scan_cites: list[str] = []
+        self.id_refs: list[tuple[str, str]] = []
 
     def handle_starttag(self, tag: str, attrs: list[tuple[str, str | None]]) -> None:
         values = {key: value or "" for key, value in attrs}
         if values.get("id"):
             self.ids.append(values["id"])
+        for attr in ("aria-controls", "aria-describedby", "aria-labelledby"):
+            for target_id in values.get(attr, "").split():
+                self.id_refs.append((attr, target_id))
+        if tag == "label" and values.get("for"):
+            self.id_refs.append(("for", values["for"]))
         for attr in ("href", "src"):
             if values.get(attr):
                 self.refs.append((tag, attr, values[attr]))
@@ -58,10 +64,36 @@ def parse_html(path: Path) -> SiteHTMLParser:
     duplicates = [item for item, count in Counter(parser.ids).items() if count > 1]
     if duplicates:
         fail(f"{path.name}: duplicate ids: {', '.join(duplicates)}")
+    known_ids = set(parser.ids)
+    missing_refs = [f"{attr}={target}" for attr, target in parser.id_refs if target not in known_ids]
+    if missing_refs:
+        fail(f"{path.name}: missing ID references: {', '.join(missing_refs)}")
     return parser
 
 
 parsers = {path: parse_html(path) for path in HTML_FILES}
+
+article_html = (ROOT / "index.html").read_text(encoding="utf-8")
+scan_html = (ROOT / "scans.html").read_text(encoding="utf-8")
+for page, source in (("index.html", article_html), ("scans.html", scan_html)):
+    preferences_at = source.find('src="preferences.js')
+    stylesheet_at = source.find('href="style.css')
+    if preferences_at == -1 or stylesheet_at == -1 or preferences_at > stylesheet_at:
+        fail(f"{page}: shared preferences must load before the design system")
+if "К именам" in article_html or "К именам" in scan_html:
+    fail("archive return wording must remain uniformly ‘К разбору’")
+if re.search(r"Ключев(?:ой|ые) лист", article_html):
+    fail("index.html: glossary must not assign editorially ‘key’ scan pages")
+if not re.search(r'<a class="home" href="index\.html">К разбору</a>', scan_html):
+    fail("scans.html: missing uniform return link to the article")
+if article_html.count('class="toc-archive-link"') != 1:
+    fail("index.html: the full archive card must appear only in the desktop TOC")
+mobile_bar_start = article_html.find('<div class="mobile-bar-top">')
+mobile_bar_end = article_html.find('<div class="mobile-dropdown"', mobile_bar_start)
+if mobile_bar_start == -1 or 'class="mobile-bar-archive"' not in article_html[mobile_bar_start:mobile_bar_end]:
+    fail("index.html: mobile archive link must live in the top menu row")
+if "@media (max-width:640px), (max-height:500px) and (hover:none) and (pointer:coarse)" not in scan_html:
+    fail("scans.html: phone and short touch screens must use the overlay panel")
 
 
 def resolve_local_ref(page: Path, raw: str) -> tuple[Path, str] | None:
@@ -123,10 +155,11 @@ all_text = "\n".join(
 for forbidden in ("fonts.googleapis.com", "fonts.gstatic.com"):
     if forbidden in all_text:
         fail(f"remote font reference remains: {forbidden}")
+ui_source_files = (*HTML_FILES, ROOT / "style.css", ROOT / "app.js", ROOT / "preferences.js")
 for arrow in "→←↑↩▶◀↗":
-    for page in HTML_FILES:
-        if arrow in page.read_text(encoding="utf-8"):
-            fail(f"{page.name}: visible Unicode arrow may be rendered as emoji ({arrow})")
+    for source_file in ui_source_files:
+        if arrow in source_file.read_text(encoding="utf-8"):
+            fail(f"{source_file.name}: Unicode arrow may be rendered as emoji ({arrow})")
 
 font_css = (ROOT / "fonts.css").read_text(encoding="utf-8")
 for raw_url in re.findall(r"url\(['\"]?([^)'\"]+)", font_css):
@@ -138,7 +171,6 @@ for license_name in ("SourceSerif4-OFL.txt", "SourceSans3-OFL.txt", "IBMPlexMono
         fail(f"missing font licence: {license_name}")
 
 
-scan_html = (ROOT / "scans.html").read_text(encoding="utf-8")
 pages_match = re.search(r"const\s+PAGES\s*=\s*\[([^]]+)\]", scan_html, re.S)
 if not pages_match:
     fail("scans.html: could not parse PAGES")
@@ -172,6 +204,16 @@ if set(transcriptions) != expected_keys:
     fail("transcription keys do not exactly match the scan manifest")
 if any(not value.strip() for value in transcriptions.values()):
     fail("one or more scan transcriptions are empty")
+
+transcript_txt = (ROOT / "scans" / "tom-28.txt").read_text(encoding="utf-8")
+headers = list(re.finditer(r"^===== ([^\n]+) =====\n", transcript_txt, re.M))
+txt_transcriptions: dict[str, str] = {}
+for position, header in enumerate(headers):
+    start = header.end()
+    end = headers[position + 1].start() if position + 1 < len(headers) else len(transcript_txt)
+    txt_transcriptions[header.group(1)] = transcript_txt[start:end].rstrip("\n")
+if txt_transcriptions != transcriptions:
+    fail("tom-28.txt does not exactly match transcriptions.js")
 
 for href in parsers[ROOT / "index.html"].scan_cites:
     match = re.fullmatch(r"scans\.html#(\d+)", href)
@@ -215,4 +257,7 @@ if errors:
         print(f"  - {error}", file=sys.stderr)
     raise SystemExit(1)
 
-print("Site checks passed: HTML, metadata, assets, 54 scans, citations and PDF text layer.")
+print(
+    "Site checks passed: HTML and ARIA references, metadata, local assets, "
+    "responsive UI contracts, 54 scans and transcripts, citations and PDF text layer."
+)
