@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="ru">
+<html lang="ru" data-color="slate" data-links="quiet">
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
@@ -22,13 +22,14 @@
 <link rel="icon" href="favicon.ico" sizes="any">
 <link rel="icon" type="image/png" href="favicon.png">
 <link rel="apple-touch-icon" href="apple-touch-icon.png">
+<script src="preferences.js?v=1"></script>
 <link rel="stylesheet" href="fonts.css?v=1">
-<link rel="stylesheet" href="style.css?v=6">
+<link rel="stylesheet" href="style.css?v=8">
 <style>
 /* ── Viewer chrome ──────────────────────
    Built on the shared design tokens rather than the old viewer's #111 dark
    shell, so the archive and the article read as one site. */
-html,body { height:100%; overflow:hidden; }
+html,body { height:100%; height:100dvh; overflow:hidden; }
 body { display:flex; flex-direction:column; font-family:var(--body); }
 
 .viewer-bar {
@@ -36,7 +37,8 @@ body { display:flex; flex-direction:column; font-family:var(--body); }
   grid-template-columns:max-content max-content minmax(240px,340px) minmax(12px,1fr) max-content;
   grid-template-areas:'identity jump search space downloads';
   align-items:center; gap:10px 18px;
-  padding:10px 20px; background:var(--bg); border-bottom:1px solid var(--border);
+  padding:calc(10px + env(safe-area-inset-top,0px)) calc(20px + env(safe-area-inset-right,0px)) 10px calc(20px + env(safe-area-inset-left,0px));
+  background:var(--bg); border-bottom:1px solid var(--border);
   font-family:var(--ui); font-size:12.5px; flex-shrink:0;
 }
 .viewer-identity { grid-area:identity; display:flex; align-items:center; gap:12px; white-space:nowrap; }
@@ -50,13 +52,13 @@ body { display:flex; flex-direction:column; font-family:var(--body); }
 .viewer-downloads {
   grid-area:downloads; display:flex; align-items:center; justify-self:end;
   gap:10px; white-space:nowrap;
-  font:600 11px/1 var(--mono); letter-spacing:.02em;
+  font:400 11px/1 var(--mono); letter-spacing:.02em;
 }
 
 .page-jump {
   grid-area:jump; display:grid; grid-template-columns:auto 4ch auto;
   align-items:center; gap:7px; min-height:40px; padding:0 9px;
-  border:1px solid var(--border); border-radius:6px; background:var(--bg-warm);
+  border:1px solid var(--border); border-radius:var(--radius-control); background:var(--bg-warm);
   color:var(--text-muted);
   font-variant-numeric:tabular-nums; white-space:nowrap;
 }
@@ -69,12 +71,12 @@ body { display:flex; flex-direction:column; font-family:var(--body); }
   font:12px/1 var(--mono); text-align:center;
 }
 .page-jump input:focus { border-bottom-color:var(--accent); }
-.page-jump input[aria-invalid="true"] { box-shadow:inset 0 -2px #B13A2E; }
+.page-jump input[aria-invalid="true"] { box-shadow:inset 0 -2px var(--danger); }
 .page-ordinal { color:var(--text-muted); font:11px/1 var(--mono); }
 
 .archive-search {
   grid-area:search; display:flex; align-items:stretch; width:100%; min-width:0; height:40px;
-  border:1px solid var(--border); border-radius:6px; background:var(--bg); overflow:hidden;
+  border:1px solid var(--border); border-radius:var(--radius-control); background:var(--bg); overflow:hidden;
 }
 .archive-search:focus-within { border-color:var(--accent); box-shadow:0 0 0 2px var(--accent-faint); }
 .archive-search input {
@@ -87,21 +89,30 @@ body { display:flex; flex-direction:column; font-family:var(--body); }
 }
 .archive-search button:hover { background:var(--accent-faint); }
 
+.viewer-workspace {
+  --viewer-controls-clearance:calc(82px + env(safe-area-inset-bottom,0px));
+  position:relative; display:flex; flex:1; min-width:0; min-height:0;
+  background:var(--archive-canvas);
+}
+.scan-stage {
+  position:relative; display:flex; flex:1 1 auto;
+  min-width:0; min-height:0; overflow:hidden;
+}
 #viewer {
-  flex:1; overflow:auto; position:relative; cursor:grab;
-  background:var(--bg-warm); touch-action:none;
-  scrollbar-width:thin; scrollbar-color:var(--edge,#C9C2B2) var(--bg-warm);
+  flex:1; min-width:0; min-height:0; overflow:auto; position:relative; cursor:grab;
+  background:var(--archive-canvas); touch-action:none;
+  scrollbar-width:thin; scrollbar-color:var(--border) var(--archive-canvas);
 }
 #viewer.grabbing { cursor:grabbing; }
 #img-wrapper {
   display:flex; align-items:center; justify-content:center;
-  width:100%; height:100%; padding-bottom:82px;
+  width:100%; height:100%; padding-bottom:var(--viewer-controls-clearance);
 }
 #img { user-select:none; -webkit-user-drag:none;
-       box-shadow:0 2px 18px rgba(0,0,0,.14); background:#fff; }
+       box-shadow:0 2px 18px rgba(0,0,0,.14); background:var(--paper); }
 
 .controls {
-  position:fixed; bottom:22px; left:50%; transform:translateX(-50%);
+  position:absolute; bottom:calc(22px + env(safe-area-inset-bottom,0px)); left:50%; transform:translateX(-50%);
   display:flex; align-items:center; gap:6px; z-index:20;
   background:var(--bg); border:1px solid var(--border); border-radius:30px;
   padding:6px 10px; box-shadow:0 3px 14px rgba(0,0,0,.12);
@@ -119,9 +130,10 @@ body { display:flex; flex-direction:column; font-family:var(--body); }
   font-family:var(--ui); font-size:12px;
 }
 .controls .text-button[aria-pressed="true"] {
-  color:#fff; background:var(--accent); border-color:var(--accent);
+  color:var(--on-accent); background:var(--accent); border-color:var(--accent);
 }
 #zoomLevel {
+  width:auto; height:34px; padding:0 8px; border-radius:18px;
   font-family:var(--ui); font-size:12px; color:var(--text-secondary); min-width:52px;
   text-align:center; font-variant-numeric:tabular-nums; cursor:pointer; user-select:none;
 }
@@ -131,22 +143,17 @@ body { display:flex; flex-direction:column; font-family:var(--body); }
 #status {
   position:absolute; top:50%; left:50%; transform:translate(-50%,-50%);
   font-family:var(--ui); font-size:13px; color:var(--text-secondary);
-  background:var(--bg); border:1px solid var(--border); border-radius:8px;
+  background:var(--bg); border:1px solid var(--border); border-radius:var(--radius-card);
   padding:12px 18px; display:none; z-index:15; max-width:80vw; text-align:center;
 }
-#status.error { border-color:#B13A2E; color:#B13A2E; }
+#status.error { border-color:var(--danger); color:var(--danger); }
 
 #transcriptPanel {
-  position:fixed; top:calc(var(--viewer-bar-height, 54px) + 12px); right:16px; bottom:88px;
-  width:min(520px, calc(100vw - 32px)); z-index:30;
-  display:flex; flex-direction:column;
-  background:var(--bg); border:1px solid var(--border); border-radius:10px;
-  box-shadow:0 14px 42px rgba(0,0,0,.2);
-  opacity:0; pointer-events:none;
-  transform:translateX(calc(100% + 32px));
-  transition:transform .2s ease, opacity .2s ease;
+  display:none; flex:0 0 clamp(340px,36vw,520px); flex-direction:column;
+  min-width:0; min-height:0; overflow:hidden;
+  background:var(--bg); border-left:1px solid var(--border);
 }
-#transcriptPanel.open { opacity:1; pointer-events:auto; transform:translateX(0); }
+#transcriptPanel.open { display:flex; }
 #transcriptHeader {
   display:flex; align-items:center; justify-content:space-between; gap:12px;
   padding:10px 12px; border-bottom:1px solid var(--border);
@@ -160,12 +167,12 @@ body { display:flex; flex-direction:column; font-family:var(--body); }
 }
 #closeTranscriptBtn:hover { background:var(--accent-faint); border-color:var(--accent); }
 #transcriptText {
-  flex:1; margin:0; padding:16px; overflow:auto;
+  flex:1; min-height:0; margin:0; padding:16px; overflow:auto;
   color:var(--text); background:var(--bg);
   font:14px/1.55 var(--mono); white-space:pre-wrap; overflow-wrap:anywhere;
   user-select:text;
 }
-#transcriptText mark { background:#F5E5A9; color:inherit; border-radius:2px; padding:0 1px; }
+#transcriptText mark { background:var(--highlight); color:inherit; border-radius:2px; padding:0 1px; }
 
 #searchView { flex:1; min-height:0; overflow:auto; padding:14px 16px 18px; }
 #searchSummary { margin:0 0 12px; color:var(--text-secondary); font:13px/1.45 var(--ui); }
@@ -177,8 +184,16 @@ body { display:flex; flex-direction:column; font-family:var(--body); }
 .search-result-count { color:var(--text-muted); font:11px/1.3 var(--mono); }
 .search-result-count.is-qualified { max-width:180px; text-align:right; font-family:var(--ui); }
 .search-snippet { margin:7px 0 0; color:var(--text-secondary); font:12px/1.5 var(--mono); overflow-wrap:anywhere; }
-.search-snippet mark { background:#F5E5A9; color:inherit; border-radius:2px; padding:0 1px; }
+.search-snippet mark { background:var(--highlight); color:inherit; border-radius:2px; padding:0 1px; }
 .search-empty { padding:24px 0; color:var(--text-muted); font:13px/1.55 var(--ui); }
+
+.viewer-noscript {
+  position:fixed; top:50%; left:50%; z-index:100;
+  width:min(420px,calc(100vw - 32px)); padding:18px 20px;
+  transform:translate(-50%,-50%); background:var(--bg); color:var(--text-secondary);
+  border:1px solid var(--border); border-radius:var(--radius-card);
+  box-shadow:0 6px 24px rgba(0,0,0,.12); font:14px/1.5 var(--ui);
+}
 
 .page-icon { display:block; width:9px; height:9px; border-color:currentColor; border-style:solid; }
 .page-icon-prev { border-width:0 0 1.5px 1.5px; transform:translateX(2px) rotate(45deg); }
@@ -188,29 +203,53 @@ body { display:flex; flex-direction:column; font-family:var(--body); }
   .viewer-bar {
     grid-template-columns:minmax(0,1fr) max-content;
     grid-template-areas:'identity jump' 'search downloads'; gap:8px 10px;
-    padding:8px 14px; font-size:12px;
+    padding:calc(8px + env(safe-area-inset-top,0px)) calc(14px + env(safe-area-inset-right,0px)) 8px calc(14px + env(safe-area-inset-left,0px));
+    font-size:12px;
   }
   .viewer-identity { min-width:0; }
   .archive-search { width:100%; min-width:0; }
   .viewer-downloads { gap:10px; font-size:11px; }
+  .viewer-workspace { flex-direction:column; }
+  #transcriptPanel {
+    flex:0 0 clamp(180px,42%,320px);
+    border-top:1px solid var(--border); border-left:0;
+  }
+  #transcriptText { padding-bottom:calc(16px + env(safe-area-inset-bottom,0px)); }
+  #searchView { padding-bottom:calc(18px + env(safe-area-inset-bottom,0px)); }
 }
 @media (max-width:640px) {
-  .controls { bottom:14px; }
-  #transcriptPanel { right:10px; bottom:72px; width:calc(100vw - 20px); }
+  .controls { bottom:calc(14px + env(safe-area-inset-bottom,0px)); }
+  .archive-search input::placeholder { font-size:12px; }
+}
+@media (max-width:640px), (max-height:500px) and (hover:none) and (pointer:coarse) {
+  #transcriptPanel {
+    position:absolute; z-index:30; flex:none;
+    inset:10px calc(10px + env(safe-area-inset-right,0px)) calc(var(--viewer-controls-clearance) - 10px) calc(10px + env(safe-area-inset-left,0px));
+    border:1px solid var(--border); border-radius:var(--radius-panel);
+    box-shadow:0 14px 42px rgba(0,0,0,.2);
+  }
 }
 @media (max-width:430px) {
   .viewer-title-kicker { display:none; }
   .page-jump,.archive-search { min-height:44px; }
+}
+@media (hover:none) and (pointer:coarse) {
   .page-jump input,.archive-search input { font-size:16px; }
+}
+@media (max-width:360px) {
+  .viewer-bar {
+    grid-template-areas:'identity jump' 'search search' 'downloads downloads';
+  }
+  .viewer-downloads { justify-self:end; }
 }
 </style>
 </head>
 
-<body data-color="slate">
+<body>
 
 <div class="viewer-bar">
   <div class="viewer-identity">
-    <a class="home" id="archiveHomeLink" href="index.html">К разбору</a>
+    <a class="home" href="index.html">К разбору</a>
     <div class="viewer-title">
       <span class="viewer-title-kicker">Архив источников</span>
       <h1>Том 28</h1>
@@ -222,10 +261,10 @@ body { display:flex; flex-direction:column; font-family:var(--body); }
       pattern="[0-9]*" maxlength="3" autocomplete="off" enterkeyhint="go"
       aria-describedby="pageJumpHint" aria-keyshortcuts="G"
       title="Введите номер листа и нажмите Enter">
-    <button class="visually-hidden" type="submit">Открыть лист</button>
+    <button class="visually-hidden" type="submit" tabindex="-1">Открыть лист</button>
     <span class="page-ordinal" id="pageOrdinal">—</span>
     <span class="visually-hidden" id="pageJumpHint">
-      Введите номер и нажмите Enter. Доступны лист 3 и листы с 6 по 58
+      Введите номер и нажмите Enter
     </span>
   </form>
   <span class="visually-hidden" id="pageAnnouncement" role="status"
@@ -243,33 +282,41 @@ body { display:flex; flex-direction:column; font-family:var(--body); }
   </nav>
 </div>
 
-<div id="viewer">
-  <div id="img-wrapper">
-    <img id="img" draggable="false" alt="">
-  </div>
-  <div id="status" role="status" aria-live="polite"></div>
-</div>
+<main class="viewer-workspace">
+  <div class="scan-stage">
+    <div id="viewer">
+      <div id="img-wrapper">
+        <img id="img" draggable="false" alt="">
+      </div>
+      <div id="status" role="status" aria-live="polite"></div>
+    </div>
 
-<aside id="transcriptPanel" aria-hidden="true" aria-labelledby="transcriptTitle" inert>
-  <div id="transcriptHeader">
-    <span id="transcriptTitle"></span>
-    <button id="closeTranscriptBtn" type="button" title="Закрыть текст" aria-label="Закрыть текст">×</button>
+    <div class="controls" role="toolbar" aria-label="Управление сканом">
+      <button id="prevBtn" type="button" title="Предыдущая страница" aria-label="Предыдущая страница" aria-keyshortcuts="ArrowLeft"><span class="page-icon page-icon-prev" aria-hidden="true"></span></button>
+      <button id="zoomOutBtn" type="button" title="Отдалить (−)" aria-label="Отдалить">−</button>
+      <button id="zoomLevel" type="button" title="По размеру экрана (F)" aria-label="Вписать скан в экран" aria-keyshortcuts="F">100%</button>
+      <button id="zoomInBtn" type="button" title="Приблизить (+)" aria-label="Приблизить">+</button>
+      <button id="textBtn" class="text-button" type="button" title="Показать текст страницы (T)" aria-label="Показать текст страницы" aria-controls="transcriptPanel" aria-pressed="false">Текст</button>
+      <button id="nextBtn" type="button" title="Следующая страница" aria-label="Следующая страница" aria-keyshortcuts="ArrowRight"><span class="page-icon page-icon-next" aria-hidden="true"></span></button>
+    </div>
   </div>
-  <pre id="transcriptText" tabindex="0"></pre>
-  <div id="searchView" hidden>
-    <p id="searchSummary" role="status" aria-live="polite"></p>
-    <ol id="searchResults"></ol>
-  </div>
-</aside>
 
-<div class="controls">
-  <button id="prevBtn" title="Предыдущая страница" aria-label="Предыдущая страница" aria-keyshortcuts="ArrowLeft"><span class="page-icon page-icon-prev" aria-hidden="true"></span></button>
-  <button id="zoomOutBtn" title="Отдалить (−)" aria-label="Отдалить">−</button>
-  <span id="zoomLevel" title="По размеру экрана (F)" role="button" tabindex="0">100%</span>
-  <button id="zoomInBtn" title="Приблизить (+)" aria-label="Приблизить">+</button>
-  <button id="textBtn" class="text-button" type="button" title="Показать текст страницы (T)" aria-label="Показать текст страницы" aria-pressed="false">Текст</button>
-  <button id="nextBtn" title="Следующая страница" aria-label="Следующая страница" aria-keyshortcuts="ArrowRight"><span class="page-icon page-icon-next" aria-hidden="true"></span></button>
-</div>
+  <aside id="transcriptPanel" aria-hidden="true" aria-labelledby="transcriptTitle" inert>
+    <div id="transcriptHeader">
+      <span id="transcriptTitle"></span>
+      <button id="closeTranscriptBtn" type="button" title="Закрыть текст" aria-label="Закрыть текст">×</button>
+    </div>
+    <pre id="transcriptText" tabindex="0"></pre>
+    <div id="searchView" hidden>
+      <p id="searchSummary" role="status" aria-live="polite"></p>
+      <ol id="searchResults"></ol>
+    </div>
+  </aside>
+</main>
+
+<noscript>
+  <p class="viewer-noscript">Интерактивный просмотр требует JavaScript. Можно открыть <a href="scans/tom-28.pdf">PDF</a> или <a href="scans/tom-28.txt">полную расшифровку</a>.</p>
+</noscript>
 
 <script src="scans/transcriptions.js?v=1"></script>
 <script>
@@ -283,7 +330,10 @@ const PAGES = [
   40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52, 53, 54, 55, 56,
   57, 58
 ];
-const files = PAGES.map(n => `scans/v28_gray-${String(n).padStart(3,'0')}.jpg`);
+const SCAN_FILENAME_WIDTH=3;
+const files = PAGES.map(n =>
+  `scans/v28_gray-${String(n).padStart(SCAN_FILENAME_WIDTH,'0')}.jpg`
+);
 
 // A literal search cannot safely resolve people who appear under several
 // aliases, especially the one-letter names. These curated sets keep explicit
@@ -371,6 +421,7 @@ const nextBtn=document.getElementById('nextBtn');
 const transcriptPanel=document.getElementById('transcriptPanel');
 const transcriptTitle=document.getElementById('transcriptTitle');
 const transcriptText=document.getElementById('transcriptText');
+const closePanelBtn=document.getElementById('closeTranscriptBtn');
 const textBtn=document.getElementById('textBtn');
 const searchView=document.getElementById('searchView');
 const searchSummary=document.getElementById('searchSummary');
@@ -379,17 +430,42 @@ const searchForm=document.getElementById('archiveSearch');
 const searchInput=document.getElementById('archiveSearchInput');
 const pageJumpForm=document.getElementById('pageJumpForm');
 const pageJumpInput=document.getElementById('pageJumpInput');
+const pageJumpHint=document.getElementById('pageJumpHint');
 const pageOrdinal=document.getElementById('pageOrdinal');
 const pageAnnouncement=document.getElementById('pageAnnouncement');
-const viewerBar=document.querySelector('.viewer-bar');
-const archiveHomeLink=document.getElementById('archiveHomeLink');
+
+const VIEWER_LIMITS={minScale:.1,maxScale:20,minFitHeight:160};
+const ZOOM_FACTOR=1.25;
+const WHEEL_ZOOM_FACTOR=1.1;
+const SWIPE_MAX_DURATION=300;
+const SWIPE_MIN_DISTANCE=50;
+const SEARCH_SNIPPET={before:72,after:96,fallback:190,maxPerPage:2};
+const SEARCH_MIN_LENGTH=searchInput.minLength;
+const TRANSCRIPT_LOAD_ERROR='Расшифровка не загрузилась. Перезагрузите страницу.';
 
 let index=0, scale=1, naturalW=0, naturalH=0;
 let pinchStart=0, pinchScale=1;
 let imageRequest=0, fitMode=true;
 let panelMode='transcript';
 let pendingPageAnnouncement='';
-const controlsClearance=82;
+
+function formatPageRanges(pages){
+  const ranges=[];
+  let start=pages[0], end=pages[0];
+  for(const page of pages.slice(1)){
+    if(page===end+1){ end=page; continue; }
+    ranges.push(start===end?String(start):`${start}–${end}`);
+    start=end=page;
+  }
+  ranges.push(start===end?String(start):`${start}–${end}`);
+  return ranges.join(', ');
+}
+const AVAILABLE_PAGE_NUMBERS=formatPageRanges(PAGES);
+pageJumpHint.textContent=`Доступные номера: ${AVAILABLE_PAGE_NUMBERS}`;
+
+function controlsClearance(){
+  return Number.parseFloat(getComputedStyle(wrapper).paddingBottom)||0;
+}
 
 function showStatus(text,isError){
   status.textContent=text;
@@ -440,10 +516,28 @@ function appendHighlighted(container,text,query,wholeToken=false){
 function updateTranscript(highlightQuery=''){
   const filename=files[index].split('/').pop();
   if(panelMode==='transcript') transcriptTitle.textContent=`Лист ${PAGES[index]} · расшифровка`;
-  const text=window.PAGE_TRANSCRIPTS?.[filename] || 'Текст для этой страницы отсутствует.';
+  const source=window.PAGE_TRANSCRIPTS?.[filename];
+  const text=typeof source==='string'
+    ? source
+    : (window.PAGE_TRANSCRIPTS?'Текст для этой страницы отсутствует.':TRANSCRIPT_LOAD_ERROR);
   transcriptText.replaceChildren();
   appendHighlighted(transcriptText,text,highlightQuery);
   transcriptText.scrollTop=0;
+}
+
+function hasTranscriptData(){
+  return !!window.PAGE_TRANSCRIPTS&&files.every(filename=>
+    typeof window.PAGE_TRANSCRIPTS[filename.split('/').pop()]==='string'
+  );
+}
+
+function showTranscriptLoadError(){
+  searchResults.replaceChildren();
+  searchSummary.textContent='Расшифровка не загрузилась';
+  const error=document.createElement('li');
+  error.className='search-empty';
+  error.textContent=TRANSCRIPT_LOAD_ERROR;
+  searchResults.append(error);
 }
 
 function setPanelMode(mode){
@@ -451,6 +545,9 @@ function setPanelMode(mode){
   transcriptText.hidden=(mode!=='transcript');
   searchView.hidden=(mode!=='search');
   if(mode==='search') transcriptTitle.textContent='Поиск по тому 28';
+  const closeLabel=mode==='search'?'Закрыть поиск':'Закрыть текст';
+  closePanelBtn.title=closeLabel;
+  closePanelBtn.setAttribute('aria-label',closeLabel);
 }
 
 function setPanelOpen(open,restoreFocus=false){
@@ -459,6 +556,11 @@ function setPanelOpen(open,restoreFocus=false){
   transcriptPanel.inert=!open;
   textBtn.setAttribute('aria-pressed',String(open&&panelMode==='transcript'));
   textBtn.setAttribute('aria-label',open&&panelMode==='transcript'?'Скрыть текст страницы':'Показать текст страницы');
+  textBtn.title=open&&panelMode==='transcript'?'Скрыть текст страницы (T)':'Показать текст страницы (T)';
+  requestAnimationFrame(()=>{
+    if(!naturalW||!naturalH) return;
+    if(fitMode) fitToScreen(); else applyZoom();
+  });
   if(!open&&restoreFocus){
     if(panelMode==='search') searchInput.focus(); else textBtn.focus();
   }
@@ -566,9 +668,9 @@ function appendSearchResult({pageIndex,compact,hits,countLabel,keepSearchOpen=fa
   item.append(head);
 
   if(hits.length){
-    hits.slice(0,2).forEach(({at,term})=>{
-      const start=Math.max(0,at-72);
-      const end=Math.min(compact.length,at+term.length+96);
+    hits.slice(0,SEARCH_SNIPPET.maxPerPage).forEach(({at,term})=>{
+      const start=Math.max(0,at-SEARCH_SNIPPET.before);
+      const end=Math.min(compact.length,at+term.length+SEARCH_SNIPPET.after);
       const snippet=document.createElement('p');
       snippet.className='search-snippet';
       appendHighlighted(
@@ -582,7 +684,7 @@ function appendSearchResult({pageIndex,compact,hits,countLabel,keepSearchOpen=fa
   } else {
     const notesAt=compact.indexOf('Notes:');
     const start=notesAt===-1?0:notesAt;
-    const end=Math.min(compact.length,start+190);
+    const end=Math.min(compact.length,start+SEARCH_SNIPPET.fallback);
     const snippet=document.createElement('p');
     snippet.className='search-snippet';
     snippet.textContent=`${start?'…':''}${compact.slice(start,end)}${end<compact.length?'…':''}`;
@@ -595,6 +697,10 @@ function searchArchive(query){
   const normalizedQuery=normalizeSearch(query);
   searchResults.replaceChildren();
   searchView.scrollTop=0;
+  if(!hasTranscriptData()){
+    showTranscriptLoadError();
+    return;
+  }
   let matchingPages=0, totalMatches=0;
 
   files.forEach((filename,pageIndex)=>{
@@ -642,7 +748,12 @@ function searchPerson(key){
   searchResults.replaceChildren();
   searchView.scrollTop=0;
   setPanelMode('search');
+  setPanelOpen(true);
   transcriptTitle.textContent=`Упоминания: ${person.label}`;
+  if(!hasTranscriptData()){
+    showTranscriptLoadError();
+    return true;
+  }
   searchSummary.textContent=person.summary;
 
   person.pages.forEach(page=>{
@@ -666,7 +777,6 @@ function searchPerson(key){
       keepSearchOpen:true
     });
   });
-  setPanelOpen(true);
   return true;
 }
 
@@ -675,12 +785,12 @@ function applyZoom(){
   img.style.width=`${width}px`;
   img.style.height=`${height}px`;
   wrapper.style.width=`${Math.max(viewer.clientWidth,width)}px`;
-  wrapper.style.height=`${Math.max(viewer.clientHeight,height+controlsClearance)}px`;
+  wrapper.style.height=`${Math.max(viewer.clientHeight,height+controlsClearance())}px`;
 }
 
 function getFitScale(){
   if(!naturalW||!naturalH) return 1;
-  const availableHeight=Math.max(160,viewer.clientHeight-controlsClearance);
+  const availableHeight=Math.max(VIEWER_LIMITS.minFitHeight,viewer.clientHeight-controlsClearance());
   return Math.min(viewer.clientWidth/naturalW, availableHeight/naturalH, 1);
 }
 
@@ -700,7 +810,7 @@ function zoomAbout(factor,clientX,clientY){
   const contentX=px+viewer.scrollLeft, contentY=py+viewer.scrollTop;
   const old=scale;
   fitMode=false;
-  scale=Math.max(.1,Math.min(20,scale*factor));
+  scale=Math.max(VIEWER_LIMITS.minScale,Math.min(VIEWER_LIMITS.maxScale,scale*factor));
   applyZoom();
   const ratio=scale/old;
   viewer.scrollLeft=contentX*ratio-px;
@@ -735,7 +845,7 @@ function showImage(i){
   probe.onerror=()=>{
     if(request!==imageRequest) return;
     img.removeAttribute('src'); img.alt=''; naturalW=0; naturalH=0;
-    showStatus(`Не удалось загрузить лист ${PAGES[i]}`,true);
+    showStatus(`Не удалось загрузить лист ${PAGES[i]}. Повторите переход к этому листу.`,true);
   };
   probe.src=files[i];
 }
@@ -751,7 +861,7 @@ pageJumpForm.addEventListener('submit',event=>{
   const targetIndex=indexFromPageValue(pageJumpInput.value);
   if(targetIndex===-1){
     pageJumpInput.setCustomValidity(
-      'Такого листа в томе нет. Доступны лист 3 и листы с 6 по 58.'
+      `Такого листа в томе нет. Доступные номера: ${AVAILABLE_PAGE_NUMBERS}.`
     );
     pageJumpInput.setAttribute('aria-invalid','true');
     pageJumpInput.reportValidity();
@@ -763,6 +873,10 @@ pageJumpForm.addEventListener('submit',event=>{
   setPanelOpen(false);
   pageJumpInput.blur();
   if(targetIndex===index){
+    if(!naturalW){
+      showImage(index);
+      return;
+    }
     replacePageHash(PAGES[index]);
     pageAnnouncement.textContent=`Уже открыт лист ${PAGES[index]}`;
     return;
@@ -793,16 +907,16 @@ pageJumpInput.addEventListener('keydown',event=>{
 searchForm.addEventListener('submit',event=>{
   event.preventDefault();
   const query=searchInput.value.trim();
-  if(query.length<2){
-    searchInput.setCustomValidity('Введите не меньше двух знаков');
+  if(query.length<SEARCH_MIN_LENGTH){
+    searchInput.setCustomValidity(`Введите не меньше ${SEARCH_MIN_LENGTH} знаков`);
     searchInput.reportValidity();
     return;
   }
   searchInput.setCustomValidity('');
   setArchiveQuery('q',query);
   setPanelMode('search');
-  searchArchive(query);
   setPanelOpen(true);
+  searchArchive(query);
 });
 searchInput.addEventListener('input',()=>searchInput.setCustomValidity(''));
 
@@ -828,8 +942,8 @@ document.addEventListener('keydown',e=>{
   }
   else if(e.key==='ArrowRight'){ if(index<files.length-1) showImage(index+1); }
   else if(e.key==='ArrowLeft'){ if(index>0) showImage(index-1); }
-  else if(e.key==='+'||e.key==='='){ zoomAbout(1.25); }
-  else if(e.key==='-'){ zoomAbout(.8); }
+  else if(e.key==='+'||e.key==='='){ zoomAbout(ZOOM_FACTOR); }
+  else if(e.key==='-'){ zoomAbout(1/ZOOM_FACTOR); }
   else if(e.key==='0'){ fitMode=false; scale=1; applyZoom(); centerScroll(); updateInfo(); }
   else if(e.key==='f'||e.key==='F'||e.key==='а'||e.key==='А'){ fitToScreen(); }
   else if(e.key==='t'||e.key==='T'||e.key==='е'||e.key==='Е'){ toggleTranscript(); }
@@ -838,7 +952,7 @@ document.addEventListener('keydown',e=>{
 viewer.addEventListener('wheel',e=>{
   if(!e.ctrlKey) return;
   e.preventDefault();
-  zoomAbout(e.deltaY<0?1.1:1/1.1,e.clientX,e.clientY);
+  zoomAbout(e.deltaY<0?WHEEL_ZOOM_FACTOR:1/WHEEL_ZOOM_FACTOR,e.clientX,e.clientY);
 },{passive:false});
 
 let dragging=false,lastX=0,lastY=0;
@@ -874,7 +988,10 @@ viewer.addEventListener('touchmove',e=>{
     e.preventDefault();
     const cx=(e.touches[0].clientX+e.touches[1].clientX)/2;
     const cy=(e.touches[0].clientY+e.touches[1].clientY)/2;
-    const target=Math.max(.1,Math.min(20,pinchScale*dist(e.touches[0],e.touches[1])/pinchStart));
+    const target=Math.max(
+      VIEWER_LIMITS.minScale,
+      Math.min(VIEWER_LIMITS.maxScale,pinchScale*dist(e.touches[0],e.touches[1])/pinchStart)
+    );
     zoomAbout(target/scale,cx,cy);
   }
 },{passive:false});
@@ -885,7 +1002,7 @@ viewer.addEventListener('touchend',e=>{
   // drag — otherwise releasing a pinch could jump a page.
   if(dragging&&touchMoved){
     const dx=lastX-touchStartX, dy=lastY-touchStartY;
-    if(e.timeStamp-touchStartTime<300&&Math.abs(dx)>50&&Math.abs(dx)>Math.abs(dy)){
+    if(e.timeStamp-touchStartTime<SWIPE_MAX_DURATION&&Math.abs(dx)>SWIPE_MIN_DISTANCE&&Math.abs(dx)>Math.abs(dy)){
       if(dx>0&&index>0) showImage(index-1);
       else if(dx<0&&index<files.length-1) showImage(index+1);
     }
@@ -895,18 +1012,12 @@ viewer.addEventListener('touchend',e=>{
 
 prevBtn.addEventListener('click',()=>{ if(index>0) showImage(index-1); });
 nextBtn.addEventListener('click',()=>{ if(index<files.length-1) showImage(index+1); });
-document.getElementById('zoomInBtn').addEventListener('click',()=>zoomAbout(1.25));
-document.getElementById('zoomOutBtn').addEventListener('click',()=>zoomAbout(.8));
+document.getElementById('zoomInBtn').addEventListener('click',()=>zoomAbout(ZOOM_FACTOR));
+document.getElementById('zoomOutBtn').addEventListener('click',()=>zoomAbout(1/ZOOM_FACTOR));
 zoomLabel.addEventListener('click',fitToScreen);
-zoomLabel.addEventListener('keydown',e=>{ if(e.key==='Enter'||e.key===' '){ e.preventDefault(); fitToScreen(); } });
 textBtn.addEventListener('click',()=>toggleTranscript());
-document.getElementById('closeTranscriptBtn').addEventListener('click',()=>setPanelOpen(false,true));
+closePanelBtn.addEventListener('click',()=>setPanelOpen(false,true));
 
-function updateViewerBarHeight(){
-  document.documentElement.style.setProperty('--viewer-bar-height',`${viewerBar.offsetHeight}px`);
-}
-new ResizeObserver(updateViewerBarHeight).observe(viewerBar);
-updateViewerBarHeight();
 window.addEventListener('resize',()=>{ if(fitMode) fitToScreen(); else applyZoom(); });
 
 function indexFromHash(){
@@ -924,23 +1035,26 @@ window.addEventListener('hashchange',()=>{
   if(i!==index) showImage(i);
 });
 
-const initialIndex=indexFromHash();
-if(initialIndex===-1&&location.hash){
-  pendingPageAnnouncement='Запрошенного листа в томе нет. Открыт лист 3.';
-}
-showImage(Math.max(0,initialIndex));
 const initialParams=new URLSearchParams(location.search);
 const initialPerson=initialParams.get('person');
 const initialQuery=initialParams.get('q')?.trim()||'';
+const requestedIndex=indexFromHash();
+const personStartIndex=initialPerson&&PEOPLE[initialPerson]
+  ? PAGES.indexOf(PEOPLE[initialPerson].pages[0])
+  : -1;
+const initialIndex=requestedIndex===-1 ? personStartIndex : requestedIndex;
+if(requestedIndex===-1&&location.hash){
+  const fallbackPage=initialIndex===-1?PAGES[0]:PAGES[initialIndex];
+  pendingPageAnnouncement=`Запрошенного листа в томе нет. Открыт лист ${fallbackPage}.`;
+}
+showImage(Math.max(0,initialIndex));
 if(initialPerson&&PEOPLE[initialPerson]){
-  archiveHomeLink.href='index.html#names';
-  archiveHomeLink.textContent='К именам';
   searchPerson(initialPerson);
-} else if(initialQuery.length>=2){
+} else if(initialQuery.length>=SEARCH_MIN_LENGTH){
   searchInput.value=initialQuery;
   setPanelMode('search');
-  searchArchive(initialQuery);
   setPanelOpen(true);
+  searchArchive(initialQuery);
 }
 </script>
 </body>

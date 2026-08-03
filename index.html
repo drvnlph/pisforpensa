@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="ru">
+<html lang="ru" data-color="slate" data-links="quiet">
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
@@ -22,34 +22,34 @@
 <link rel="icon" href="favicon.ico" sizes="any">
 <link rel="icon" type="image/png" href="favicon.png">
 <link rel="apple-touch-icon" href="apple-touch-icon.png">
+<script src="preferences.js?v=1"></script>
 <link rel="stylesheet" href="fonts.css?v=1">
-<link rel="stylesheet" href="style.css?v=6">
+<link rel="stylesheet" href="style.css?v=8">
+<noscript><style>.toc-inline{display:none}</style></noscript>
 </head>
 
-<body data-color="slate" data-links="quiet">
+<body>
+
+<a class="skip-link" href="#article">К тексту</a>
 
 <div class="progress-bar" id="progressBar"></div>
 
 <div class="mobile-bar" id="mobileBar" aria-hidden="true" inert>
   <div class="mobile-bar-top">
     <div class="mobile-bar-chapter" id="mobileChapter">Вступление</div>
+    <a class="mobile-bar-archive" href="scans.html" aria-label="Открыть сканы тома 28">
+      <span class="mobile-bar-archive-volume" aria-hidden="true">28</span>
+      <span>Сканы</span>
+    </a>
     <button class="mobile-bar-toc" id="mobileBarToc" type="button" aria-label="Оглавление" aria-controls="mobileDropdown" aria-expanded="false">§</button>
   </div>
   <div class="mobile-dropdown" id="mobileDropdown" aria-hidden="true" inert>
     <ol class="toc-list" id="tocMobileList"></ol>
-    <a class="toc-archive-link toc-archive-link-mobile" href="scans.html">
-      <span class="toc-archive-volume" aria-hidden="true">28</span>
-      <span class="toc-archive-copy">
-        <span class="toc-archive-kicker">Архив источников</span>
-        <strong>Том 28</strong>
-        <span class="toc-archive-meta">54 листа · сканы · поиск</span>
-      </span>
-    </a>
   </div>
   <div class="mobile-progress" id="mobileProgress"></div>
 </div>
 
-<button class="back-to-top" id="backToTop" aria-label="Наверх"></button>
+<button class="back-to-top" id="backToTop" type="button" aria-label="Наверх"></button>
 
 <div class="page">
 <aside class="sidebar">
@@ -82,7 +82,7 @@
   </nav>
 </aside>
 
-<main class="content">
+<main class="content" id="article">
 
 <header class="article-header">
   <h1 class="article-title">Можно ли верить Дмитрию&nbsp;Пчелинцеву?</h1>
@@ -93,14 +93,6 @@
 <nav class="toc-inline" aria-label="Содержание">
   <div class="toc-inline-title">Содержание</div>
   <ol class="toc-inline-list"></ol>
-  <a class="toc-archive-link" href="scans.html">
-    <span class="toc-archive-volume" aria-hidden="true">28</span>
-    <span class="toc-archive-copy">
-      <span class="toc-archive-kicker">Архив источников</span>
-      <strong>Том 28</strong>
-      <span class="toc-archive-meta">54 листа · сканы · поиск</span>
-    </span>
-  </a>
 </nav>
 
 <div class="editor-note">
@@ -522,90 +514,63 @@
       <dt>Пчелинцев</dt>
       <dd>
         <div class="glossary-aliases">Антон, Антоха, Давид, Д и <code>hlvcfrwl</code></div>
-        <div class="glossary-refs">
-          <span class="glossary-key">Ключевой лист: <a class="scan-cite" href="scans.html#9">лист 9</a></span>
-          <a class="glossary-all" href="scans.html?person=pchelintsev#9">35 листов в архиве</a>
-        </div>
+        <a class="glossary-all" href="scans.html?person=pchelintsev">35 листов в архиве</a>
       </dd>
     </div>
     <div class="glossary-item">
       <dt>Чернов</dt>
       <dd>
         <div class="glossary-aliases">Ваня, Ванес, <code>waifuclub</code>, то есть <code>waifuclub@jabber.calyxinstitute.org</code></div>
-        <div class="glossary-refs">
-          <span class="glossary-key">Ключевые листы: <a class="scan-cite" href="scans.html#22">лист 22</a>, <a class="scan-cite" href="scans.html#52">лист 52</a></span>
-          <a class="glossary-all" href="scans.html?person=chernov#52">38 листов в архиве</a>
-        </div>
+        <a class="glossary-all" href="scans.html?person=chernov">38 листов в архиве</a>
       </dd>
     </div>
     <div class="glossary-item">
       <dt>Иванкин</dt>
       <dd>
         <div class="glossary-aliases">Глеб, Г и <code>qumhe</code></div>
-        <div class="glossary-refs">
-          <span class="glossary-key">Ключевой лист: <a class="scan-cite" href="scans.html#20">лист 20</a></span>
-          <a class="glossary-all" href="scans.html?person=ivankin#20">21 лист в архиве</a>
-        </div>
+        <a class="glossary-all" href="scans.html?person=ivankin">21 лист в архиве</a>
       </dd>
     </div>
     <div class="glossary-item">
       <dt>Полтавец</dt>
       <dd>
         <div class="glossary-aliases">Арчи, Артур, <code>birnabir@riseup.net</code></div>
-        <div class="glossary-refs">
-          <span class="glossary-key">Ключевой лист: <a class="scan-cite" href="scans.html#19">лист 19</a></span>
-          <a class="glossary-all" href="scans.html?person=poltavets#19">20 листов в архиве</a>
-        </div>
+        <a class="glossary-all" href="scans.html?person=poltavets">20 листов в архиве</a>
       </dd>
     </div>
     <div class="glossary-item">
       <dt>Шакурский</dt>
       <dd>
         <div class="glossary-aliases">Игорь; на одном листе фамилия записана как «Шакуров»</div>
-        <div class="glossary-refs">
-          <span class="glossary-key">Ключевые листы: <a class="scan-cite" href="scans.html#6">лист 6</a>, <a class="scan-cite" href="scans.html#28">лист 28</a></span>
-          <a class="glossary-all" href="scans.html?person=shakursky#28">15 листов в архиве</a>
-        </div>
+        <a class="glossary-all" href="scans.html?person=shakursky">15 листов в архиве</a>
       </dd>
     </div>
     <div class="glossary-item">
       <dt>Филинков</dt>
       <dd>
         <div class="glossary-aliases">Кирилл; в части переписки пишет с чужого аккаунта <code>piligrim</code></div>
-        <div class="glossary-refs">
-          <span class="glossary-key">Ключевой лист: <a class="scan-cite" href="scans.html#51">лист 51</a></span>
-          <a class="glossary-all" href="scans.html?person=filinkov#51">14 листов в архиве</a>
-        </div>
+        <a class="glossary-all" href="scans.html?person=filinkov">14 листов в архиве</a>
       </dd>
     </div>
     <div class="glossary-item">
       <dt>Аксенова</dt>
       <dd>
         <div class="glossary-aliases">Оля / Соля, <code>piligrim@firemail.cc</code>; на листах 51–52 и 54–57 с ее аккаунта пишет Филинков</div>
-        <div class="glossary-refs">
-          <span class="glossary-key">Ключевые листы: <a class="scan-cite" href="scans.html#14">лист 14</a>, <a class="scan-cite" href="scans.html#51">лист 51</a></span>
-          <a class="glossary-all" href="scans.html?person=aksenova#14">7 листов с именем или аккаунтом</a>
-        </div>
+        <a class="glossary-all" href="scans.html?person=aksenova">7 листов с именем или аккаунтом</a>
       </dd>
     </div>
     <div class="glossary-item">
       <dt>Фролова</dt>
       <dd>
         <div class="glossary-aliases">Настя или Н</div>
-        <div class="glossary-refs">
-          <span class="glossary-key">Ключевой лист: <a class="scan-cite" href="scans.html#21">лист 21</a></span>
-          <a class="glossary-all" href="scans.html?person=frolova#21">22 листа в архиве</a>
-        </div>
+        <a class="glossary-all" href="scans.html?person=frolova">22 листа в архиве</a>
       </dd>
     </div>
     <div class="glossary-item">
       <dt>Кульков</dt>
       <dd>
         <div class="glossary-aliases">Митя и, скорее всего, М</div>
-        <div class="glossary-refs">
-          <span class="glossary-key">Ключевые листы: <a class="scan-cite" href="scans.html#25">лист 25</a>, <a class="scan-cite" href="scans.html#38">лист 38</a></span>
-          <a class="glossary-all" href="scans.html?person=kulkov#25">10 листов в архиве</a>
-        </div>
+        <a class="glossary-all" href="scans.html?person=kulkov">10 листов в архиве</a>
       </dd>
     </div>
   </dl>
@@ -1246,25 +1211,25 @@
 </main>
 </div>
 
-<div class="settings-footer">
+<footer class="settings-footer" aria-labelledby="settingsTitle">
   <div class="settings-inner">
-    <div class="settings-title">Настройки отображения</div>
-    <div class="settings-row">
-      <span class="ctrl-label">Цвет</span>
-      <button class="ctrl-swatch" data-c="slate" aria-label="Сине-серый" title="Сине-серый"></button>
-      <button class="ctrl-swatch" data-c="olive" aria-label="Оливковый" title="Оливковый"></button>
-      <button class="ctrl-swatch" data-c="charcoal" aria-label="Графит" title="Графит"></button>
-      <button class="ctrl-swatch" data-c="wine" aria-label="Тёмное вино" title="Тёмное вино"></button>
+    <div class="settings-title" id="settingsTitle">Настройки отображения</div>
+    <div class="settings-row" role="group" aria-labelledby="colorSettingsLabel">
+      <span class="ctrl-label" id="colorSettingsLabel">Цвет</span>
+      <button class="ctrl-swatch" type="button" data-c="slate" aria-label="Сине-серый" title="Сине-серый"></button>
+      <button class="ctrl-swatch" type="button" data-c="olive" aria-label="Оливковый" title="Оливковый"></button>
+      <button class="ctrl-swatch" type="button" data-c="charcoal" aria-label="Графит" title="Графит"></button>
+      <button class="ctrl-swatch" type="button" data-c="wine" aria-label="Тёмное вино" title="Тёмное вино"></button>
     </div>
-    <div class="settings-row">
-      <span class="ctrl-label">Ссылки</span>
-      <button class="ctrl-btn ctrl-linkbtn" data-links="host">Домен</button>
-      <button class="ctrl-btn ctrl-linkbtn" data-links="mark">Маркер</button>
-      <button class="ctrl-btn ctrl-linkbtn" data-links="quiet">Тихо</button>
+    <div class="settings-row" role="group" aria-labelledby="linkSettingsLabel">
+      <span class="ctrl-label" id="linkSettingsLabel">Ссылки</span>
+      <button class="ctrl-btn ctrl-linkbtn" type="button" data-links="host">Домен</button>
+      <button class="ctrl-btn ctrl-linkbtn" type="button" data-links="mark">Маркер</button>
+      <button class="ctrl-btn ctrl-linkbtn" type="button" data-links="quiet">Тихо</button>
     </div>
   </div>
-</div>
+</footer>
 
-<script src="app.js?v=4"></script>
+<script src="app.js?v=5"></script>
 </body>
 </html>
