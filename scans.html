@@ -4,11 +4,26 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
 <meta name="theme-color" content="#FDFCFA">
+<meta name="description" content="Том 28 материалов дела «Сети»: 54 скана, ручная расшифровка и полнотекстовый поиск.">
 <title>Том 28 — сканы материалов дела</title>
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:ital,wght@0,400;0,500;0,600;1,400&family=Source+Serif+4:ital,opsz,wght@0,8..60,400;0,8..60,600;0,8..60,700;1,8..60,400&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="style.css">
+<link rel="canonical" href="https://drvnlph.github.io/pisforpensa/scans.html">
+<meta property="og:type" content="website">
+<meta property="og:locale" content="ru_RU">
+<meta property="og:site_name" content="Можно ли верить Дмитрию Пчелинцеву?">
+<meta property="og:title" content="Том 28 — сканы материалов дела">
+<meta property="og:description" content="54 скана, ручная расшифровка и полнотекстовый поиск по тому 28.">
+<meta property="og:url" content="https://drvnlph.github.io/pisforpensa/scans.html">
+<meta property="og:image" content="https://drvnlph.github.io/pisforpensa/og.png">
+<meta property="og:image:width" content="1729">
+<meta property="og:image:height" content="910">
+<meta property="og:image:alt" content="Можно ли верить Дмитрию Пчелинцеву? Дело «Сети», том 28.">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="icon" type="image/svg+xml" href="favicon.svg">
+<link rel="icon" href="favicon.ico" sizes="any">
+<link rel="icon" type="image/png" href="favicon.png">
+<link rel="apple-touch-icon" href="apple-touch-icon.png">
+<link rel="stylesheet" href="fonts.css?v=1">
+<link rel="stylesheet" href="style.css?v=5">
 <style>
 /* ── Viewer chrome ──────────────────────
    Built on the shared design tokens rather than the old viewer's #111 dark
@@ -17,13 +32,60 @@ html,body { height:100%; overflow:hidden; }
 body { display:flex; flex-direction:column; font-family:var(--body); }
 
 .viewer-bar {
-  display:flex; align-items:center; gap:16px; flex-wrap:wrap;
+  display:grid;
+  grid-template-columns:max-content max-content minmax(240px,340px) minmax(12px,1fr) max-content;
+  grid-template-areas:'identity jump search space downloads';
+  align-items:center; gap:10px 18px;
   padding:10px 20px; background:var(--bg); border-bottom:1px solid var(--border);
   font-family:var(--ui); font-size:12.5px; flex-shrink:0;
 }
+.viewer-identity { grid-area:identity; display:flex; align-items:center; gap:12px; white-space:nowrap; }
 .viewer-bar .home { font-weight:600; }
-.viewer-bar .pos { color:var(--text-muted); font-variant-numeric:tabular-nums; }
-.viewer-bar .spacer { margin-left:auto; }
+.viewer-title { padding-left:12px; border-left:1px solid var(--border); line-height:1.1; }
+.viewer-title-kicker {
+  display:block; color:var(--text-muted); font-size:9px; font-weight:700;
+  letter-spacing:.08em; text-transform:uppercase;
+}
+.viewer-title h1 { margin:3px 0 0; color:var(--text); font:650 14px/1 var(--ui); }
+.viewer-downloads {
+  grid-area:downloads; display:flex; align-items:center; justify-self:end;
+  gap:10px; white-space:nowrap;
+  font:600 11px/1 var(--mono); letter-spacing:.02em;
+}
+
+.page-jump {
+  grid-area:jump; display:grid; grid-template-columns:auto 4ch auto;
+  align-items:center; gap:7px; min-height:40px; padding:0 9px;
+  border:1px solid var(--border); border-radius:6px; background:var(--bg-warm);
+  color:var(--text-muted);
+  font-variant-numeric:tabular-nums; white-space:nowrap;
+}
+.page-jump:focus-within { border-color:var(--accent); box-shadow:0 0 0 2px var(--accent-faint); }
+.page-jump label { color:var(--text-secondary); font-weight:600; }
+.page-jump input {
+  width:100%; height:30px; padding:0 3px; border:0;
+  border-bottom:1px solid var(--accent-underline); border-radius:0;
+  outline:0; color:var(--text); background:transparent;
+  font:12px/1 var(--mono); text-align:center;
+}
+.page-jump input:focus { border-bottom-color:var(--accent); }
+.page-jump input[aria-invalid="true"] { box-shadow:inset 0 -2px #B13A2E; }
+.page-ordinal { color:var(--text-muted); font:11px/1 var(--mono); }
+
+.archive-search {
+  grid-area:search; display:flex; align-items:stretch; width:100%; min-width:0; height:40px;
+  border:1px solid var(--border); border-radius:6px; background:var(--bg); overflow:hidden;
+}
+.archive-search:focus-within { border-color:var(--accent); box-shadow:0 0 0 2px var(--accent-faint); }
+.archive-search input {
+  min-width:0; flex:1; border:0; outline:0; padding:7px 10px; background:transparent;
+  color:var(--text); font:12px/1.2 var(--mono);
+}
+.archive-search button {
+  border:0; border-left:1px solid var(--border); padding:0 12px; cursor:pointer;
+  background:var(--bg-warm); color:var(--accent); font:600 12px/1 var(--ui);
+}
+.archive-search button:hover { background:var(--accent-faint); }
 
 #viewer {
   flex:1; overflow:auto; position:relative; cursor:grab;
@@ -31,8 +93,11 @@ body { display:flex; flex-direction:column; font-family:var(--body); }
   scrollbar-width:thin; scrollbar-color:var(--edge,#C9C2B2) var(--bg-warm);
 }
 #viewer.grabbing { cursor:grabbing; }
-#img-wrapper { display:flex; align-items:center; justify-content:center; width:100%; height:100%; }
-#img { transform-origin:center center; user-select:none; -webkit-user-drag:none;
+#img-wrapper {
+  display:flex; align-items:center; justify-content:center;
+  width:100%; height:100%; padding-bottom:82px;
+}
+#img { user-select:none; -webkit-user-drag:none;
        box-shadow:0 2px 18px rgba(0,0,0,.14); background:#fff; }
 
 .controls {
@@ -49,6 +114,13 @@ body { display:flex; flex-direction:column; font-family:var(--body); }
 }
 .controls button:hover:not(:disabled) { background:var(--accent-faint); border-color:var(--accent); }
 .controls button:disabled { opacity:.28; cursor:not-allowed; }
+.controls .text-button {
+  width:auto; min-width:58px; padding:0 11px; border-radius:18px;
+  font-family:var(--ui); font-size:12px;
+}
+.controls .text-button[aria-pressed="true"] {
+  color:#fff; background:var(--accent); border-color:var(--accent);
+}
 #zoomLevel {
   font-family:var(--ui); font-size:12px; color:var(--text-secondary); min-width:52px;
   text-align:center; font-variant-numeric:tabular-nums; cursor:pointer; user-select:none;
@@ -64,9 +136,72 @@ body { display:flex; flex-direction:column; font-family:var(--body); }
 }
 #status.error { border-color:#B13A2E; color:#B13A2E; }
 
+#transcriptPanel {
+  position:fixed; top:calc(var(--viewer-bar-height, 54px) + 12px); right:16px; bottom:88px;
+  width:min(520px, calc(100vw - 32px)); z-index:30;
+  display:flex; flex-direction:column;
+  background:var(--bg); border:1px solid var(--border); border-radius:10px;
+  box-shadow:0 14px 42px rgba(0,0,0,.2);
+  opacity:0; pointer-events:none;
+  transform:translateX(calc(100% + 32px));
+  transition:transform .2s ease, opacity .2s ease;
+}
+#transcriptPanel.open { opacity:1; pointer-events:auto; transform:translateX(0); }
+#transcriptHeader {
+  display:flex; align-items:center; justify-content:space-between; gap:12px;
+  padding:10px 12px; border-bottom:1px solid var(--border);
+  font-family:var(--ui); font-size:12px; color:var(--text-secondary);
+}
+#transcriptTitle { overflow:hidden; text-overflow:ellipsis; white-space:nowrap; }
+#closeTranscriptBtn {
+  flex:0 0 auto; width:34px; height:34px; border:1px solid transparent;
+  border-radius:50%; background:none; color:var(--accent);
+  font-size:22px; line-height:1; cursor:pointer;
+}
+#closeTranscriptBtn:hover { background:var(--accent-faint); border-color:var(--accent); }
+#transcriptText {
+  flex:1; margin:0; padding:16px; overflow:auto;
+  color:var(--text); background:var(--bg);
+  font:14px/1.55 var(--mono); white-space:pre-wrap; overflow-wrap:anywhere;
+  user-select:text;
+}
+#transcriptText mark { background:#F5E5A9; color:inherit; border-radius:2px; padding:0 1px; }
+
+#searchView { flex:1; min-height:0; overflow:auto; padding:14px 16px 18px; }
+#searchSummary { margin:0 0 12px; color:var(--text-secondary); font:13px/1.45 var(--ui); }
+#searchResults { list-style:none; margin:0; padding:0; }
+.search-result { padding:13px 0; border-top:1px solid var(--border-light); }
+.search-result:first-child { border-top:0; }
+.search-result-head { display:flex; align-items:baseline; justify-content:space-between; gap:12px; }
+.search-result-page { font:650 14px/1.3 var(--ui); }
+.search-result-count { color:var(--text-muted); font:11px/1.3 var(--mono); }
+.search-result-count.is-qualified { max-width:180px; text-align:right; font-family:var(--ui); }
+.search-snippet { margin:7px 0 0; color:var(--text-secondary); font:12px/1.5 var(--mono); overflow-wrap:anywhere; }
+.search-snippet mark { background:#F5E5A9; color:inherit; border-radius:2px; padding:0 1px; }
+.search-empty { padding:24px 0; color:var(--text-muted); font:13px/1.55 var(--ui); }
+
+.page-icon { display:block; width:9px; height:9px; border-color:currentColor; border-style:solid; }
+.page-icon-prev { border-width:0 0 1.5px 1.5px; transform:translateX(2px) rotate(45deg); }
+.page-icon-next { border-width:1.5px 1.5px 0 0; transform:translateX(-2px) rotate(45deg); }
+
+@media (max-width:880px) {
+  .viewer-bar {
+    grid-template-columns:minmax(0,1fr) max-content;
+    grid-template-areas:'identity jump' 'search downloads'; gap:8px 10px;
+    padding:8px 14px; font-size:12px;
+  }
+  .viewer-identity { min-width:0; }
+  .archive-search { width:100%; min-width:0; }
+  .viewer-downloads { gap:10px; font-size:11px; }
+}
 @media (max-width:640px) {
-  .viewer-bar { padding:8px 14px; gap:10px; font-size:12px; }
   .controls { bottom:14px; }
+  #transcriptPanel { right:10px; bottom:72px; width:calc(100vw - 20px); }
+}
+@media (max-width:430px) {
+  .viewer-title-kicker { display:none; }
+  .page-jump,.archive-search { min-height:44px; }
+  .page-jump input,.archive-search input { font-size:16px; }
 }
 </style>
 </head>
@@ -74,46 +209,186 @@ body { display:flex; flex-direction:column; font-family:var(--body); }
 <body data-color="slate">
 
 <div class="viewer-bar">
-  <a class="home" href="index.html">← К разбору</a>
-  <span class="pos" id="pos">—</span>
-  <span class="spacer"></span>
-  <a href="scans/tom-28.pdf" download>Скачать PDF (54 с., 15 МБ)</a>
+  <div class="viewer-identity">
+    <a class="home" href="index.html">К разбору</a>
+    <div class="viewer-title">
+      <span class="viewer-title-kicker">Архив источников</span>
+      <h1>Том 28</h1>
+    </div>
+  </div>
+  <form class="page-jump" id="pageJumpForm" aria-label="Перейти к листу" novalidate>
+    <label for="pageJumpInput">Лист</label>
+    <input id="pageJumpInput" name="page" type="text" inputmode="numeric"
+      pattern="[0-9]*" maxlength="3" autocomplete="off" enterkeyhint="go"
+      aria-describedby="pageJumpHint" aria-keyshortcuts="G"
+      title="Введите номер листа и нажмите Enter">
+    <button class="visually-hidden" type="submit">Открыть лист</button>
+    <span class="page-ordinal" id="pageOrdinal">—</span>
+    <span class="visually-hidden" id="pageJumpHint">
+      Введите номер и нажмите Enter. Доступны лист 3 и листы с 6 по 58
+    </span>
+  </form>
+  <span class="visually-hidden" id="pageAnnouncement" role="status"
+    aria-live="polite" aria-atomic="true"></span>
+  <form class="archive-search" id="archiveSearch" role="search">
+    <label class="visually-hidden" for="archiveSearchInput">Поиск по расшифровке тома 28</label>
+    <input id="archiveSearchInput" name="q" type="search" minlength="2" autocomplete="off" placeholder="Поиск по 54 листам" aria-keyshortcuts="/">
+    <button type="submit">Найти</button>
+  </form>
+  <nav class="viewer-downloads" aria-label="Скачать архив">
+    <a href="scans/tom-28.pdf" download title="PDF · 54 страницы · 15 МБ"
+      aria-label="Скачать PDF, 54 страницы, 15 мегабайт">PDF</a>
+    <a href="scans/tom-28.txt" download title="Полная расшифровка"
+      aria-label="Скачать полную расшифровку в TXT">TXT</a>
+  </nav>
 </div>
 
 <div id="viewer">
   <div id="img-wrapper">
     <img id="img" draggable="false" alt="">
   </div>
-  <div id="status"></div>
+  <div id="status" role="status" aria-live="polite"></div>
 </div>
 
+<aside id="transcriptPanel" aria-hidden="true" aria-labelledby="transcriptTitle" inert>
+  <div id="transcriptHeader">
+    <span id="transcriptTitle"></span>
+    <button id="closeTranscriptBtn" type="button" title="Закрыть текст" aria-label="Закрыть текст">×</button>
+  </div>
+  <pre id="transcriptText" tabindex="0"></pre>
+  <div id="searchView" hidden>
+    <p id="searchSummary" role="status" aria-live="polite"></p>
+    <ol id="searchResults"></ol>
+  </div>
+</aside>
+
 <div class="controls">
-  <button id="prevBtn" title="Предыдущая (←)" aria-label="Предыдущая страница">◀</button>
+  <button id="prevBtn" title="Предыдущая страница" aria-label="Предыдущая страница" aria-keyshortcuts="ArrowLeft"><span class="page-icon page-icon-prev" aria-hidden="true"></span></button>
   <button id="zoomOutBtn" title="Отдалить (−)" aria-label="Отдалить">−</button>
   <span id="zoomLevel" title="По размеру экрана (F)" role="button" tabindex="0">100%</span>
   <button id="zoomInBtn" title="Приблизить (+)" aria-label="Приблизить">+</button>
-  <button id="nextBtn" title="Следующая (→)" aria-label="Следующая страница">▶</button>
+  <button id="textBtn" class="text-button" type="button" title="Показать текст страницы (T)" aria-label="Показать текст страницы" aria-pressed="false">Текст</button>
+  <button id="nextBtn" title="Следующая страница" aria-label="Следующая страница" aria-keyshortcuts="ArrowRight"><span class="page-icon page-icon-next" aria-hidden="true"></span></button>
 </div>
 
+<script src="scans/transcriptions.js?v=1"></script>
 <script>
 // ── Page manifest ────────────────────────
 // The original viewer generated this with a hardcoded `for i=1..58, skip
 // 1,2,4,5` loop, so adding or renaming a scan meant editing control flow.
 // The list of page numbers is data now; the filenames derive from it.
-const PAGES = [3, ...Array.from({length:53},(_,i)=>i+6)];   // 003, 006…058
+const PAGES = [
+  3, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22,
+  23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39,
+  40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52, 53, 54, 55, 56,
+  57, 58
+];
 const files = PAGES.map(n => `scans/v28_gray-${String(n).padStart(3,'0')}.jpg`);
+
+// A literal search cannot safely resolve people who appear under several
+// aliases, especially the one-letter names. These curated sets keep explicit
+// occurrences separate from probable aliases and page continuations.
+const PEOPLE = {
+  pchelintsev: {
+    label:'Пчелинцев',
+    pages:[8,9,10,21,22,23,24,25,26,28,29,30,32,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50,51,52,53,54,55,56,58],
+    terms:['пчелинц','антон','антох','давид','hlvcfrwl','д'],
+    probablePages:[23,24,25,26,29,32,36,37,38,50],
+    probableLabel:'вероятный псевдоним «Д»',
+    summary:'35 листов: 25 с именем или псевдонимом, еще 10 — с вероятным однобуквенным «Д».'
+  },
+  chernov: {
+    label:'Чернов',
+    pages:[3,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50,51,52,53,54,55,56,57],
+    terms:['чернов','ваня','ванес','waifuclub'],
+    continuationPages:[21,53],
+    continuationLabel:'продолжение записи',
+    summary:'38 листов: 36 с именем или аккаунтом и 2 продолжения тех же записей.'
+  },
+  ivankin: {
+    label:'Иванкин',
+    pages:[20,22,23,24,25,26,27,29,30,31,32,33,34,35,36,37,38,40,41,42,56],
+    terms:['иванкин','глеб','qumhe','г'],
+    probablePages:[22,24,25,26,27,40,42,56],
+    probableLabel:'вероятный псевдоним «Г»',
+    summary:'21 лист: 13 с именем или аккаунтом, еще 8 — с вероятным однобуквенным «Г».'
+  },
+  poltavets: {
+    label:'Полтавец',
+    pages:[19,22,23,24,25,26,27,28,29,39,40,41,42,48,51,52,53,54,55,56],
+    terms:['полтав','арчи','артур','birnabir'],
+    summary:'20 листов с именем, псевдонимом или аккаунтом.'
+  },
+  shakursky: {
+    label:'Шакурский',
+    pages:[6,28,29,39,40,41,44,46,47,48,51,52,54,55,56],
+    terms:['шакур','игор'],
+    variantPages:[6],
+    variantLabel:'фамилия записана как «Шакуров»',
+    summary:'15 листов; на листе 6 фамилия записана как «Шакуров».'
+  },
+  filinkov: {
+    label:'Филинков',
+    pages:[7,11,23,25,30,39,45,51,52,53,54,55,56,57],
+    terms:['филинк','кирилл','piligrim'],
+    continuationPages:[52,55,56,57],
+    continuationLabel:'продолжение разговора с Кириллом',
+    summary:'14 листов: 10 с именем и 4 продолжения разговора после самоидентификации Кирилла.'
+  },
+  aksenova: {
+    label:'Аксенова',
+    pages:[14,51,52,54,55,56,57],
+    terms:['аксенов','оля','соля','соли','piligrim'],
+    accountPages:[51,52,54,55,56,57],
+    accountLabel:'с аккаунта Аксеновой пишет Филинков',
+    summary:'7 листов с именем или аккаунтом. На листах 51–52 и 54–57 с аккаунта Аксеновой пишет Филинков.'
+  },
+  frolova: {
+    label:'Фролова',
+    pages:[9,21,22,23,24,26,28,29,30,40,41,42,44,47,50,51,52,53,54,55,56,57],
+    terms:['фролов','наст','н'],
+    probablePages:[23,24,26,29,30,40,41,42,44,47,50,53],
+    probableLabel:'вероятный псевдоним «Н»',
+    summary:'22 листа: 10 с именем, еще 12 — с вероятным однобуквенным «Н».'
+  },
+  kulkov: {
+    label:'Кульков',
+    pages:[22,25,26,29,35,36,38,40,41,56],
+    terms:['кульков','митя','мите','м'],
+    probablePages:[22,26,29,35,40,41,56],
+    probableLabel:'вероятный псевдоним «М»',
+    summary:'10 листов: 3 с именем Митя, еще 7 — с вероятным однобуквенным «М».'
+  }
+};
 
 const img=document.getElementById('img');
 const viewer=document.getElementById('viewer');
 const wrapper=document.getElementById('img-wrapper');
-const pos=document.getElementById('pos');
 const status=document.getElementById('status');
 const zoomLabel=document.getElementById('zoomLevel');
 const prevBtn=document.getElementById('prevBtn');
 const nextBtn=document.getElementById('nextBtn');
+const transcriptPanel=document.getElementById('transcriptPanel');
+const transcriptTitle=document.getElementById('transcriptTitle');
+const transcriptText=document.getElementById('transcriptText');
+const textBtn=document.getElementById('textBtn');
+const searchView=document.getElementById('searchView');
+const searchSummary=document.getElementById('searchSummary');
+const searchResults=document.getElementById('searchResults');
+const searchForm=document.getElementById('archiveSearch');
+const searchInput=document.getElementById('archiveSearchInput');
+const pageJumpForm=document.getElementById('pageJumpForm');
+const pageJumpInput=document.getElementById('pageJumpInput');
+const pageOrdinal=document.getElementById('pageOrdinal');
+const pageAnnouncement=document.getElementById('pageAnnouncement');
+const viewerBar=document.querySelector('.viewer-bar');
 
 let index=0, scale=1, naturalW=0, naturalH=0;
 let pinchStart=0, pinchScale=1;
+let imageRequest=0, fitMode=true;
+let panelMode='transcript';
+let pendingPageAnnouncement='';
+const controlsClearance=82;
 
 function showStatus(text,isError){
   status.textContent=text;
@@ -122,21 +397,290 @@ function showStatus(text,isError){
 }
 
 function updateInfo(){
-  pos.textContent=`Лист ${PAGES[index]} · ${index+1} из ${files.length}`;
+  pageJumpInput.value=String(PAGES[index]);
+  pageJumpInput.setCustomValidity('');
+  pageJumpInput.removeAttribute('aria-invalid');
+  pageOrdinal.textContent=`${index+1} из ${files.length}`;
   zoomLabel.textContent=`${Math.round(scale*100)}%`;
   prevBtn.disabled=(index===0);
   nextBtn.disabled=(index===files.length-1);
 }
 
+function appendHighlighted(container,text,query,wholeToken=false){
+  if(!query){ container.textContent=text; return; }
+  if(wholeToken){
+    const normalizedText=text.toLocaleLowerCase('ru').replace(/ё/g,'е');
+    const normalizedQuery=query.toLocaleLowerCase('ru').replace(/ё/g,'е');
+    let cursor=0;
+    for(const at of termPositions(normalizedText,normalizedQuery)){
+      container.append(document.createTextNode(text.slice(cursor,at)));
+      const mark=document.createElement('mark');
+      mark.textContent=text.slice(at,at+query.length);
+      container.append(mark);
+      cursor=at+query.length;
+    }
+    container.append(document.createTextNode(text.slice(cursor)));
+    return;
+  }
+  const escaped=query.replace(/[.*+?^${}()|[\]\\]/g,'\\$&')
+    .replace(/[её]/giu,'[её]').replace(/\s+/g,'\\s+');
+  const pattern=new RegExp(escaped,'giu');
+  let cursor=0;
+  for(const match of text.matchAll(pattern)){
+    container.append(document.createTextNode(text.slice(cursor,match.index)));
+    const mark=document.createElement('mark');
+    mark.textContent=match[0];
+    container.append(mark);
+    cursor=match.index+match[0].length;
+  }
+  container.append(document.createTextNode(text.slice(cursor)));
+}
+
+function updateTranscript(highlightQuery=''){
+  const filename=files[index].split('/').pop();
+  if(panelMode==='transcript') transcriptTitle.textContent=`Лист ${PAGES[index]} · расшифровка`;
+  const text=window.PAGE_TRANSCRIPTS?.[filename] || 'Текст для этой страницы отсутствует.';
+  transcriptText.replaceChildren();
+  appendHighlighted(transcriptText,text,highlightQuery);
+  transcriptText.scrollTop=0;
+}
+
+function setPanelMode(mode){
+  panelMode=mode;
+  transcriptText.hidden=(mode!=='transcript');
+  searchView.hidden=(mode!=='search');
+  if(mode==='search') transcriptTitle.textContent='Поиск по тому 28';
+}
+
+function setPanelOpen(open,restoreFocus=false){
+  transcriptPanel.classList.toggle('open',open);
+  transcriptPanel.setAttribute('aria-hidden',String(!open));
+  transcriptPanel.inert=!open;
+  textBtn.setAttribute('aria-pressed',String(open&&panelMode==='transcript'));
+  textBtn.setAttribute('aria-label',open&&panelMode==='transcript'?'Скрыть текст страницы':'Показать текст страницы');
+  if(!open&&restoreFocus){
+    if(panelMode==='search') searchInput.focus(); else textBtn.focus();
+  }
+}
+
+function toggleTranscript(forceOpen,restoreFocus=false){
+  const transcriptIsOpen=transcriptPanel.classList.contains('open')&&panelMode==='transcript';
+  const open=typeof forceOpen==='boolean' ? forceOpen : !transcriptIsOpen;
+  if(open){
+    setPanelMode('transcript');
+    updateTranscript();
+    setPanelOpen(true);
+    transcriptText.focus();
+  } else {
+    setPanelOpen(false,restoreFocus);
+  }
+}
+
+function showTranscriptMatch(query){
+  setPanelMode('transcript');
+  updateTranscript(query);
+  setPanelOpen(true);
+  transcriptText.focus();
+  requestAnimationFrame(()=>transcriptText.querySelector('mark')?.scrollIntoView({block:'center'}));
+}
+
+function normalizeSearch(value){
+  return value.toLocaleLowerCase('ru').replace(/ё/g,'е').replace(/\s+/g,' ').trim();
+}
+
+function matchPositions(text,query){
+  const positions=[];
+  let from=0;
+  while(from<=text.length-query.length){
+    const at=text.indexOf(query,from);
+    if(at===-1) break;
+    positions.push(at);
+    from=at+Math.max(1,query.length);
+  }
+  return positions;
+}
+
+function isWordCharacter(value){
+  return !!value&&/[\p{L}\p{N}_]/u.test(value);
+}
+
+function termPositions(text,term){
+  const query=normalizeSearch(term);
+  const positions=matchPositions(text,query);
+  if([...query].length!==1) return positions;
+  return positions.filter(at=>
+    !isWordCharacter(text[at-1])&&!isWordCharacter(text[at+query.length])
+  );
+}
+
+function hrefForPage(page){
+  return `${location.search}#${page}`;
+}
+
+function replacePageHash(page){
+  const url=new URL(location.href);
+  url.hash=String(page);
+  history.replaceState(null,'',url);
+}
+
+function pushPageHash(page){
+  const url=new URL(location.href);
+  url.hash=String(page);
+  history.pushState(null,'',url);
+}
+
+function setArchiveQuery(key,value){
+  const url=new URL(location.href);
+  url.search='';
+  url.searchParams.set(key,value);
+  url.hash=String(PAGES[index]);
+  history.replaceState(null,'',url);
+}
+
+function appendSearchResult({pageIndex,compact,hits,countLabel,keepSearchOpen=false}){
+  const item=document.createElement('li');
+  item.className='search-result';
+  const head=document.createElement('div');
+  head.className='search-result-head';
+  const link=document.createElement('a');
+  link.className='search-result-page';
+  link.href=hrefForPage(PAGES[pageIndex]);
+  link.textContent=`Лист ${PAGES[pageIndex]}`;
+  link.addEventListener('click',event=>{
+    if(event.button!==0||event.metaKey||event.ctrlKey||event.shiftKey||event.altKey) return;
+    event.preventDefault();
+    if(pageIndex!==index) pushPageHash(PAGES[pageIndex]);
+    showImage(pageIndex);
+    if(keepSearchOpen){
+      setPanelMode('search');
+      setPanelOpen(true);
+    } else {
+      showTranscriptMatch(hits[0]?.term||'');
+    }
+  });
+  const count=document.createElement('span');
+  count.className=`search-result-count${countLabel?' is-qualified':''}`;
+  count.textContent=countLabel||`${hits.length} совп.`;
+  head.append(link,count);
+  item.append(head);
+
+  if(hits.length){
+    hits.slice(0,2).forEach(({at,term})=>{
+      const start=Math.max(0,at-72);
+      const end=Math.min(compact.length,at+term.length+96);
+      const snippet=document.createElement('p');
+      snippet.className='search-snippet';
+      appendHighlighted(
+        snippet,
+        `${start?'…':''}${compact.slice(start,end)}${end<compact.length?'…':''}`,
+        term,
+        [...normalizeSearch(term)].length===1
+      );
+      item.append(snippet);
+    });
+  } else {
+    const notesAt=compact.indexOf('Notes:');
+    const start=notesAt===-1?0:notesAt;
+    const end=Math.min(compact.length,start+190);
+    const snippet=document.createElement('p');
+    snippet.className='search-snippet';
+    snippet.textContent=`${start?'…':''}${compact.slice(start,end)}${end<compact.length?'…':''}`;
+    item.append(snippet);
+  }
+  searchResults.append(item);
+}
+
+function searchArchive(query){
+  const normalizedQuery=normalizeSearch(query);
+  searchResults.replaceChildren();
+  searchView.scrollTop=0;
+  let matchingPages=0, totalMatches=0;
+
+  files.forEach((filename,pageIndex)=>{
+    const key=filename.split('/').pop();
+    const source=window.PAGE_TRANSCRIPTS?.[key]||'';
+    const compact=source.replace(/\s+/g,' ').trim();
+    const positions=matchPositions(normalizeSearch(compact),normalizedQuery);
+    if(!positions.length) return;
+    matchingPages+=1;
+    totalMatches+=positions.length;
+    appendSearchResult({
+      pageIndex,
+      compact,
+      hits:positions.map(at=>({at,term:query}))
+    });
+  });
+
+  searchSummary.textContent=matchingPages
+    ? `«${query}»: ${totalMatches} совпадений на ${matchingPages} листах`
+    : `«${query}»: совпадений нет`;
+  if(!matchingPages){
+    const empty=document.createElement('li');
+    empty.className='search-empty';
+    empty.textContent='Попробуйте фамилию, псевдоним, адрес или фразу из переписки.';
+    searchResults.append(empty);
+  }
+}
+
+function pageQualifier(person,page){
+  const groups=[
+    ['probablePages','probableLabel'],
+    ['continuationPages','continuationLabel'],
+    ['variantPages','variantLabel'],
+    ['accountPages','accountLabel']
+  ];
+  for(const [pagesKey,labelKey] of groups){
+    if(person[pagesKey]?.includes(page)) return person[labelKey];
+  }
+  return '';
+}
+
+function searchPerson(key){
+  const person=PEOPLE[key];
+  if(!person) return false;
+  searchResults.replaceChildren();
+  searchView.scrollTop=0;
+  setPanelMode('search');
+  transcriptTitle.textContent=`Упоминания: ${person.label}`;
+  searchSummary.textContent=person.summary;
+
+  person.pages.forEach(page=>{
+    const pageIndex=PAGES.indexOf(page);
+    if(pageIndex===-1) return;
+    const filename=files[pageIndex].split('/').pop();
+    const source=window.PAGE_TRANSCRIPTS?.[filename]||'';
+    const compact=source.replace(/\s+/g,' ').trim();
+    const normalized=normalizeSearch(compact);
+    const hits=person.terms.flatMap(term=>
+      termPositions(normalized,term).map(at=>({at,term}))
+    ).sort((a,b)=>a.at-b.at||b.term.length-a.term.length)
+      .filter((hit,position,all)=>
+        position===0||hit.at>=all[position-1].at+all[position-1].term.length
+      );
+    appendSearchResult({
+      pageIndex,
+      compact,
+      hits,
+      countLabel:pageQualifier(person,page),
+      keepSearchOpen:true
+    });
+  });
+  setPanelOpen(true);
+  return true;
+}
+
 function applyZoom(){
-  img.style.transform=`scale(${scale})`;
-  wrapper.style.width=`${Math.max(viewer.clientWidth, naturalW*scale)}px`;
-  wrapper.style.height=`${Math.max(viewer.clientHeight, naturalH*scale)}px`;
+  const width=naturalW*scale, height=naturalH*scale;
+  img.style.width=`${width}px`;
+  img.style.height=`${height}px`;
+  wrapper.style.width=`${Math.max(viewer.clientWidth,width)}px`;
+  wrapper.style.height=`${Math.max(viewer.clientHeight,height+controlsClearance)}px`;
 }
 
 function getFitScale(){
   if(!naturalW||!naturalH) return 1;
-  return Math.min(viewer.clientWidth/naturalW, viewer.clientHeight/naturalH, 1);
+  const availableHeight=Math.max(160,viewer.clientHeight-controlsClearance);
+  return Math.min(viewer.clientWidth/naturalW, availableHeight/naturalH, 1);
 }
 
 function centerScroll(){
@@ -144,7 +688,7 @@ function centerScroll(){
   viewer.scrollTop=(wrapper.offsetHeight-viewer.clientHeight)/2;
 }
 
-function fitToScreen(){ scale=getFitScale(); applyZoom(); centerScroll(); updateInfo(); }
+function fitToScreen(){ fitMode=true; scale=getFitScale(); applyZoom(); centerScroll(); updateInfo(); }
 
 // Zoom about a fixed point in the viewport (centre by default), so zooming
 // while panned no longer drifts off the part you were looking at.
@@ -154,6 +698,7 @@ function zoomAbout(factor,clientX,clientY){
   const py=(clientY??rect.top+viewer.clientHeight/2)-rect.top;
   const contentX=px+viewer.scrollLeft, contentY=py+viewer.scrollTop;
   const old=scale;
+  fitMode=false;
   scale=Math.max(.1,Math.min(20,scale*factor));
   applyZoom();
   const ratio=scale/old;
@@ -164,32 +709,129 @@ function zoomAbout(factor,clientX,clientY){
 
 function showImage(i){
   if(i<0||i>=files.length) return;
+  const request=++imageRequest;
+  index=i;
+  updateInfo();
+  updateTranscript();
   showStatus('Загрузка…');
   const probe=new Image();
   probe.onload=()=>{
+    if(request!==imageRequest) return;
     showStatus('');
-    index=i;
     img.src=probe.src;
     img.alt=`Том 28, лист ${PAGES[i]} — скан материалов дела`;
     naturalW=probe.naturalWidth; naturalH=probe.naturalHeight;
-    scale=getFitScale(); applyZoom(); centerScroll(); updateInfo();
+    fitMode=true; scale=getFitScale(); applyZoom(); centerScroll(); updateInfo();
     if(index+1<files.length) new Image().src=files[index+1];
     if(index-1>=0) new Image().src=files[index-1];
-    history.replaceState(null,'',`#${PAGES[index]}`);
+    replacePageHash(PAGES[index]);
+    pageAnnouncement.textContent=pendingPageAnnouncement||
+      `Открыт лист ${PAGES[index]}, ${index+1} из ${files.length}`;
+    pendingPageAnnouncement='';
   };
   // The old viewer discarded load errors, leaving the previous page visible
   // with no hint that anything failed.
-  probe.onerror=()=>showStatus(`Не удалось загрузить лист ${PAGES[i]}`,true);
+  probe.onerror=()=>{
+    if(request!==imageRequest) return;
+    img.removeAttribute('src'); img.alt=''; naturalW=0; naturalH=0;
+    showStatus(`Не удалось загрузить лист ${PAGES[i]}`,true);
+  };
   probe.src=files[i];
 }
 
+function indexFromPageValue(raw){
+  const value=raw.trim();
+  if(!/^\d+$/.test(value)) return -1;
+  return PAGES.indexOf(Number(value));
+}
+
+pageJumpForm.addEventListener('submit',event=>{
+  event.preventDefault();
+  const targetIndex=indexFromPageValue(pageJumpInput.value);
+  if(targetIndex===-1){
+    pageJumpInput.setCustomValidity(
+      'Такого листа в томе нет. Доступны лист 3 и листы с 6 по 58.'
+    );
+    pageJumpInput.setAttribute('aria-invalid','true');
+    pageJumpInput.reportValidity();
+    pageJumpInput.select();
+    return;
+  }
+  pageJumpInput.setCustomValidity('');
+  pageJumpInput.removeAttribute('aria-invalid');
+  setPanelOpen(false);
+  pageJumpInput.blur();
+  if(targetIndex===index){
+    replacePageHash(PAGES[index]);
+    pageAnnouncement.textContent=`Уже открыт лист ${PAGES[index]}`;
+    return;
+  }
+  location.hash=String(PAGES[targetIndex]);
+});
+
+pageJumpInput.addEventListener('input',()=>{
+  pageJumpInput.setCustomValidity('');
+  pageJumpInput.removeAttribute('aria-invalid');
+});
+pageJumpInput.addEventListener('keydown',event=>{
+  if(event.key==='Enter'){
+    event.preventDefault();
+    pageJumpForm.requestSubmit();
+    return;
+  }
+  if(event.key==='Escape'){
+    event.preventDefault();
+    event.stopPropagation();
+    pageJumpInput.value=String(PAGES[index]);
+    pageJumpInput.setCustomValidity('');
+    pageJumpInput.removeAttribute('aria-invalid');
+    pageJumpInput.select();
+  }
+});
+
+searchForm.addEventListener('submit',event=>{
+  event.preventDefault();
+  const query=searchInput.value.trim();
+  if(query.length<2){
+    searchInput.setCustomValidity('Введите не меньше двух знаков');
+    searchInput.reportValidity();
+    return;
+  }
+  searchInput.setCustomValidity('');
+  setArchiveQuery('q',query);
+  setPanelMode('search');
+  searchArchive(query);
+  setPanelOpen(true);
+});
+searchInput.addEventListener('input',()=>searchInput.setCustomValidity(''));
+
 document.addEventListener('keydown',e=>{
-  if(e.key==='ArrowRight'||e.key==='PageDown'){ if(index<files.length-1) showImage(index+1); }
-  else if(e.key==='ArrowLeft'||e.key==='PageUp'){ if(index>0) showImage(index-1); }
+  if(e.key==='Escape'&&transcriptPanel.classList.contains('open')){
+    setPanelOpen(false,true);
+    return;
+  }
+  const target=e.target;
+  const isInteractive=target instanceof Element&&(
+    target.closest('input,textarea,select,a,button,[contenteditable="true"],#transcriptPanel')
+  );
+  if(isInteractive) return;
+  if(e.key==='/'){
+    e.preventDefault();
+    searchInput.focus();
+    searchInput.select();
+  }
+  else if(e.key==='g'||e.key==='G'||e.key==='п'||e.key==='П'){
+    e.preventDefault();
+    pageJumpInput.focus();
+    pageJumpInput.select();
+  }
+  else if(e.key==='ArrowRight'){ if(index<files.length-1) showImage(index+1); }
+  else if(e.key==='ArrowLeft'){ if(index>0) showImage(index-1); }
   else if(e.key==='+'||e.key==='='){ zoomAbout(1.25); }
   else if(e.key==='-'){ zoomAbout(.8); }
-  else if(e.key==='0'){ scale=1; applyZoom(); centerScroll(); updateInfo(); }
+  else if(e.key==='0'){ fitMode=false; scale=1; applyZoom(); centerScroll(); updateInfo(); }
   else if(e.key==='f'||e.key==='F'||e.key==='а'||e.key==='А'){ fitToScreen(); }
+  else if(e.key==='t'||e.key==='T'||e.key==='е'||e.key==='Е'){ toggleTranscript(); }
 });
 
 viewer.addEventListener('wheel',e=>{
@@ -256,20 +898,47 @@ document.getElementById('zoomInBtn').addEventListener('click',()=>zoomAbout(1.25
 document.getElementById('zoomOutBtn').addEventListener('click',()=>zoomAbout(.8));
 zoomLabel.addEventListener('click',fitToScreen);
 zoomLabel.addEventListener('keydown',e=>{ if(e.key==='Enter'||e.key===' '){ e.preventDefault(); fitToScreen(); } });
+textBtn.addEventListener('click',()=>toggleTranscript());
+document.getElementById('closeTranscriptBtn').addEventListener('click',()=>setPanelOpen(false,true));
 
-window.addEventListener('resize',()=>{ applyZoom(); });
+function updateViewerBarHeight(){
+  document.documentElement.style.setProperty('--viewer-bar-height',`${viewerBar.offsetHeight}px`);
+}
+new ResizeObserver(updateViewerBarHeight).observe(viewerBar);
+updateViewerBarHeight();
+window.addEventListener('resize',()=>{ if(fitMode) fitToScreen(); else applyZoom(); });
 
 function indexFromHash(){
-  const m=(location.hash||'').match(/\d+/);
-  if(!m) return -1;
-  return PAGES.indexOf(parseInt(m[0],10));
+  const match=/^#(\d+)$/.exec(location.hash);
+  return match?PAGES.indexOf(Number(match[1])):-1;
 }
 window.addEventListener('hashchange',()=>{
   const i=indexFromHash();
-  if(i!==-1&&i!==index) showImage(i);
+  if(i===-1){
+    replacePageHash(PAGES[index]);
+    pageAnnouncement.textContent=
+      `Такого листа в томе нет. Остается открыт лист ${PAGES[index]}`;
+    return;
+  }
+  if(i!==index) showImage(i);
 });
 
-showImage(Math.max(0,indexFromHash()));
+const initialIndex=indexFromHash();
+if(initialIndex===-1&&location.hash){
+  pendingPageAnnouncement='Запрошенного листа в томе нет. Открыт лист 3.';
+}
+showImage(Math.max(0,initialIndex));
+const initialParams=new URLSearchParams(location.search);
+const initialPerson=initialParams.get('person');
+const initialQuery=initialParams.get('q')?.trim()||'';
+if(initialPerson&&PEOPLE[initialPerson]){
+  searchPerson(initialPerson);
+} else if(initialQuery.length>=2){
+  searchInput.value=initialQuery;
+  setPanelMode('search');
+  searchArchive(initialQuery);
+  setPanelOpen(true);
+}
 </script>
 </body>
 </html>
