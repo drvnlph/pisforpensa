@@ -1,5 +1,5 @@
 // ── Reading settings ──────────────────────
-// Font / colour / link style live on <body> as data attributes and persist
+// Colour and link style live on <body> as data attributes and persist
 // across visits. Storage can throw (private mode, blocked cookies), so every
 // access is guarded — a reader who blocks it still gets a working page.
 const PREFS='pfp:prefs';
@@ -16,23 +16,23 @@ function writePref(key,value){
 
 // Mark the control matching `value` as active, within one group.
 function syncControls(selector,attr,value){
-  document.querySelectorAll(selector).forEach(b=>
-    b.classList.toggle('active',b.dataset[attr]===value));
+  document.querySelectorAll(selector).forEach(b=>{
+    const active=b.dataset[attr]===value;
+    b.classList.toggle('active',active);
+    b.setAttribute('aria-pressed',String(active));
+  });
 }
 
-function setFont(f){ document.body.setAttribute('data-font',f); syncControls('.ctrl-fontbtn','f',f); writePref('font',f) }
 function setColor(c){ document.body.setAttribute('data-color',c); syncControls('.ctrl-swatch','c',c); writePref('color',c) }
 function setLinks(mode){ document.body.setAttribute('data-links',mode); syncControls('.ctrl-linkbtn','links',mode); writePref('links',mode) }
 
 // Restore saved choices, falling back to whatever the markup already declares.
 (function restorePrefs(){
   const p=readPrefs(), b=document.body;
-  setFont(p.font||b.getAttribute('data-font')||'a');
   setColor(p.color||b.getAttribute('data-color')||'slate');
-  setLinks(p.links||b.getAttribute('data-links')||'host');
+  setLinks(p.links||b.getAttribute('data-links')||'quiet');
 })();
 
-document.querySelectorAll('.ctrl-fontbtn').forEach(el=>el.addEventListener('click',()=>setFont(el.dataset.f)));
 document.querySelectorAll('.ctrl-swatch').forEach(el=>el.addEventListener('click',()=>setColor(el.dataset.c)));
 document.querySelectorAll('.ctrl-linkbtn').forEach(el=>el.addEventListener('click',()=>setLinks(el.dataset.links)));
 
@@ -77,12 +77,16 @@ window.addEventListener('scroll',()=>{
   const scrollingDown=y>lastY+5;
   if(scrolledPastHeader&&scrollingUp&&!barVisible){
     mobileBar.classList.add('visible');barVisible=true;
+    mobileBar.setAttribute('aria-hidden','false');
+    mobileBar.inert=false;
     if(progressBar) progressBar.classList.add('bar-hidden');
   }
   if((scrollingDown||!scrolledPastHeader)&&barVisible){
     mobileBar.classList.remove('visible');barVisible=false;
     if(progressBar) progressBar.classList.remove('bar-hidden');
-    closeDropdown();
+    if(dropdownOpen) closeDropdown();
+    mobileBar.setAttribute('aria-hidden','true');
+    mobileBar.inert=true;
   }
   lastY=y;
 },{passive:true});
@@ -95,9 +99,12 @@ function openDropdown(){
   if(!mobileDropdown||!mobileBar||!tocBtn||!mobileChapter) return;
   dropdownOpen=true;
   mobileDropdown.classList.add('open');
+  mobileDropdown.setAttribute('aria-hidden','false');
+  mobileDropdown.inert=false;
   mobileBar.classList.add('dropdown-open');
   tocBtn.classList.add('open');
-  // Crossfade chapter name → "Содержание"
+  tocBtn.setAttribute('aria-expanded','true');
+  // Crossfade the chapter name into "Содержание".
   savedChapterText=mobileChapter.textContent;
   mobileChapter.classList.add('swapping');
   setTimeout(()=>{
@@ -120,10 +127,14 @@ function openDropdown(){
 }
 function closeDropdown(){
   if(!mobileDropdown||!mobileBar||!tocBtn||!mobileChapter) return;
+  if(!dropdownOpen) return;
   dropdownOpen=false;
   mobileDropdown.classList.remove('open');
+  mobileDropdown.setAttribute('aria-hidden','true');
+  mobileDropdown.inert=true;
   mobileBar.classList.remove('dropdown-open');
   tocBtn.classList.remove('open');
+  tocBtn.setAttribute('aria-expanded','false');
   // Crossfade back to chapter name
   mobileChapter.classList.add('swapping');
   setTimeout(()=>{
@@ -139,6 +150,13 @@ function closeDropdown(){
 
 if(tocBtn) tocBtn.addEventListener('click',()=>{
   if(dropdownOpen)closeDropdown(); else openDropdown();
+});
+
+document.addEventListener('keydown',e=>{
+  if(e.key==='Escape'&&dropdownOpen){
+    closeDropdown();
+    tocBtn?.focus();
+  }
 });
 
 const tocMobileList=document.getElementById('tocMobileList');
@@ -204,17 +222,38 @@ window.addEventListener('resize',updateFnPositions,{passive:true});
 updateFnPositions();
 
 document.querySelectorAll('.fn-ref a[data-fn]').forEach(a=>{
+  const ref=a.closest('.fn-ref');
+  const popup=ref?.querySelector('.fn-popup');
+  if(popup){
+    const popupId=`fn-popup-${a.dataset.fn}`;
+    popup.id=popupId;
+    popup.setAttribute('role','note');
+    popup.setAttribute('aria-hidden','true');
+    a.setAttribute('aria-controls',popupId);
+    a.setAttribute('aria-expanded','false');
+  }
   a.addEventListener('click',e=>{
     e.preventDefault();
-    const ref=a.closest('.fn-ref');
     const wasActive=ref.classList.contains('active');
-    document.querySelectorAll('.fn-ref.active').forEach(r=>r.classList.remove('active'));
-    if(!wasActive) ref.classList.add('active');
+    document.querySelectorAll('.fn-ref.active').forEach(r=>{
+      r.classList.remove('active');
+      r.querySelector('a[data-fn]')?.setAttribute('aria-expanded','false');
+      r.querySelector('.fn-popup')?.setAttribute('aria-hidden','true');
+    });
+    if(!wasActive){
+      ref.classList.add('active');
+      a.setAttribute('aria-expanded','true');
+      popup?.setAttribute('aria-hidden','false');
+    }
   });
 });
 document.addEventListener('click',e=>{
   if(!e.target.closest('.fn-ref')){
-    document.querySelectorAll('.fn-ref.active').forEach(r=>r.classList.remove('active'));
+    document.querySelectorAll('.fn-ref.active').forEach(r=>{
+      r.classList.remove('active');
+      r.querySelector('a[data-fn]')?.setAttribute('aria-expanded','false');
+      r.querySelector('.fn-popup')?.setAttribute('aria-hidden','true');
+    });
   }
 });
 
@@ -236,12 +275,4 @@ document.querySelectorAll('.content a[href]').forEach(a=>{
   } else if(href.startsWith('#')){
     a.setAttribute('data-int','');
   }
-});
-
-// ── Sensitive blocks: click veil / button to reveal, corner button to hide ──
-document.querySelectorAll('.sensitive').forEach(block=>{
-  const veil=block.querySelector('.sensitive-veil');
-  const hide=block.querySelector('.sensitive-hide');
-  if(veil) veil.addEventListener('click',()=>block.setAttribute('data-revealed','true'));
-  if(hide) hide.addEventListener('click',()=>block.setAttribute('data-revealed','false'));
 });

@@ -1,0 +1,3397 @@
+===== v28_gray-003.jpg =====
+7
+
+ПРОТОКОЛ
+осмотра предметов
+
+г. Пенза
+(место составления)
+
+«18» июня 2018 г.
+
+Осмотр начат в 16 ч 30 мин
+18 ч 30 мин
+
+Следователь следственного отдела УФСБ России по Пензенской области
+(наименование органа предварительного следствия или дознания, классный чин или звание, фамилия, инициалы следователя)
+старший лейтенант юстиции Болтышов Д.С.
+
+в присутствии понятых:
+
+(не участвуют, фотофиксация следственного действия)
+
+а также с участием технического специалиста Ганина И.А., в соответствии со ст.164, частью первой ст.176, частями первой-четвертой и шестой ст.177 УПК РФ в служебном кабинете №114 здания УФСБ России по Пензенской области произвёл осмотр предметов, изъятых в ходе обыска у Чернова А.С.
+
+Техническому специалисту Ганину И.А. разъяснены его права, обязанности и ответственность, предусмотренные ст. 58 (57) УПК РФ.
+
+[подпись]
+(подпись специалиста)
+
+В ходе осмотра применяются технические средства:
+
+фотоаппарат Canon D550, персональный компьютер (операционная система Windows 7)
+следователем
+(каких именно, кем именно)
+
+Осмотр производился в условиях смешанного освещения
+(освещенность)
+
+На осмотр представлен мобильный телефон «Alcatel» в пластиковом корпусе черного цвета, imei1: 354442081461127, imei2: 354442081461143. Телефон не упакован. На корпусе телефона имеются потёртости, сколы. При извлечении батареи телефона обнаружена сим-карта «Билайн» №897019917062189127.
+
+Далее телефон включается специалистом. В ходе осмотра содержимого указанного телефона обнаружено установленное приложение: «Keepass2Android». Специалистом осуществлен вход в файловую систему телефону, где обнаружен файл «base-keepas.kdbx», являющийся базой данных приложения «Keepass2Android». Указанный файл копируется и переносится на персональный компьютер с установленной операционной системой «Windows 7». На персональном компьютере с помощью установленной программы «KeePass» открывается файл «base-keepas.kdbx». В ходе осмотра указанной базы данных обнаружены следующие папки: «Корзина», «2», «дляакк», «new», «txt», «модем», «bit», «of». В ходе осмотра папки «txt» обнаружены подразделы, содержащие в себе текстовую информацию. Специалистом данная текстовая информация (имеющая отношение к расследуемому уголовному делу) копируется в файл формата «.doc». После чего обнаруженная текстовая информация распечатывается и приобщается к настоящему протоколу (Приложение №1 на 53 листах).
+
+===== v28_gray-006.jpg =====
+1
+[рукописно: 4]
+
+Приложение №1 к протоколу осмотра предметов от 18.06.2018
+
+Group: txt
+Title: Ovd
+Notes: В Пензе примерно 18 октября сотрудниками ФСБ после обысков на собственных квартирах были задержаны несколько антифашистов по подозрению в участии в созданной одним из них (Ильей Шакуровым, больше известным как Спайк) террористической группировке. Как минимум Илью до сих пор держат в заключении, подвергают пыткам и около недели (а может и до сих пор) не пускали к нему адвокатов. Что происходит сейчас неизвестно
+Creation Time: 29.10.2017 14:29:24
+
+Group: txt
+Title: Антй
+Notes: (22:20:44) Федя: Взяли нас за подозрение в терроризме, но у нас ничего не нашли. Выдвенули обвинение<br>У меня изъяли комп и бумаги по выживанию в дикой природе<br> комп взломали? ✓<br> Хз<br> про комп ничё не изветно? ✓<br> Нет<br>Просто изъяли<br>Про записную книгу Стаса ничего не знаю. В участке была куча его вещей (экипировка, литература и куча вещей для походов) ни про какую записную книгу не говорили<br> Я был один с отцом и охраняли меня сотрудники ФСБ из отдела по борьбе с терроризмом.<br>Про адвокатов будет известно только в выходные<br>Спрашивали про поход и чем там занимались, откуда карты взяли и зачем нам документы по выживанию в лесу и ведение борьбы с вооруженным противником? Спрашивали где Стас хотел делать госпереворот? Потом в участке спрашивали где и когда я с ним познакомился, что нас связывает, какие он нам давал указания, кто ещё состоит в антифашистском движении, считаем ли мы себя анархистами?<br> Спрашивали про самодельную запрещённую книгу о которой узнали из переписки, утверждали, что Стас готовит из нас бойцов для революции.<br>Спрашивали про группу нашу ( как сказали менты это террористическая группа людей в которой есть допустим пять человек и каждый отвечает за что то... Один за связь, другой за медикаменты и тд ...<br>Спрашивали про партизанов пензы<br>Спрашивали к чему же все таки Стас нас готовил и как часто и к кому он ездил в мск?<br>ПО МОЕМУ мнению они думают,что за ним кто то стоит выше и даёт указания, что делать дальше и ВОЗМОЖНО пытают его выбивая имена и прозвища<br>Спрашивали что мы будем делать если начнется революция?<br> От : ответы писать не буду, но там они все в духе ничего не знаю и не понимаю. Я простой антифашист и не люблю нацизм<br> Спрашивали про пару невтемных друзей из моей компании которые знают о наших с Стасом взглядах.<br>Слышал что хотят к одному из подозреваемых (достаточно близкий к Стасу так же как и отвечающий на вопросы)<br> Нашли у Стаса видеопоздравление от нас. (Видимо оттуда они нас всех и знают) У меня ничего не нашли и отпустили. я сам не понимаю на основании чего его все еще держат<br>Про особый порядок ничего не слышал<br>Не знаю дал ли Стас показания. Про девушку давшую показания против него слышу впервые от тебя.<br>Ему грозит от 15 лет. Статью не помню<br>ОТ 15?????????????????? ✓<br>не до:? ✓<br>Спрашивали они почему то только про Москву. мне показалась странной такая формулировка предложения и я уточнил: почему &quot;почему то только про мск&quot;? Должны были спросить и про другие города? Он ответил: мне известно, что он ездил в другие города, знакомиться с людьми, но это я оставил при себе.<br><br><br><br>1 - ближе всех к Стасу (на уровне отвечающего на вопросы) состоит в их группе. К нему должны были прийти с обыском. Больше о нем ничего не известно<br>Самого отвечающего зовут 2- так же близок к Стасу. Состоял в группе пока (по его словам) они не распались. Щас собирались возобновить деятельность, но тут вот это произошло<br>3- имя неизвестно пока что. На выходе отказался что бы ему делали капельницу. Состоял в группе на специальности инженер. Морально слаб. Отписался от группы и хотел заняться социальной деятельностью. По словам 2 он тусовщик.<br><br> 4 - самый старший из группы восход. Семьянин. Его описывают как самого адекватного. Скорее всего скрывается.<br>О местоположении товарищей неизвестно<br>Стас сидит в ИВС (неизвестно в каком). Будет там сидеть +- 2 месяца до суда, но он может бесконечно переноситься<br>Связь с родными наладится в выходные<br>Подвергались ли пыткам? - ТК я был с отцом, то мне ничего не было. Просто орали и угрожали сроками. Про Стаса неизвестно<br>Закинули жиру наркоту или нет - хз, но обнаружена при нем то ли гашиш, то ли марихуана. Его вроде подержали 30 минут и отпустили т к взять с него нечего<br>Планы у Анатолия на данный момент залечь на дно и ждать. [неразборчиво: Он думает] что ему ничего не будет<br>У мкня есть предположения кто эта девушка давшая [неразборчиво: против него] показания. Я буду прорабатывать эту гипотизу<br><br>Мусора сказали шо Стас научил [неразборчиво: 2] пиздеть с мусорами<br>(22:36:50) PSYCHOTHERAPIST: Спрашивали про самодельную запрещённую книгу о которой узнали из
+
+[печать: «Федеральная служба безопасности Российской Федерации. Управление по Пензенской области», Д]
+[подпись]
+
+===== v28_gray-007.jpg =====
+2
+[рукописно: 5]
+
+переписки, утверждали, что Стас готовит из нас бойцов для революции.<br><br>что за переписки?<br>(22:37:04) PSYCHOTHERAPIST: Спрашивали про группу нашу ( как сказали менты это террористическая группа людей в которой есть допустим пять человек и каждый отвечает за что то... Один за связь, другой за медикаменты и тд ...<br><br>пиздец. откуда они могли это узнать<br>(22:37:53) PSYCHOTHERAPIST: <br> Нашли у Стаса видеопоздравление от нас. (Видимо оттуда они нас всех и знают) У меня ничего не нашли и отпустили. я сам не понимаю на основании чего его все еще держат<br><br>где нашли? на флешке? на телефоне? на компе?<br>(22:37:53) Федя: я так понял в вк))))))))))))))))))00<br>(22:38:04) PSYCHOTHERAPIST: что за девушка давшая против него показания?<br>(22:38:29) PSYCHOTHERAPIST: 15 лет это прокурорская цифра, слова прокурора всегда надо на 5 делить<br>(22:38:30) Федя: бля это восход, там с безопасностью не дружат<br>(22:39:01) Федя: хз, может в вк, может на флэшке<br>(22:39:14) Федя: не заню<br>(22:39:30) Федя: не знаю, что за баба<br>(22:40:01) PSYCHOTHERAPIST: поняла<br>(22:40:07) PSYCHOTHERAPIST: скинешь это связистам?<br>(22:40:13) PSYCHOTHERAPIST: хотя лучше не надо<br>(22:40:18) PSYCHOTHERAPIST: я перешлю кириллу это
+Creation Time: 27.10.2017 0:09:17
+
+Group: txt
+Title: заметки
+Notes:
+http://dropmefiles.com/oRbf3
+https://mega.nz/#!2IBFRRgS!L8b9gG1D9Fzz-wwl32VYg3zv0jy6amE5d2V5zB13utQ
+cryptsetup
+kolourpaint4
+LinageOS
+Auslogics boostspeed premium, Toolwiz care
+https://www.guerrillamail.com
+
+https://ru.wikipedia.org/wiki/GnuPG
+https://www.pgpru.com/faq/obschie
+https://www.opennet.ru/docs/RUS/gpg_faq/
+
+https://www.linux.org.ru/forum/mobile/13455353
+
+https://electrum.org/#home
+
+Если у вас включены JS, то удаленный сервер будет видеть как минимум вашу системную локаль и системное время.
+
+rm -rf ~/.pia_manager/
+ttf-mscorefonts-installer
+sudo apt install ttf-mscorefonts-installer
+gpg2 --delete-secret-key name
+ps aux | egrep '(vpn(.)*udp)'
+firefox --version
+sudo apt install curl
+
+шрифты в телеграме
+sudo apt remove fonts-takao-pgothic
+
+For alternative XMPP servers check out https://www.cryptoparty.in/connect/contact/jabber and https://gultsch.de/compliance_ranked.html
+
+*101*1111#
+The key ID 'bzcqu@riseup.net ' configured for the current [неразборчиво: identity] does not yield a usable OpenPGP key.
+
+https://mvd.ru/wanted
+
+[печать: «Федеральная служба безопасности Российской Федерации. Управление по Пензенской области», Д]
+[подпись]
+
+===== v28_gray-008.jpg =====
+3
+[рукописно: 6]
+
+Please ensure that you have a valid, not expired OpenPGP key and that your account settings point to that key.
+If your key is not expired, then check if you did set Owner trust to full or ultimate.
+
+На собрании группой Сияж было принято решение об окончании всякого взаимодействия и сотрудничества с Давидом, ввиду следующих причин и отсутствия в нем показателей присущих, по нашему мнению, товарищу и анархисту. Вышеуказанная личность, пользуясь своим положением более авторитетного и опытного товарища систематически оказывала давление на группу. Являясь нашим методистом и разъясняя нам вопросы безопасности, сам неоднократно нарушал негласные правила, что подставляло под неоправданный риск жизни и свободы товарищей. Так же нам не понятны методы его работы. Способы проверки им некоторых людей не оправдали себя и оказались не эффективными. (например "стрессуха") P. S.: Давид опровергает данную ошибку, хотя она очевидна не только нашей группе. В спорных вопросах (более того в вопросах не имеющих к нему прямого отношения) отказывается слышать мнение других товарищей, а тех кто продолжает отстаивать свою позицию пытается унизить и отстранить. Что противоречит основным постулатам. Манипулирует товарищами с целью самоутверждения, прикрывая все это идеями анархизма. Мы можем назвать куда больше причин нашего нежелания взаимодействовать с Давидом и могли бы привести конкретные примеры, но не будем этого делать так как понимаем, что это нарушает личную безопасность нашу, его и других товарищей. Так же для нас не будет неожиданностью попытка Давида отстранить нас от взаимодействия с другими группами, пользуясь, опять же собственным авторитетом. В свою очередь мы ни в коем случае не хотим переходить на личности или задевать его человеческое достоинство, просто для себя не видим возможным дальнейшее взаимодействие с ним. Так же мы не хотим никаких расколов внутри движения, готовы взаимодействовать с каждым кто готов взаимодействовать с нами. Если же таковых среди товарищей не найдётся, все наши усилия будут направлены на рост и развитие внутри своего города.
+
+[18:58:35] <vpered> ага
+[18:58:35] <317> Вот кароч
+[19:00:14] <vpered> ожидаемо)
+[19:01:33] <vpered> для меня Давид остаётся анархистом, ему стоит задуматься над этим, безусловно. рзн также остаются для меня товарищами и анархистами, при чём, нихуёво поднявшимися в моих глазах из-за этих слов.
+
+Т.е. прямо сейчас принимаем слова "ам-го","гра-ане", шутку, оскорбительную лексику
+
+так вот, новый дистрибутив <a href="https://www.whonix.org/">https://www.whonix.org/</a>
+
+короче это как таилс, только там рабочая система запускается в виртуалке
+
+и есть инструкция как впн натсроить
+
+<a href="https://www.whonix.org/wiki/Tunnels/Connecting_to_a_VPN_before_Tor">https://www.whonix.org/wiki/Tunnels/Connecting_to_a_VPN_before_Tor</a>
+
+чтобы было все по фен-шую (VPN → Tor → интернет)
+
+только сложная канешн
+
+но легко и не получится
+
+а, ну ограничение такое - компьютер для whonix должен бысть достаточно мощным чтобы виртуалку запускать
+
+1. KK - Работа в белке.
+2. CC - Идеологическая часть.
+3. NN - Цели и задачи.
+4. DD - Инженерка
+MM - Тактика
+LL - Разведка
+AA - Связь
+EE - Медицина
+5. BB - взаимодействия групп по проведению съездов и собраний (очное, заочное)
+
+[печать: «Федеральная служба безопасности Российской Федерации. Управление по Пензенской области», Д]
+[подпись]
+
+===== v28_gray-009.jpg =====
+4
+[рукописно: 7]
+
+6. HH - РГ по лагерю подготовки летом
+7. GG - по выработке взаимодействия с группами с особым статусом.
+8. FF - пиар, разработка идентичности
+9. II - РГ по разработке протоколов действий в различных ситуациях. состав
+10. JJ - РГ по теоретической подготовке (видосики, статьи, книжки)
+
+Creation Time: 16.06.2017 0:19:05
+
+Group: txt
+Title: контакты 5.11
+Notes: РГ:
+Белка: Антон
+Тактика: Антон
+Инженерка: Антон
+Связь: Иван
+Медицина: Настя
+ВВ: Иван ?
+РГ по разработке протоколов действий в различных ситуациях. состав РГ: Антон
+
+Контакты:
+
+Иван: почта gomailgo@krutt.org; жабер digitalcreator@riseup.net
+Антон: почта bzcqu@riseup.net; жабер oudfho@cocaine.ninja, hlvcfrwl@autistici.org
+Настя: почта zisjy@riseup.net; жабер krwly@jabber.calyxinstitute.org, gfhrid@horsefucker.org, mxwmp@riseup.net, lshdy@nigge.rs
+
+Публичные ключи:
+
+Настя
+-----BEGIN PGP PUBLIC KEY BLOCK-----
+Version: GnuPG v2
+
+mQENBFIOIkYBCADUHFz5+WelO5ErJI2bqv7+IclnheONg/0j9nsxQZAZnww0EfBe
+iSsbl+zUOQ0jqGso4zh6J2P5De4NEnHmtSip7CBmUJ/Wa4PycmrxLXFKgwuLNbkA
+Q41vVk1xVMGrd/pHG6PI7C9sXyhv5FM01dqVnfCLLSwpXV67UX9svaxBIvolZiNa
+v9OgKgamIBfmZFE2XwMS706BsNCSUwG+eSqnLGYkgqhyOEpOuCnaHJFNYi6LPcZV
+4UQInQp642sLvLyll0vQ+vC2/oPJ27QV6XAtrfXT9xmFadQ31wUG4J3UCmyO2Zjp
+aLIZP9AwFL8i6coJFDYEJqoevrLXgT077wUXABEBAAGOGHppc2p5IDx6aXNqeUBy
+aXNIdXAubmV0PokBNwQTAQgAIQUCWU6WRglbAwULCQgHAgYVCAKKCwIEFgIDAQIe
+AQIXgAAKCRAJrrXqoFeHnZAPCAC28sBzTalvy52a8CvzNIWJfOKd3Yp8J+J34x7u
+E60+G+HzM7r1AGLjDaldE43s/xzVo4WNx5LUHO4Fu0QFvaQEaXKq5b8VGG3Bx7CE
+0Cw3BcJ+/c8WfLk73b/53OnqX2XjH+Jeb1xSJUcA0OpXRA3WfxXHoBv5wObOr4jF
+g5gZY4BlaHdPZ/CeMmrux316MS1AKqz0wdNOgnAuch/LIrqXgjkPLb+PjKyHbFgo
+RmYncED1SZrqX1a3YyB/xRE/SFhzA62YLV53n1Vh280XBOajHZaWNaAVpPxXsXhR
+407D745yrNdHp3w6uk8quXyq1XLQKd4/rA/cDAsioS1gELXcuQENBFIOIkYBCACO
+PjJWCc8vVme+iUfW5sqKCQfcGqBEMI55g4/DH+MwdX/rSgD2xVjC+ihHIpBKQmgF
+p6y9QaFXyHzhbt+YkfNKbUgeY57gLIAVXJaPDYol+xZBDha5NmxF1GVVEKrlbsfT
+UFVN9W7c0rZm8gitJWD1YeB19C3D0/4UiuF/LHn/WEMNE2Whf7z1Fxv2VelNuPQI
+1Xy2U5+dosp9qdpq7eathKT5QUtLhzcFR8MmrlPmXbW1xu7c05TIUNgGxgAtzJs4
+FNSr6XpzKPXLaSY/xb8YYrj/j8/iPMA8IvylQ8KcnN4LI9Wf7gjiNlvn1wkb3uak
+GoFoDv4GvNA819qsLyr7ABEBAAGJAR8EGAEIAAKFAIIOIkYCGwwACgkQCa616qBX
+h50Mygf8CIXFGxaNc5X7AfYNMBNWOmo9uEg0aw9vlYHV/6LEu/mDE+7SyVbCBGNh
+InEC5NCzpz4u3ZRcPG+wdiyr6pOKSBLaYfv6pDSysQHJSxwaWC5md4ugYHL9QdKy
+at2v1gRATQrrIDwfSnHLZR8V9WyjDb5zS0ewPd4UXVvDHcuwBatORprhg610EXIs
+Cvv3Dpw6+uPcBCZyyg5hsv/LkIQ2PjX/QitU8dXsqx7vGbt[неразборчиво]GodxPToQ8s9Cg
+bnKLz5O3T2+kGTmWK2y082SS0cACAuc6DAynGW[неразборчиво]5Ag4br9rb9YdS
+gJhvP4rCfVnK1NkhW/PtX3Ej5NpBPQ==
+=ZUcO
+-----END PGP [неразборчиво] BLOCK-----
+
+[печать: «Федеральная служба безопасности Российской Федерации. Управление по Пензенской области», Д]
+[подпись]
+
+===== v28_gray-010.jpg =====
+5
+[рукописно: 8]
+
+Иван
+-----BEGIN PGP PUBLIC KEY BLOCK-----
+Version: GnuPG v2
+
+mQENBFhwADIBCADGTK1YxUZ8nILK6WWefTzpJFHxKmV9JAHYhq0nZGaXLd6aYkIM
+fBSrQT/9/x31EqxMYhX4fHPAmNEVIbC6n1JppaaWSbpGYck8MwIM206HbzIL86+A
+P4gV6r4gJfXIVECr/eR7SIVZvNtyML8fc0eO13VigXucOoJfMlyxsx3FIUVPaLQs
+sjTAV/q+htrwMIX6iftF6KOyPj9VUDSUEaWf890NXFtx2sx/IKMhJTilpksScuvk
+I7tYMd2qDX6aMGnKnJedclyIwTHDedX6exQCmEyJZ8yOZ/fAemENNI/NJZ4ro2gD
+PIERQxqDnHrvmbTTocKdpYDVXHI8IO00Zm11ABEBAAGOLtCa0YPQutC70LAg0JrQ
+vtC70LTRg9C9OLAgPGdvbWFpbGdvQGtydXROLm9yZz6JATCEEWEIACEFAIhwADIC
+GwMFCwkIBwIGFQgJCesCBBYCAWECHgECF4AACgkQI4kJ0Fayy2qnrAf+J0gSCUND
+nTO9WbO7RQwOb8qbhF7NBBRY0NOzo+xYTNCszQtMWZ5wih3IVeizQOx+Xpvq74yz
+sNQ2Dte3yag7SpTng8Mi39feV8NSwPhN1MYlebAmDNwy3X1G4JZAs2ch2T2ZYRrH
+RJKei/OPUioiFM80B9J7LJWjHrE4ETwaibzhxjEcnYkHdetmnscCLOaFkuw/LZfu
+pYUyjn7q5jZMmnG+MIX7hoDmTJOsE9ayJ833d12k94EUYERVHRv7Le5ZjSfzj4hF
+BwnxeBA4VBOHmCncS07Dd0xjR5W8p/4tzUgpxLINny45SQeOTQ8Pz6h2NsGTrk6
+IzrERD3maqdY+rkBDQRYcAAyAQgAnMtsOwmAKMlg/76qG7aSoJML8NxJm+GOWelm
+FteS4XnDkySODjQwySSqxUDPCPGiTJ/2snvJEOXGOZJQHyTilxy9jq1Dc7W7Morq
+OXbPKJIjSSOMUUBBPNIeBUczyLrFvH4rOVSIslwAt48akLQ7xrZqg/FxiZKwes07
+BbUDtvOWGwZFAODCzAWgj4fiSSwaNgexPtqIDIp9LXkO2U08VSupo1zOXaYkurWC
+KDQ3tukhCsYDs8MFuhyxMETAYG3Ljt9TVMtofxOlvp7bQeFNhZXP89K7zSTOLtF9
+h7QLgHsvWtW7QovANSwPVLIfl4JFn6GNyJpSY7OiEXdEMz24SQARAQABiQEfBBgB
+CAAIBQJYcAAYAhsMAAoJEJeJCdBWsstqbOUH/2TlyQMxb6ks0rDB7B/ZpgekBCJJ
+ZOOJWA//WNrLnSnc2DV05b9Gh/2HMWQqJS4AvwAYps0WmH42016StjDxqXtFoXCq
+Famua3Q0Jy9crpU9LveLLOyO6Kvdm3812ZglqoReM3HeRNXjmU33YZjzt40cMBPk
+WMAvPKgJD/7Tzu6V5QPFmcJUIOJDYR3VGVwdldkPDsSMBu0chbhISoiHdaWVbEI
+ArMgXFraAdwbePZgej3X8e+AceW3Vazd2Ajd/g1XyM+3rCtxG9t+vXD/9GZnBKga
+QWzQnan/Kr30NQIDhiJutANZsyzVbUorYVZx76itQboNIJvy19Oxjv716LM=
+=+tVN
+-----END PGP PUBLIC KEY BLOCK-----
+
+Антон
+-----BEGIN PGP PUBLIC KEY BLOCK-----
+Version: GnuPG v2
+
+mQENBFjo+24BCAC2nShr/KgqkPpL0iwp+jbHjjO7CJfA8BzYZwnlUs+hdkOETsfc
+ulxnGLnInSWZNCT7yCZYVwagVILNGpVvw7DiKcUYKcZejGYNCHo+2gTT0ioRTybw
+q4k7hzv9ODP95xZNB/ttuX/bhqRfPk3jpbabtRZF9McQnm68N24iBwNoFrdZNWQ3
+tg2HZ10Q3U08QeKCEmmTW3sTGs9S56gm4PJ/12iWRZJmKwmudiSWq6e3HHjZ5yt
+cmOqZDx79Xu408MPdIZ3kVv1z2A0riR2S2vVU2mFSitQZ1ml0SJCejkgc40CkJyOY
+JFII/6FpjJcxMj035101ffiNaCSivu4EAXbhABEBAAGOG3RvbW9ycm93IDxiemNx
+dUByaXNIdXAubmV0PokBNwQTAQgAIQUCWOj7bglbAWULCQgHAgYVCAKKCwIEFgID
+AQIeAQIXgAAKCRCerwPa26Kt2bXDCACII9xku/xLQIhHogWeR4UuwzeCQDOjx+Py
+cl6Cnw003brITBJrkqkRDHKYdAzOVjm8G+mMzJ3/yRSP8c316EQ2ZMASSrHXgBNI
+IKFRSXSaY3emjOJS32WVxBhYiqOfvQtyg4/ZW2d+3SaN/Ax90LxnfsJS+TNP4ONA
+FSyFUF17AveZZj3G2s4nbQUDD2+t20c06uXFv8wwtUkXxFcxSd1733wo9IfiWpfu
+gSTJrmD3A+1bIKyDfKXw1zCkOOeSeLExGpVg2iwt0KMrQrOxfPYqEy8ZB6KGmmEc
+P+z03NPBnFxbKLNVnlVd71DMwubD9bSPrUqNUSITRE+MI3SgBohMuQENBFjo+24B
+CACvILKF/olh7cflKcN91ERZeySVTbuYOwmZqVy5jDrRH4/sUdPSOBWzBOA1uZZG
++AaqQqQhxSn9P32ewnCePtEt6rlESX9nWL2pNmZDsPTjXpGGgki6ry0loeq8z3ot
+e2IhbBlgopCqqVLnLjHPGwwCVT7PdFf2apdE+A21MBGrVkY/cj8FpzToBnJMfqB2
+wepLmowqL700UDS8JKedfmChhmvxVD4Ph247ntcZwTB9MBwUtUVIOpI/ZenkS2Pk
+SWFWCIISm++5N2+8Ns04kSHp+qugLb/1NfPtSAHsr2dEaFvVI/gQQiuJSNQRrZv4
+2+rsCgj0fd6C1RfIAFe8vdKdABEBAAGJAR8EGAEIAAKFAIjo+24CGwwACgkQnq8D
+2tuirdmbEwgAqS590365BhjaPRwHHnZULWpIEgv0zxAMdejmUjt+oe+xBVsczGkY
+yDX9i8hATW/4mUiY1Yh/fkrwTx5+LrAee20W/qWZIj+fP[неразборчиво]8CVOv
+e6xJKq4BCNV5hQ480BBMC97xyKGTAQK4L3mdqBBy[неразборчиво]ZepIBO/kr
+CBfoarX6Qil6qSLSecKueLJAkAoeWECJ/NJRyWOW3[неразборчиво]+Ng86aNT
+8oqyasKMp4WSxZRJwLFzy6HUmQhQIGelKAPca38[неразборчиво]Dyz+2
+ZNXiE7mHay+/t0qp+2YUMILKfZxPreKe/w==
+=DXNb
+
+[печать: «Федеральная служба безопасности Российской Федерации. Управление по Пензенской области», Д]
+[подпись]
+
+===== v28_gray-011.jpg =====
+6
+[рукописно: 9]
+
+-----END PGP PUBLIC KEY BLOCK-----
+Creation Time: 24.05.2017 21:42:56
+
+Group: txt
+Title: контакты марс
+Notes: Участники в рабочих группах из Марса:
+
+Белка: Кирилл
+Тактика, у нас координатор корпуса: Виктор
+Разведка: Кирилл
+Связь: Кирилл
+Взаимодействие групп по проведению съездов и собраний (очн. и заочн.): Кирилл
+По выработке взаимодействия с группами с особым статусом: Кирилл
+РГ по разработке протоколов действий в различных ситуациях: Виктор
+
+Контакты:
+
+Кирилл: почта hardboiledeggof@canaglie.org; жабер uganda@national.shitposting.agency, phah0quaefei8eesiev4@riseup.net
+громова 14/6, подъезд 2, квартира 35, м. Новочеркасская
+Виктор: почта mynameisyourfate@privacyrequired.com; жабер 0dark@riseup.net BCA2A498 1168213D CF392DE9 A4EC5FC5 A3D81E0F
+
+Публичный ключ Кирилла:
+-----BEGIN PGP PUBLIC KEY BLOCK-----
+Version: GnuPG v2
+
+mQENBFhuiX8BCACyrEU8UdeMnNf0NLK3wyJ23jFw3qTd9rpRi6SdbpC3LAjAXzv7
+G5vGtjrWCY8yjDIISQz30q2y2PKflCOCIgEpEuSIUA8Ta0aEjaishAVSUxZopdPK
+K6lg4f5wKS35Eu30vVoyjThj821qEkjqHh08/HfFI8yvMha3ksBOVIxR8r0uXppe
+9XEnhK0A6eQtpBVXDgOkqpdSfW6jh2hSrCpTObA/JUIOFuuPVOImFI2LCyAnTW2+
+JHt4KFGZqW3i9GjDWAzr+hzlEEE1zNMFFCFQaft9QNxmbeSAeSBFDVROYY6xCVSn
+/TG7SLm70xqNm2XZxgfCuFtr62yuTvFNIn+nABEBAAGOLEhhcmJvaWxIZCBFZ2cg
+PGhhemRib2IsZWRIZ2dvZkBjYWShZ2xpZSSvemc+iQE3BBMBCAAhBQJYbol/AhsD
+BQsICAcCBhUICQoLAgQWAgMBAh4BAheAAAoJEPPdwim2DMnfBYEH/jHF/kwt1Zql
+g18jdTZQWH/nEp4biLnUXC4PfkGQmX9xDFoedhietPJcS+8zFT+AQfP55fumjxuW
+CMpEgOk1XTYclEPR7beprPmjvkTD1jlb1f6Y+K10nBglLQOJZ3LtZO7LEiSjZkJ
+7OeWbYItzvqEJOdEB1StsfNwHirNVve5JEUXE8MVU72IBLJ2Acjxcs1RxA5i8+uk
+QEVHevjylVCNscHR7/CeODQluP+3LR8HcubcNx7jpa/d83ochkbSOQqD9EJKX540
+XJAVzt6Y0j6NK2eX/tbev/08rf7Iley460jBIdkrH1GSCLAGrJOTmsCXDvxz04kl
+HkmJyNNnd0C5AQOEWG6JfwEIAOhvdD1yMIxSIrOEcpjrHT/1XTp53tiVD49z5+ID
+BSLIjLtl+vjo6pNhxL51E/RBcM4btCdbLa89KBg0loveQhSPZYIwyC+v+uSCG/La
+p9LJaBkDHwT7HnmnetUVJfcDSaApSDouL1JoqHE4tqwClcwXxEejM8jROELprVzM
+U8V11Z9eh8YGIKgqm3R30MNtjGLB+wvGzhEfi3D7sTwISiihBvXBk2jNtxjl+nA
+AwHSLjaGHW7QISFWM35JCSB6XC5E60kQz4WkXexLleur40it+JiqkJg21QuiTfqD
+w2zG2WHPBemiyPXD19YZjgMgsgVrzpeJCc0rz7D8rwhufFacAEQEAAYkBHwQYAQgA
+CQUCWG6IfwibDAAKCRDz3cJZtgzJ3ymhCACCIUuVgRutglisotokK4CeyXucX7cA
+INSmopNq4OsNQpCwJyujrcX4TvamxjsVXYJ9Yu6qWxrlAUFLAKX3rcux0YuaBfHy
+/2JDN8G1ud/4ILXOMAtlQrTxeflRL+hYIwmHq6YXBESY+IlbQS1TK7sFGIIUXJYr8
+mQrFgG35vKpL32iAwCv+Hmz8QqsdnmdE00VzP6BUImCb3sDEb60qvJmh4bT4UJFH
+QKXYVH6gHIhrHIdUyi0piGFamwbt+fRd8y+DocoTtmfuR3WQJGs6Do92cbqqaAUj
+PYX7oWw2PVIaQZsR+oeJz9sEP2sM5VHeL9B9mXk1zgkX3Cd84W6FSJ4J
+=6MLZ
+-----END PGP PUBLIC [неразборчиво] BLOCK-----
+
+Публичный ключ Виктора:
+-----BEGIN PGP PUB[неразборчиво] BLOCK-----
+
+[печать: «Федеральная служба безопасности Российской Федерации. Управление по Пензенской области», Д]
+[подпись]
+
+===== v28_gray-012.jpg =====
+7
+[рукописно: 10]
+
+Version: GnuPG v2
+
+mQENBFjQ81gBCACSF0cGWKm02RLcpm3PpgXaxYad+hYNKeJKTqQgzKOlEzQYgbG7
+UfSR9QtNu4ImzGwsottwXvy0Y/0ilsLJH95SpUnubKwXpF8waCd+QzRV68IrFTC5
+2xz0IEGogqLnkhev8u6fMSzubLiLCZMsIUB2Vi8PLXfZPgCQf4Fimx2sO5IsSI9x
+0+KdMImqtyftZmfToPqvKsuxOv00KrWdRxoCRrxQwU2yOp43qALkaytyAqiyzU+R
+Xw64XuR8vs0SBtlISXWduAEkkvAWV24/fFgiLik6fUXvOJQwel/QUhLg+kXA6xo/
+t9nbdSqGxm4fEm35bGJPkKMZgxx4A+zaSLEsnABEBAAGOMFlvdXlgRmFOZSA8bXlu
+YW1laXN5b3VyZmFOZUBweml2YWNScmVxdWlyZWQuY29tPokBNwQTAQgAIQUCWNDz
+WAIbAWULCQgHAgYVCAKKCwIEFgIDAQIeAQIXgAAKCRBSCKYtUNNXEZxICACpEeuA
+QIU7LIRS+NjOUIhPj+GZjGDWpBVKUdgwS0WP3JSQjltGZbgU7J1ShkKKILZS/dY/
+L+WYqr2XSIESXYiConONJMy2SkNY7IFDGwViFXReZrDPjOWlunzY7xIZiShTQZEj
+Skfuxil3wevkNPaC6d6kpxmmjZT33BVVxsNcZUTvgnmLvrTyEnnuPmGp8A22tmYX
+0qz3zZRfS9jzSuACK7TKpKXfuX4Wr+6vA20QbkyYywpRoth2TNdVSQxPQqzwVkr5
+Dr8XrHRItutdZXBVRK4K2AxSTkEYwAr8sg7eWroGirkfaSS/LnvFe3jAaXya3BIK
+KhVg8LMDfjyrMoeVuQENBFjQ81gB3CADBdHc/uLoPKWKTgSWSEBEOvZ5079sBxGiF
+mBSMTYm08PTuMgS5/KhVGW9le4EkzhATEaXkjajKdx+wqJcDHYXsgDkzC5vUGTac
+DOP2b/hWy6YnKeZCykHnhOafXBDXHLpGoNNt18+VIqZSXLD/D5q4wF+mag37NtPc
+yRZqZWe3zTe37jhFHb7n2YubFwzxGSW+N3sdSuln90S6BxN6UQ3910D73Lg903FO
+Hn31GDd+GuuBiHHusIuS/R/qiaoQTIi99j+VsmqYkyG+8dpTovHBsoku599r09BI
+gLFlask9dXjzs5fyDAMFDweqG0IQuEat4oNoyyvKDSVmGTbleXNjABEBAAGJARSE
+GAEIAAKFAIjQ81gCGwwACgkQUgimLSTTVxEk9Af9HP/Ni8tL53P1z0BYpnyldJIp
++d30C2FBeHErssKmfd7GwJV9+qwOWvtM2IjEbSyV53cFLFFKr+X3D0UDDtegW+58
+eNFJOKqpoxNkBIpzlVHOaQJtmucECiyzImy70deEZYSDFCbUjKITMW8N00g+kJSx
+YV/YnZZfdlfy+FCIpEr/W1g9mGUzf/63Y68F2QtPSUxxhsMmTOLybGKbHGuuRD/9
+6mgjbp8oMnDAI/gNySzp880WyvwycPrJIpdnfRpWGHjUFjYZ3RuZUgruvBUY7YN4
+bTISCNUULHW10Q6Qvq7Mm+7g5If/CqXxXOIDDPOSsOdIH7FdeN7x5M/vXDWTjQ==
+=Ss9Y
+-----END PGP PUBLIC KEY BLOCK-----
+
+Creation Time: 24.05.2017 20:41:02
+
+Group: txt
+Title: контакты мск
+Notes: От Мск будет 1 почта для всех РГ -
+m.a.y.a.k@riseup.net
+ключ
+-----BEGIN PGP PUBLIC KEY BLOCK-----
+
+mQINBFjY3q0BEADQtBgI5Jaoo8myfuv0HzrlF/+m9pKuAZIRrjXgV+rpSG1Ha094
+5xRLxroRnwQXswC5gDEuSw1XriVSOX+D0QNwPXwz4BFulS05Yb7Cb0pSkvNOrlmX
+YbULws/w2N/7p/51310xLIkDKsKr1jNCMt4jdQjCs4TyuyxXnLZ7/ZDImAElyz9s
+OcluD2/pKxQXHV8IMaECFSy3FiwqGYf208ytIkO6KXaVY2sImnsShTM97teDC/Hy
+gGpGg7nBDSVMPVBS/z8iVyq78b/yuXcdWLza2172bSwBQXjBwQe7ZGuKyRxDed51
+ISIYgydPiukxASYdYmYljo29D4ZFZ+CrRkgtleJZgwvi8v/ztJgw9itDxTacTDkE
+wp/pUH89yyFqalEPExnB3sPFiaZmmenqu6dgxaE+INaj0m0ol6PbPoiebrOUnTOh
+o/dKDFpEodkAoUALeiG60/JiW69ItWxjUNAOFm/TncuW399Z9LdQYwTUnxF+/O00
+RO/EYLVYyQyVO2QphTS3EVHdIAZF9c8SdOVch0LusbT+cqfbIQGZ+3UhxpMCbeTec
+hR7ZGPBWdFdbwsCkqHDAj9WE2St/czNujyHHKWppL0fBmtd8D7COXbMR3kpIANtG
+qrSiRyR8VO2YVY5KQ/pRBAfIF6sOcY+WmpupoBU23LuDu/rJ/zuqU18JrwARAQAB
+tCBtLmEueSShLmsgPG0uYS55LmEua0ByaXNIdXAubmV0PokCNWQTAQoAIQUCWNje
+1QIbAWULCQgHAWUVCgkICwUWAgMBAAIeAQIXgAAKCRArpiTqIkhSLxmPD/9Ju3Yf
+XmdL3PoyBmfHm13731zRo/GaXs2p4i72vOBVcaMZIl0Vt19ZKYt60Vch/ihmGHW
+SiHp1GyQkTcXV3YCGhuL8Jg44MeJ9YTfx5fOCpbs4zaCvBWAv3mHfXdceowe2ig2
+XFOILjnwuf4Y9y/73LoSTbSNHQfR2hdqKeoKTQVIiB6GMJuPwaDalphRnkwqDy+l
+EJz//JBAbt8u+ArtEitwtsMXNqlwW8wmpoM[неразборчиво]BPZiV+jPbYrN
+fusWqvxwMy+pHZkmOcpMGaS4ZoXds2J[неразборчиво]GevNz4GvqbPGgElsq[неразборчиво]Cb
+mOkynPOHRdQ8xsa2248ps8eVWW3j0fA[неразборчиво]K80kpoPITobTp
+A73M46YgccA+XLFf0svL89mr0zhhaK[неразборчиво]eUpXViZuu6SKjxpOD
+
+[печать: «Федеральная служба безопасности Российской Федерации. Управление по Пензенской области», Д]
+[подпись]
+
+===== v28_gray-013.jpg =====
+8
+[рукописно: 11]
+
+pPk2UNk0gc1GQfKnvVhSZVSatiT7xysjKu3OjAc0g2y1fQoSbnl6asxf7hN0Bu1
+5tT+CckYBjR3NAdtuQDr3aAZhrscXPPhWEsi7wUMkn+XdFdriZ8qFKwQD1QFKKJD
+v/UbsxUt3sMT8sMowCaQVrPoPixL/3tmUmSuhOyZ+NtiQOLBM2hBZCOYmqgLd8zu
+Jl+vef/t2JtwWQq2Qc0YC35V7S43YCzRufgWbkCDQRY2N6tARAAszWUxPBBT3MC
+/7SIM9tisBJI/fZ/XHe82YK68xHmgHHAjzWWjmvQicE6sfvaHzdByqXV3rEo+R8h
+JEa0hjRz8pFUyF3Z8ha+UG2Y75kKNEDRBXy0CUmBInoPHQWmbwvTXIVIP/jJ4LBiZ
+EnT4i+1/9nz8zTex7ylaYoBOVSKNR7vtgCcKNF87cjAFSrQZmd9gFqQd3ztdvZxN
+GUWfWmk4oyk3Dh39zVLyVweg7YhIO1f5fnHaac2frnlgV/GXO+eMSvla6OmYZFfX1
+QitiClOaWxwiY3uP48tUWjSA/GajpDmKV4qNVLeXLbr9p+M1izXy/AfoOBDGGcf7
+P4IDTwulQxSUYSCyNx/VMGjwzulbSVwpgv9b8dLr3JIpYy7ZFEvolzCfS3vgl8iV
+6xgfGS1UbnWvsJKhA+Ua2xzG8HdwQHy/xepXeyIk2hqj9mH2Fy7E/QcBabLjNN3+
+tUG/K/jewlFbur7A89BSsJEexSICub//UzJDhM9IQcqHmFDNs4FEGY4yAkzRRIKE
+gqA6gatlHrquNjcNaniVdz5Q7SSdnBisBa52jf5vd0Cq1PCLUSGPBQhxsxzF9020
+gNhsCdrO6LhnLbV4cxnyV7WhVYHjPa7hT1xA7PqKjSop4xR6r2xehYL2oFeNefmu
+6tZB7b8WJfVmigU+VrzMN9QojYqMSr8AEQEAAYkCHwQYAQoACQUCWNjerQlbDAAK
+CRArpiTq1khSLSkvD/9rjxOfRH+9rggcYDRDhkbT6D2D0GOTEp8IbIX6kndHIX8x
+xbGKVYS58emiC4B6m21YXOSgwvigPGS6p4afE2RIPv5SP+Qcj3GblOdaYVWKemF44
+SJUQIOLGhF8f+fF08zonW8IghTBBE7GCHzPztu+ShnCmw36Xps3SnSdXiUly4JZ
+DMNoMqu5JfNleYKGpRea3CLJrGepOUHMmW72hBFV245zy9094CIrNKYdp3TwLHO0z
+wRqdfaW+FtUPRqFWFGnPnrAwZwyG2HWendmWIMoJ6UKejQhhmFspSjlOAq9W+DhL
++Y5JfhAInPPxpzIDKX/WqVgRdSTxFhBOPdOQuUcabC+jr97R+A8CWJbjJTtXRsOJK
+8XuqPHbIXgwAKVwy+897PZkdxOpGFKePOSki9dmhwSbLeCd43JFIZId0hIgkWJ
+Ibr6EenQKj90Qvxq/NqcPAqzEaxLuSPfnZNTU5SzPD6SilJ+aAdx2je0zYcR+Vj6t
+tBfs+NRoSqFdFSa/WYVSZKOVXbNwQwSTjxdJXb2PFCGCQBwJOmdtOPMDVZ/jvsm+
+9hBBkTGRecNp31UVCS/KhE+5HV7+ITdh9rdFfscKciBSwwF2u6XzCciPRdRkUINu
++19G6GI4LWkeaAsTHhBer10+Ws/Xtr38rQljcRi6YONSK96MID2//IVRIEGNg==
+=CAH9
+-----END PGP PUBLIC KEY BLOCK-----
+
+Джабберы
+Борис zelimhan1@jabber.calyxinstitute.org
+Настя whalerbillie@jabber.calyxinstitute.org
+Лев a_moscovite@jabber.calyxinstitute.org
+Алексей amsterdamxxxnavigator@jabber.calyxinstitute.org
+Николай bourbaki@jabber.ccc.de
+Макс nox_sword@jabber.calyxinstitute.org
+Михаил bugaga@jabb.im
+Соня kirkorov@jabber.calyxinstitute.org
+
+пароли отзывы для связи с нами в джаббере
+
+волк
+комар
+
+Рабочие группы
+
+1. Работа в белке. Николай, Макс код темы - KK
+2. Идеологическая часть. состав РГ: Лев, Алексей. CC
+3. Цели и задачи. состав РГ: Борис, Алексей NN
+4. Инженерка: Борис, Алексей, Макс DD
+Тактика: Настя, Коля MM
+Разведка: Макс, Миша LL
+Связь: Борис, Коля AA
+Медицина: Миша,Соня EE
+5. взаимодействия групп по проведению съездов и собраний (очное, заочное) состав РГ: Борис, Миша BB
+6. РГ по лагерю подготовки летом; состав РГ: [неразборчиво: Алексей], Лев HH
+7. по выработке взаимодействия с группами с особым статусом. (дедлайн до мая) состав РГ: Лев, Борис GG
+8. пиар, разработка идентичности
+
+[печать: «Федеральная служба безопасности Российской Федерации. Управление по Пензенской области», Д]
+[подпись]
+
+===== v28_gray-014.jpg =====
+9
+[рукописно: 12]
+
+состав РГ: Лев, Соня FF
+9. РГ по разработке протоколов действий в различных ситуациях. состав РГ: Настя. II
+10. РГ по теоретической подготовке (видосики, статьи, книжки), может стать корпусом
+состав РГ: Лев JJ
+
+Creation Time: 24.05.2017 20:36:47
+
+Group: txt
+Title: контакты спб-1
+Notes:
+1.Юра
+РГ: Инженерка, Теоретическая подготовка.
+Джаббер: oblachko546@jabber.systemli.org
+Почта: catanddog@riseup.net
+
+2.Ада
+РГ: Медицина, Пиар, Белка
+Джаббер: 25000nutcrackers@jabber.systemli.org
+Почта: keatchen@riseup.net
+
+3.Марина
+РГ: Тактика, Цели и задачи, Пиар, Теоретическая подготовка
+Джаббер: satvoc@cock.li, gumibear@riseup.net ?????
+Почта: ptency@riseup.net
+
+4. Оля
+РГ: Белка, Взаимодействие групп, Связь\Безопасность
+Джаббер: piligrim@firemail.cc coopertruck@riseup.net
+Почта: pilorama.pilamama@riseup.net
+
+5. Матвей
+РГ: Идеологическая часть, Летний лагерь, Пиар
+Джаббер: lenin666@jabbim.cz
+Почта: wheredidyougo@riseup.net
+
+Публичные ключи:
+-Юра
+-----BEGIN PGP PUBLIC KEY BLOCK-----
+Version: GnuPG v2
+
+mQINBFjKuMwBEADRm66NQzcvEMFTsHIQm4[неразборчиво]MA9RRkibCoViB8ufzV9k5X5jv
+jmLBFEJ7Nlyz1IM7h2yxzx0gm+CFJ7eluaF[неразборчиво]GdQlaGGJORT[неразборчиво]lvJbu73fqvnlq4s
+vTSCjxru/a8YQb/elJzt0x/OrsOS+sgpJmXQBX[неразборчиво]P57ePYtCtEe[неразборчиво]TJwZnF+s+LI
+kYhuf20bFei0+JvrvzNbSWMsSn/Bq6kjFsk[неразборчиво]DKGJ[неразборчиво]UyKh84[неразборчиво]LIHPCZGFpsgZ+8
+
+[печать: «Федеральная служба безопасности Российской Федерации. Управление по Пензенской области», Д]
+[подпись]
+
+===== v28_gray-015.jpg =====
+10
+[рукописно: 13]
+
+OHcLQIdG/8A0BuclwO2vI7WIMTWJckSKkoaLZ/hL/RzWf8H+qrrwnpyl99KqA+O
+MXep0J/H4t/SB8pMN2TVAI6uCepOzIBoc4paP818sPq1M48ECL/ZMVEvD2BvXly3
+n4p6m+OrBlvrOLIb3iHQh6PKAdS98mSHzMIYcVwLaF65E0wWSSczryWdeN8D3t8n
+J/R6jnKwictSYIReKgQKQbhvwyRSv+KnMaHXYaaBQmONuD630jkyDF8KtffsDZII
+hLdIWRewRvSbycPT7oekzvNCedwj+j/4VWKKwyeoh+zSBcWCX8SyieaE7UDKKOop
+L+cZ91jaMIUkJOsL+Nhufp6NUYJjbUQj6aGg2wXeldTBDwWFMNumdqwvH4dlAlfv
+bxxBpzF2Z1+0SrD3AskjAZvAI/dODm/zVJsBvIAvhzK6u3TtENIGUTKULWARAQAB
+tCXQutC+0YLQviC/OZHRgSAB8Y2FOYWSkZG9nQHJpe2V1cC5uZXQ+iQIUBBMBCgAn
+BQJYyrjMAhsjBQKIZEGABQsJCAcDBRUKCQgLBRYCAWEAAh4BAhcAAAOJEDpg+GAR
+ZAXGNYQAK209un+7ZZzwacB1b839wI2Tda7206HvG/PB0+ZSt6ovNhrkdyQjSqR
+Sw4suoQLIJMssWS3iHBNImI+SPYnZcS6/h48QgNfWhGIhokAOgetC9OsjLHo8hUL
+N9QzT63ua6smBQ+AUrMoUUeioo1CNFL6twws+kkYCc7yDk3+25b+zpGufbTNIDdz
+iKdy2MsRZPLxiNj61XiBVRZONO++MhvkO00ITycc8xxksAVVkGz1RQAdw/ePDegFH
+AYnGSluztYzSYH8/VmtaLSfwANcS4mTtc9wbbHdTHjnnsouIsgT30+2g0jIwgN0a
+EPRLQISLNQJ/HQC/NawYHDwwPW4RTF2Mb8prjgeAHf3MFPNYCMelR34cKpxG8HOx
+++40KC2YOaw0+lIKAxRJQIHCHuoysqeFOj+ulJd+h/gEHymDEUmABeK7Q+JuWT0G
+qsAGITvg2bNnoW4wb9g+yvBTo2EcBIJVNh8/xfR/VHD1/uYuagTFI8OjljrH/NRy
+hlIUsHeqoKgm/HTxuhMKpEn9EVOHAGV29RWdPX2eIppFMu0CSIzHrZlqesk8ab6
+gLUps90/gGckWshB80/8kzY2elyFqajDO09UsI12vdG2yiASbxq8EmTDghrqdUf0F
+wE6/9oyuWVLZRxbNeVzdIRqk6ZGY42/ITOXtcQ90X19Bbg65IWjnuQINBFjKuMwB
+EADD+8NRCn+K58HSJTzIHBEHkSv+biCjRTUMvsTWa/mdHcam6ZJPR7xibhPgSINi
+5PPF/fPyyoWMSfv5BaGgVufGLO+cNLDySB9m88lccwaVCf0KoajKZZsg2CuSFbND
+VNIU4PbQ3pq7FVv6rgV6bnz3Qy2v3u3bWqPnoNvi6NnqITHtVpQO0saqLg3T7cS8O
+VpeaGmi5F3n1XhUCbATIOJUXSAwylZ4SwmNfwpwXfiYDooOly5q94DZUGhQhe/rb
+pgAQRmHeq+6e0kw1RqwrwSEvxjHMiaN4akQG7/105s1xPMCFZOBAqZuxZjuIPerJ
+bfKG1olLFRqo/VirzxEGGvPC2qj7laFuwVksKFGkQH10e07PHH7xf9gckiMSE4Sb
+O6Ni9WmQV+RzucHrS/fR3XbEnh30mRGIAdkqnLFrxzyg/hKm/B/sKpfsVVCUQyCI
+1X96iLF2d3GOH7IrJCl6cS18q24ynDu9prNNInmOGSawKkI8oGrvKuWSyzLtA+Mk
+q/bhZItsSdr4dp2d0N74eWYGoA/vTcydpcsODRgSjLN76f8E72/vs0qidfuBoizp
+nQpi9Xgg2Mz+9awf0/KyhBxmKKXNoTCGS7A8UWfNEmwbN+XZhYD2StKNuQrsdkJB
+w6s/QKDD7MSGgo3ThoShkr201a8MzvyPfmrrlimSx/n2AQARAQABiQIIBBgBCgAP
+BQJYyrjMAhsMBQkJZgGAAAoJEDpg+GARz/AXoMQAINj/fV65jFm3SVWRUByV6LL
+ZkAbgOIHPFsi3uJ7vZVr7dTv9VeAqX35ZcxX+jOpy8av+27SiaXiuEl7+pgfR7XC
+T8ZDsLMqCIRphq1EhWs7kZ+utoxtJedUoYSAjkL236pFegDb20RRjLKgSTIZtCvB
+OFDGLfQFxsNYt2dhajFNePJrlwRZTLmOafNF30iN88mP6zAs41OPIDbxGi4OTRxD
+Nne6sY8xHGPLmePeptAhnSI+OQFFZKalu7JKzgw2GB61HoOMYLWdwC4U3AWloCQxU
+01Vxs62hTpo7ueGBUvwyHthdxt2BENMRc530MrTdSqjapUIXTKqXf5sKv3boZWw
+DGFWOyk2E5onJV+6ebDGLHDuDnrAbSTysrkEyBasdezYXhwGwNreN1HSQSUL+QTm
+f4t7tSwXVHaF1ZSD7wulcDkA+mUkvqlWr6OHAjcJJJIKIOK6tpeJql2BiBomyfi
+iYLYoCbIfTxDIiEGt9eVLtNZYbeA/FLgeHu6InxzHIIBNkTLRLGfEp87drOGbZV+
+v/YKpx+TcGmDRS5xVnIRDnIRDewTe+PqBUJwCC+r6fubluKqQ8cVPiZglvCSpMCwr
+FzbsaJnzQLEEWWJjHXm2mEJofCsKBI3DilowtrYaZOiSRoBSFHVU80qS1/vOu6eZ
+RoMCXC9DIfqHfSR2Up/+
+=Y9gc
+-----END PGP PUBLIC KEY BLOCK-----
+
+-Ада
+-----BEGIN PGP PUBLIC KEY BLOCK-----
+Version: GnuPG v2
+
+mQENBFj81pMBCADJS5JhxP0n63/hjgt9OtdHWnwJV/OCIViZIrKK+vNqmEgPXMLi
+TZF9BpCT997fs87XCr5/3a64/XSgHAMegsZdsQZdremktYVSBuTJrSg9ISVNKtGd9
+R9VY2h1CgRtYoky94yDedabdeYceOaGHpbABJWXIxHIEiesXei9RsydpOwnWqCah
+mdMdMAOYGKkFvCfiGceSESWbbI51OGiugqid+D1rxMqABynrJPk3FXT7lesZ1pkKFWTg
+N+I+J5jIZWXip9nCSQmhWdBVT6Wle5YevyA1SwCeOmTzqVOtHzQigdaUSEOI9Y1Y
+s[неразборчиво]j3L3+KArFksQBvQ9RAjvdfmrtuF2f0/i0oZABEBAAGOJkdvdmSvIHBIdHJve2th
+bmEgPGtlYXRjaGVuQHIpc2VIcCSuZXQ+iQE3BBMBCAAhBQJY/NaTAhsDBQsJCAcC
+BhUICQoLAgQWAgMBAh4BAheAAAoJEGAKwgPOhohb8VQH/R89xlyTUOyMXzq370yy
+rq62iLdvlZZ1WkPiVp0SE3WN9X[неразборчиво]
+IxelK/q/Rb8gdR5T3605rgUV4DU+67Ec/KZEOulnGg6D9X84RmX8xTK2VZWi0OVy[неразборчиво]
+QolgSqUoddK7EkR4ZDjJfwn9aQAGYPillwW9EZ3hIPvzTO9hncGzBQ2UAfVqP/KTC[неразборчиво]
+RShtrEMfptoLbIT9I7MnRV13COocZBxZKZ8/C7Lq6AIN1ikTOughDmSmevO9+ux6[неразборчиво]
+NTKOj3SUiBMhcNhj4r7tWtOPxsLrKFbCYxaMxK95KaPaclvImaCSjPtleLTiy2dM
+
+[печать: «Федеральная служба безопасности Российской Федерации. Управление по Пензенской области», Д]
+[подпись]
+
+===== v28_gray-016.jpg =====
+11
+[рукописно: 14]
+
+DDm5AQOEWPzWkwEIAJMoNsWeAtNUj5uVAnWOYuTq95NpTfjDZ63Q+TtcqwqQmKc4
+QPDIzP8QxtZsX6zzJQkXyOLH462m71wMVmzI5GEjd9Uq2GZ0ID327/GzGA9GjhLo
+8F6HIrFDZ8SSLsCSLC+wsggvhd6PjAsssKFBjqb/24RqXPpgUMtoOHoNymynimid3
+4uWZics0g3Lg+QCUDgCiPpzIM1CpHVXbqjn7co2qUORPmVUKIkFeRb++bfe4eb5C
+vYIRsnoyPevFAOcXJXD6prk8AcY01BAn2+02m9URtSexKjLol6OaifSgTddr7Ps7
+plYriSLpBPn7N9UVelcPDEQo80tDt3AoVIOGEYcAEQEAAYkBHWQYAQgACQUCWPzW
+kwIbDAAKCRBgCsIDzoalW3B2CAC7LOtD230uqGzPRyuDvJx+keTBiU4tC8FVBRyd
+SwvFb+EG+nfRisuoxPJqljLj7ylqfA35WmUOolkbB2CDqQtYiVb0QIpmB+WISEIr
+QNHJ4Z6Dsy/nhE/oM2+reJknAJPscdGeM6hVbv2FSDzJXssGaxfulgfLNNPFrhgzt
+UFzSzp/L2SpHC16Md2w02bC9e4BQsAV9/vwuhymS0odwZzDsf3ZH5T6klecEYbI6
+lodWe2thPGvld/d/ffyz2E2gm7itinwIXf8e2VZdx0RASEtSuX/IOZWCTJzfzToY
+iKETs21MVAE3kiKfrLVYCQOrESTttqLfBHaPyyXZpMXr6yFi
+=sobm
+-----END PGP PUBLIC KEY BLOCK-----
+
+-Марина
+-----BEGIN PGP PUBLIC KEY BLOCK-----
+Version: GnuPG v2
+
+mQINBFj4foQBEACdMB4Pg/MfQ9JInLSbzjfT9v+IMvskCIBGdr/yySaGqjO4y0eD
+WOo9UBeHLUtIPH6uullYKkauHpzdqF9qNzGFd3rKCwrzEyfuB44xFdSN6/cL5mjE
+kaGaepOZtM+VtohpSmJDmlquHJanSJ7IjZcuyxvAdSW9/pWZYIbSqi/bSMKnNigY
+ziHrogr+SpBdG9aCfP7J3TeLxodW1+QRfr6cmZetmIRoMTli2wcD1u3/U3s4R9Th
+ES5i8XdGloiDW/f+tHoMVLLuf49NsSajlxStD0Ad7M+xmeWMIwCX0qCTyM7p8LtjB
+ShpbsmyjD+kR/dvVpzhOpRSXSqzxPXZKOWEf3H32B+QdFRDRSUIfuOBwguMRxRwU
+taxW3DleWHP/o54nMeqBnhMPez99CJ3NMRO+VOPLemnFzINXOHNJn79fIMUdk13Zr
+ZLQLKP8aJk6TmVYjiw70Inum/LSkOwnYzchW0gEdy50J/InJ7hJqOhOZFVTL2dK
+MZmbtsGKiS60jwGF7TD1Z6QSRi3v+XcwlQ14Yglb607mZINMWcYIJpa9JM6AK/Or
+PtzJqWSUjAYfha2uFqQgLFLIR4NT7wuevXtG4garE/eouBpepAVAeySLw2slom2s
+6KZX2WPQEdQgN1PyArq0zf900U3dPN9rp7WPkpq/z+0rsjWOuX0yuNo6pQARAQAB
+tBhQaXJyIDxwdGVuY3lAcmIzZXVwLmSIdD6JAjOEEWEIACcFAlj4foQCGyMFCQIm
+AYAFCwkIBwIGFQgJCgsCBBYCAWECHgECF4AACgkQFVHWdemkHs4u7g//UNi2+GgC
+FURuBtyCknCJIEuqULIwR3pAHMtSvkwPvPKtwPGKkQfDP3NeEgpgLMxddcLCamSjL
+jiWU90GGLMDtSLmDTO2wFWttXdBSmpDaKukVULsXN53XGVxAbI7UIPcS0bs3VAM
+SIGNZDKCwCmG4mtqONj9T1ANdwXRZfGSeicSeDceVaRiwVs4cspZ276//BTS9BFsv
+/n8urE9epEgoWGSURS8XS58yYQrNAn58J2DpdyhloINE1VIIMNKCEx/JMULkKXKJxe
+gPTGxST8dHmF9vu3YZJqdFwZvMS97gJIrKZZfmSiWSjwSLlowGaQ70cpT8ZDjGb2
+peLeLQKft6TkeeQs7WaGHmMbpSgYH3t8jWnLiliLS1SZMY6JfUFJBBM8guhReWpU
+gycyaFLuyDvVJY0bX8MqJojG2WTETWjZXYk89rFrMJHUCTwsOI7TL6AJULWmgeUMe
+uw7TOZrmHLrQ4utqGGVO2mGmKZ3qoQqs/ZvzDikyZ1Czllg1TXkKESNqQ55KkzVE2
+QoYtuLzkyU4LAGQd8vVSH048boJ5C42RcEH/GdYN27po32phgesVaPEyEeLjbK3n
+W/IbWj4xWRP9SKsQxsPzUednI9TPPbpSI1uXZ9dplHjOWK13lvMECUX+mkbwuQQJ
+78wxK8bglbPsxL7xYPVhmCNF/ZMLABEh2HSSAg0EWPh+hAEQAMIxnEbQIFEGLsho
+nLLxR77hI/IwC3r5xCnnn8Bt7UIfsMPGsfwJpyxb/vPpRSx/zAueZeMxBCWUy7yY
+JEqybfgOmmGpNxNyZZD5Jhl41eDxqtsvGksuW10j3nahabwOS/+cyIXuAdTrH7gls
+sISnx4S7BWIs15qi9J62S2RjymIU/aw7A2UYy/3PoF3gLDkZ6PtqTDgexdEBTFljd
+DkUbygEIZvpcVvFFFU3xAJONhyDdal68PurHTtZAaUQLhOSeNnEr9LrBYFKHk7v5
+cpldwhECIY4WQmu8hc0U+/bmKhhgYRt2WNVRJbOQZVeT9IcvYo4kwsxums6KoMNJg
+vePVRKHCul8n6800V7mCAyBBHuTnin/4ZU2Mmmc7Iz/q6gw7Hboadre4/KR3xAHd
+mLRLqXoPSMjHYOh2j20Bin0rlSYTaygmDqOaRuYBMDXsdSsMLA2QwGGcJibe+U3s
+yn9mKdmziMeFhGQJilB5SzC/ItGELk44xYoVbP7k+RqpGQbJhzPIxB/f4xr9HClkxu
+041x05AalWZyARjtamkjJeWvTizNuNXkrZbVHUIIfORvafhpuA0J3b3j0KMMAG+W
+snfjxXQztY6NACOhJZ7QenwtxXJd85qv0OYSBIKUHbNEbAgfUkGkqIJEHb2KYRer
+/6Yn2ngbnQPFbRqdr06w+8LRoilfABEBAAGJAIUEGAEIAA8FAIj4foQCGwwFCQIm
+AYAACgkQFVHWdemkHs45qQ/9E8VYTtBdayVH+uDSs3QpT1O82KdjfBXvUiSqC1q5
+fymoH9PPlayU8gxic3wBymIK6q8bPGJyknDUxRIQAevs4g0MRpuyylqrDMARGBUHe
+HEWpnzh+Q/TIYRfswwL2sCmhTdhtJlla/xP/puR1d+Gepj23nDQ91dE/n8+gSGwp
+SIQrOWHL6QwBVulcFr9ZuBM4caqawbNbdf/09IKpN8XsYdAWBf6t8rpRW40/NfQ9[неразборчиво]
+GPeGvm7Q8Syo/l54UrJvI1AvhplusmpbBCuBV9pxPInR30ffNwYRdTGTeydUU[неразборчиво]
+dLNOQirFICXFIRRA33zxnRpujZ16xBdH7P1aQjc+gT442ZkZkFSYTWAQAMy[неразборчиво]
+2POw9khRaOiOv4VXKEs71OiGDjfA+4hYAu81laVOXCSztWru7/luY8G6EqS[неразборчиво]
+8NMvAIcKSBQDqmVtNh7iz2bSyXObWZ4AcyQtXMleWPAuuXImrTbFFLv2i[неразборчиво]
+qdxUFTIrcLA+eSK84wOU+JwKNRXYrNs5sdIeNXB3kv8rrz+idnpbEkoG/Rg8[неразборчиво]
+
+[печать: «Федеральная служба безопасности Российской Федерации. Управление по Пензенской области», Д]
+[подпись]
+
+===== v28_gray-017.jpg =====
+12
+[рукописно: 15]
+
+yaXG5h0m+LpBdCIHJfKeyaLnA/I2QlvB60ReEjDreCISSJ13xQo/J9Y9l52h04d7
+8MDtAAVQc7SHStA+XzLFNJzjs2mtQMR9ZmNEFjvpj9tLThG8mUnDv2DJ53xk3MVo
+dCY=
+=Kmpt
+-----END PGP PUBLIC KEY BLOCK-----
+
+-Оля
+-----BEGIN PGP PUBLIC KEY BLOCK-----
+Version: GnuPG v2
+
+mQENBFjbpEsBCAC9DV/agF3q5Qo2djvvSdZFbXNBYxSHoV37d10V5zhJcgwpYjo7
+dy4S5wFyXDocvgbRRIKITg8wINOU/aDecmtnqDqJfLzEPYG8BbID1q7ImidfttOPX
+WyTtODMKXre/HB2zYvSayZkYWFESd30xUFe/rlxHZhr2kgfaXz+t+H1bC27Hm519
+vZLYbpYE7j/aNNhInJmO+S4mxRIKOgN/3+MK+rmUfXVJqTzdGswHOX+lalKhQZDO
+w1Pa0Xqa6ZfVw1IpN6opt0YZQSCfMAtHo9zVSKBFYuelq53iipCRPrxBcD2DuSMP
+fWICnWFnsFeSmTYfVyAFs0cs2YhWPoOwjzihABEBAAGOJG12YXppIDxwaWxvemFt
+YSSwaWxhbWFtYUByaXNIdXAubmV0PokBNwQTAQgAIQUCWNukSwlbAwULCQgHAgYV
+CAKKCwIEFgIDAQIeAQIXgAAKCRDpuzLil085qQ9cCACvyzXmDY6sR3pEgZgelwUkiy
+b9mjsZ6SFCyvUdih+n5JbZ0lWBOCCsuJFAUoWEOESIP6U83snB+UbDgrzukw7i0v
+ZBc4eYcPLOd1/GeqnxeBPGSLD7/2A3tSZLbw5zUdsvCxY93paCXnNTE4wfalCtDn
+dnlfGNLKWv4hsalH7mMNJsjzhMFC4wIMGIxTb3eiLgvUI5m4AJHCR92aLRIvUsp
+NYOUI9IA3+jRztbKB+RTx+hIM/R2ROPEdauY6eroAw1CkLL8eoCim04uaDATKkOj
+if/De6wqg2u030zSG9IIBbIOEoI2YOXj3EtrZRkrzshjj232E4idoXmUkGZIMGdi
+uQENBFjbpEsBCACiSSS5aWGIDPFQRifiSscVmfRIeNIwalFslr8UkdFrXolzArAE
++jqqXFPIDX+f2gr8ThumBpxNXd5VUU0Vvanf0WIZ9JKU7D2s1XmgVXkzbolUeKJ5
+IPLLN/Hpa0WWCSJ/xXUHAgKWj/PQJRAONZ9cVtpG/ptDNewS9eQgMzRs7hBCrtHRD
+4nfdGOnzsGcPrigyC++bedZj6YISNMD9QqaUA+7E4d4jaf6HIN/3rnxyvPCR+52JR
+GtFroo9QIrZWQa00oRMRKb8MgP+k6nTPUQYRU8zEsfnlD1PdK116xCenIinIBZro8
+TxYTtRZD1ZhgJCJqaRGEQmdNTfMBmSWCbgESABEBAAGJARSEGAEIAAKFAIjbpEsC
+GwwACgkQ6bsy4pTvOakhFAf/WRy7MC4bdZzLMZEiFD06TabCGXKYmen0bLFr9QPk
+x/+rvJSPSntGfRJNasC9PptrFjyw8ng6G9sDly9k+jn/Plww+JUSf+m5JLS6sxSD
+zGMDcmZYVaRJvB/FukDq+197kWVsc2EkVReVfL4UkkbyjInFvZIV8I/MIrXoP+bz
+tLKoKTfTmpcAcM8qWhhPSHSRtbRUQjShh9qfPCC2/y7XaMOWKuGs/ByhSAcybi+2
+qxmXyCXbF8Ea6L/wZMrfN85u3UvlvOgp8KoE6/ITOHSboXGSLvfywTZ1SUaDf7ig
+zoBarMmTObI6ic7A8CUSJXbWsdBz0pMXmB9piD9cZxdwpw==
+=QOKu
+-----END PGP PUBLIC KEY BLOCK-----
+
+-Матвей
+-----BEGIN PGP PUBLIC KEY BLOCK-----
+Version: GnuPG v2
+
+mQINBFhOoMcBEACzgqDzdkqLICkTUZEKnxzEwx/65leIrtnVDjitkzY/q60Vg9kx
+fXyfoYSufqiMDr9CcIANaThOimTRFJjsvvbEpyPrT7q56M8GvmoLZRGkRGFz03BG
+SG9jexMKAsCm+F2N5vFt/BQK/weLU06rChmbP7NImY3hZeHswZwbkleG6Duo9udn
+OoKhKky2prgvezHINkgLfCi4r+Dm8flGQeShEYYLRblysw8JOBioErf4q+t6R3Nh
+9ZolfAslicBdjnaedlyCeoYhHL3OsyeiYeRifpLHVbIjOXQdNLgVYptyo9+8v9Xv
+fKHrms1M310HJEx6YS2qKD7V7LN6QHajyWUDGUghE9gx9K5Z4FKnUEi9+qA4SE6m
+4EGSPzYAxOzRS/AhbIspbhSJdYZBBVMZcfeKF8tAZXkPtHV4pRN32a3/JEMRwdc6y
+RRsBRxtpYcKdDnrD9BVNQ+yuTKYo5fl4nSAGelPCqpEqnJ4nv/1+KGiQjmjO3GRRs
+wf0lyYIzritLGL9BSn9Vzr+AxVrAK3m8I+npvNpDxvTInwvsBkDzr6RVvmwaKESD
++6OwZKQyKBiXR7H1JzgS+Kd6guhGFeaOZnzWv71XrlfNSdymStyrRyORhHejelns
+ssOkOBrzhbAhjmHMjOGwdLIhP+Izli8bdNv64KBBIC88PbpzFHiRaxrl65EwARAQAB
+tB93ZHInIDx3aGVyZWRpZHlvdWdvQHJpe2VIcC5uZXQ+iQINBBMBCgAnBQJYTqDH
+AhsjBQkJZgGABQsJCAcDBRUKCQgLBRYCAWEAAh4BAheAAAOJEHO/d8n+S3d7YPcQ
+AK3IvNP+2vtGrgVHzGYqqDNSES8LXmelljcliaLgSmwZSKvkokHyAIvz+tP164/F
+H+uZPhTxszNYvW14nh66nmUN3SF8yKOFvbUKMVEXZQy9mOIfDiWz0ceYpmbQ60Ke
+TxfkodLV8bR8YpjGi+YNbJGPEvZbewSzpjw3XCHrIC3VjIE1WpM7Trwhnwil7GPL
+C6mAev06zuPtOfC3a7hsWun6DTOYuZaBdskkkqGoll3q6BA0dGEFp7TICIKWoztd[неразборчиво]
+oLDCwyl5McuCY4WiW1HaX3gUv4NeyaRUWkSyDKW6y9FbGm+EZFDGBBG7M[неразборчиво]
+fiQSB10knWIEdwxiUBjbDBvxOJeCGxXmTNV4CMdO0fUgePrtHIvoUpfisLHej[неразборчиво]
+T9bSOEXZxxS2guRmPhe7uxcDQ6qW5fjPfCglHZUuH71+1k0VOowexGOpGqxq[неразборчиво]
+cQWOWTINKoyWQByrnVyDA6DwXb6Qaoq/dGTprIXowloC1IE0sOb[неразборчиво]
+
+[печать: «Федеральная служба безопасности Российской Федерации. Управление по Пензенской области», Д]
+[подпись]
+
+===== v28_gray-018.jpg =====
+13
+[рукописно: 16]
+
+zBYG3dxSZHSTJMen5ipNMD6hqlVF+GI7QgheECMZZW5hKOccLPvKvMmtzXk2TxhQ
+aSmulTrYAUDj/O+UYmp+t7sk60kX70U6AQaWKIKtHlr5ZSEVW+9bRIRZtaYGFDFj
+vtYWE3p+GyVcFpe2YRQbQU9vEaQDjzgYU2x0vLdG9VutuQINBFhOoMcBEADKxg8w
+BuBYX7qVHLJW+J5hiCCkKis/2fcf++D5s4kKDZqqkvfLc/o0GkAu2tvsMKUEcCv9
+VT47zNqwCoRWfhDGJsyNG4xtVM+CUWK+DXQW9cN9s2uDNi2za6HEGPWefeqO6mxz
+kg7RsAKLlup/3Lh9x5m3TG9eU7/H20Lj+vkQab4uprC/a+CS9pAIF3VY70x0NXqi
+mYDR46Vvlw8EMe/RbaK3IUqpuOEKbCATG6qfLKxRp2gNBqDPk9eQbTMeg2vqsyl9
+i+zwAJtXInKUnBLce8hE8SJLArsz017Zk1bVbIRPBWmvKAK3988s/7rz/TbIJS/8c
+220X3kX51+qWEQ4VsdDTIQ9LpDIBTnswbtMevkz769uc3AgPza22bSIA2kVxe9bm
+bvbeZfPeOpKVaRGe8vq9qGgdsN+03ZOHMOK8xUYQR2zkd96+OOSSLoSZyrSDq2LV
+B90SQxdAYNrs66dcaKPpCik2DOImEtrQ0nE/LXpIqTUWsCz9Aeu/TT6DNOeJRoXe
+4Z/ojfgWXEBB58pluH2tJ9WoTq2dLoQ4vT4UCOfDAE7sobhWsLCSre5PBpwyhVgN5
+kQynoByM+NzGJ1DCWvwCKopydu28JQgEn4NAxVR00SVH2Excpo4SGaN/njT6LIDI
+BXo1CXahgauslfIGvC4o8SAUt6gZmvFn11V5ieQARAQABiQIIBBgBCgAPBQJYTqDH
+AhsMBQkJZgGAAAoJEH0/d8n+S3d7r00P/0OLsd/zQsK507x0fR/qjqa2p3YzmYjX
+6LhZHB4khOkm+OwYi7M2U7uPUZRuRFrhB4m+SfZUml4m8Ndof74W88MI5ZV/2whx
+J8s5Cm2bZOXSofiX6NTOfLj2BL9WduSIseJ7PTDNw/i70ajAAP/g/HIZPkgSRkgn
+sjDszJpC6Tbbn21/3Y1VA4fNNYBXTiPNeyvUrCLKBMqZGWPw/h6wK82hmTsKaGwm
+GqQfnITN6uFczFdMPExCYSyRP4JXjwf46XSh8eSA/OLWCY8x9SfT2CxGzbBW2xc+
+UofQPjkkvh7aBtg2FMUSJZM8bjf3mllpwebPwnw5PybiWo6DaUVpDrboGc3vkHx1
+ARV7HF703UtSXH2P+vx7UuZV22u2AmV+qF46FCFWLiP3930raFo2dpBvzyyegeJQ
+4mizigNSLvPBWKCj4kwvlaojvT7GAdGo6IQFpp0JbAssEgSI4vkshk9Xhzb6SXcA
+VHndXrfOnO+MVxR4vordGMb94tDnDE4brxBy7ZIc7cU+IwsPAoDg92c4xuyHXpY4
+x91fhdsIF+xkXQxvhdVbodwOxTw7gfjMo3qGwb0KuiXKgE/dDAB9YPno0IpoqX/s
+vTS/wXKwe9MKPDebwjOZ4ZvG68hEY66y1RKaPF6HQiWA8XOsQ209KprNmlvXCeue
+oig7omKXdkpf
+=qb4b
+-----END PGP PUBLIC KEY BLOCK-----
+
+Creation Time: 24.05.2017 21:32:36
+
+Group: txt
+Title: контакты
+Notes: Моховая, 11 ст13 банк ПТБ
+sprafa@jabber.systemli.org
+
+Артем hooligan35@unstable.nl, riitf@jabber.calyxinstitute.org
+Рита yatyt@xmpp.jp; mirida@jabbka.ru
+Вика oevxt@horsefucker.org
+Елена Моисеева Куксус
+Брат Стаса kremen16@jabb.im
+Стас
+
+почта realprivacy@riseup.net; жабер maclay312@jabb.im
+
+РГ:
+-Связь
+-Разведка
+-По выработке взаимодействия с группами с особым статусом
+-Идеологическая часть
+-Цели и задачи
+-Пиар, разработка идентичности
+
+Публичный ключ
+
+[печать: «Федеральная служба безопасности Российской Федерации. Управление по Пензенской области», Д]
+[подпись]
+
+===== v28_gray-019.jpg =====
+14                                                                 17
+
+-----BEGIN PGP PUBLIC KEY BLOCK-----
+Version: GnuPG v2
+
+mQENBFiMpfABCADyQMmHhx7Owubc4Fhuo7tZM9mgIOPYWIrNS9/GE9iZ4iTGKiVY
+ngFHiDWFthAo7c/P8Nv6BIm9EbNfmV89TfZ9DOrHL/v/IYJ4CEh6mqxOZxmT5LQY
+s8jKGsF4tdmIUCztYFDkDHVJznrlfqebYLYIy6IlVemp+xTu0RMuOKUIdc7vLdFH
+jqo+umpcelhBnUrWaCGX0dPueUxB00mvEo+v+igTnGGdnOoSJtFqpIQdbDpGMFi3
+Gjm8PqpkhQyVEOKyrOITUhxjiTEFQwxoJ450nl4od/fW6FojnKD0nYwGwg6UDzec
+RmdJ/tQ0s8LTzJ7/ojSW9fUS2Zp4ttbuTcCfABEBAAG0JtCa0YLQviDQoNC+0Log
+PHJIYWxwcml2YWN5QHJpc2V1cC5uZXQ+iQE3BBMBCAAhBQJYjKXwAhsDBQsJCAcC
+BhUICQoLAgQWAgMBAh4BAheAAAoJEBvelKkBdR4bmd4H/ikQJkLrfvdNilkxJDAt
+HQZMBrEEpJvYjxMZhuGyFlHETc9erszj+CKt3sXGIGijRe437Doc8h/la33rSqIV
+Z6aHikJh3MNwywoIJNiSpf4nSG/JFp3+akL9bTe3CfeX1q8sArjxtu5G2KmL5038
+hmxNgIlPyK/g8BRIm8k6O87zbjt9QIx5IM00PuPZqC6BqqO+HDC61724/VwxeQxm
+tRBIY/KoyQbuZHI5Un1j+djJ2gy0lcBD9Nr7op+0Cyy/ubtsptY+FLzltm7zYUZd
+OSfCSGbFaq+/n7bjh8fhkWwWuz7VyFlfoXeFsTb3JPy8JYsTU+sqydIB5K99KY3q
+1Va5AQ0EWlyl8AEIAJ5YDL9qwsOnGtS35qHCZyQ5ZiaxUyxAi5IwPsFpAM9Ohl2g
+Ps24s5tUgJU4sX/PsTyInSeYpNkOOvSQZ7QdGGgIMRVnWpj3D5GX3JVGndJRFMaW
+RQhi2qqqdd7YO5hlzGFiyD0XY6Q/3CVA/limSMCleaUqB9/vbQzL/AaYoJY48NK+
+wZ61ZI5OejsxYVUO3B/GxoumiI9oZwstRnyoxkSrYcxywMEZLC4pk0rSUPfFSqTd
+7qRonx4aESZzYoojcX7GI9VL4f/eAoRBQzLu3GsfLpEX9UQSvtptYKKdAIbbb85H
+Of2A7P2nJLdsBaCjbV1V6bq6DCiyK80FuuHvc30AEQEAAYkBHwQYAQgACQUCWIyl
+8AIbDAAKCRAb3tSpAXUeG/d+B/4qmM75IDzIFRTAvkTc2B9GoiD9F4zwDnCFQQan
+IbJWIbauxQHkyXQopo6/65Aog5F5tIGX6kSfA4UDA0fvnvaz9GkCo2GLzbPFzb2q
+77euQswkq5p4vpGSql9pn6Q8rX23vA6k6u3F0msgMoBN+keO2XqF4oIuOuzGR/rL
+GDki9Am6maoS2AQE2fAC/iKPJSEAoKxVoCqP2YL1/vCe8OZavbt6mhQApJwfoSba
+FUy+cUFqY+G/qpmdn6uRnQZ/VYpXvWzgT1oJ94vAywOAbIEzSH3jlybXLFNH3MEv
+X+9dMVDIUsIZn2jZlrpBuH5Qad8w5LVXrWof6J0v5xCFQhYS
+=nM0o
+-----END PGP PUBLIC KEY BLOCK-----
+
+Артур
+
+почта birnabir@riseup.net; жабер birnabir@riseup.net
+
+E5C7121B                    AD9DDDFF                    4FCF9D10                    A34E7016                    12102752
+
+Публичный ключ
+-----BEGIN PGP PUBLIC KEY BLOCK-----
+Version: GnuPG v2
+
+mQENBFkUoiIBCADFbLJI/OqWNAu80GDw7pgCzOxnEiifb+SyiGd6gWNOLOD299iZ
+yxpmRIQ5papNYUx+gJD1vzKMnWDfW/g4+FjyGkt9ys003KIjS6aHFV02xSCqEVOF
+zS81V7EgmzCGEuJ0CAmeej7w0QRnTg9Uf8tu3rJkeqtl0aOLOeVtHghQNi/3RnT2
+wmKpBHGxkeU8MRfl0zQ1EWmv8zTlrJufyqrQk5DHYUQYIII2V3ffByZWh9dzwRKp
+g7deZ4hP1zU/SNPAz3Y5L6mONVvbg9ZWScT/VV5GpLOsRC8XON9PI5waspF8I2uY
+rnUy3ODfhx/rD4hme2ORoLErYd0PgNXR4vy5ABEBAAG0L9C60L7RgNC10L3RjCDQ
+uNC80LHQuNGA0Y8gPGJpcm5hYmlyQHJpc2V1cC5uZXQ+iQE3BBMBCAAhBQJZFKIi
+AhsDBQsJCAcCBhUICQoLAgQWAgMBAh4BAheAAAoJEPZQNgkZQtifmfYH/i0bs8NT
+aKgp8ZIUJPJPGqs6Z+TevHVIg8YrCZeLDcQpjRlvXCgP9SsSy8lOexxwp3YZAjM5
+N/pqBrKdjTosHkn1ii7a3TdfqzZ8XoMQd91XPuaq/tP6TiQqUeJ+syJfbjsyEr/9
+w+KXyGrOLclUD0cxuc6s3kvzusZPCnhNaA5n4uYYIRPdRE40BXjqAlfeiVL6aupD
+q+c6419nX6zGe3TDrW+38qLqoF/pHH5Hrv4Yz9Ts0DyabbaDg5X7GjNHoelE49Ez
+PFUZcvDLJdAVHli0oZq+cdZiaN/ZKrshI8gtRictDtB69+wV1VUfKkkKZ/rjWnwl
+Bp85oXmMO9YlaBC5AQ0EWR5ilgEIAM3Kkbqk3HYqbzxlvgewosZ0QAUatoVAWwpt
+zJ6jp/XUeHijUiGzNUy7A0J82JzM+8nphEx4Ro3Mp97VX9xwEQv47WfVZQDVGL5Z
+vpulSUBP5zRw5GpVMH/lv20YXELdlX5+QjH8TEMgZGci0zwb9pzFPZ8gqOHkZPk9
+Dyle2X6oE0Yrc0xxpDQFH1aQOC/JliDSPWNyxT8TBdUn+X8W8UkIuxGb67sWIIC2
+EMjZvOgYL7g59uSRre3R48SHrmjwFTWUfuKfFv+JY7i/x0ZAkCNYcacHcp6dzdo1
+9KcrylsGKkIdk/tGZOJyjHfzeCXToRdm7LZo+JdYglpssbsHtuMAEQEAAYkBHwQY
+AQgACQUCWRSilgIbDAAKCRD2UDapGULYn3AXCACL4DrdiJxyQcCH3uM[неразборчиво]
+QBMOL8FS460A94U570siBZZYGNhFJBoT/FzlSuLIDLXDleYKxgy5Wj4S[неразборчиво]
+4SFURyhsUYpL4wPEUP4v3HKJLWWYQBv/gAqLorWCNx8jngXRqlex5[неразборчиво]
+InpyThH3zM4cVDy8MBn4rw2XmulINX55Y4HuA2d32mecF4NFqCVFp0[неразборчиво]
+pMb/9DVYWdwkbAoQqWkX4HsJuUznXKsNgbWKumT1+JT6WXHflLd9[неразборчиво]
+
+[печать: Федеральная служба безопасности Российской Федерации. Управление по Пензенской области] [подпись]
+
+===== v28_gray-020.jpg =====
+15                                                                 18
+
+T4qahOhsfJ3+fQ91LI5pfDerEppUJC2kj9dnOuo8awp6jzBqMiRuAkNhpMBh
+=JU79
+-----END PGP PUBLIC KEY BLOCK-----
+
+5168                         7555                         2373                         2283
+
+Глеб
+
+жабер matilda19171984@xmpp.jp, qumhe@jabber.calyxinstitute.org, hfybuf@jabb.im
+
+Федя
+
+почта qmnvg@riseup.net; жабер vpered@jabb.im
+
+Участие в рг:
+- Работа в белке
+- Тактика
+- Разведка
+- Связь
+- Медицина
+- По выработке взаимодействия с группами с особым статусом
+- РГ по разработке протоколов действий в различных ситуациях
+
+Публичный ключ
+-----BEGIN PGP PUBLIC KEY BLOCK-----
+mQINBFIDy8ABEADzxonBrWL2BviDy+IxIWlrdv2gA0+K65vFuK0sOcJ3c1O1BbL/
+AmeGuvTPh0ERZGPXmjzsvl88S4Qxurl4azAGSqOEJb1RuaYitEo6UX7+KIHLztoV
+gnmuobnevy8VCZhUHi/fbyyg5n7EvtU/d4dStTYevm85QHrr/PAaxrpmSWX2PcdS
+CVON29JYKvV5usd5+AAuJqrqg8kkHQXo1ZMUP+/H8pvM4fbEOeNAqhXH1Jwss+j/
+5BqoPYbk15nMIwoP1XUkvfqPqNVgUNC9C+B/XgzA/wCoIKZJCOC5mr7xfeHTiB6j
+EFNgCRm5GRh8RQIAy0I6855k6TIDGHVQKB+2Mq8UtKrYaxC92ZhINbcFMFHT3Uuz
+JrBODWOPDiNHNNUTFJvxQN8C9VObaXZSXSNBUcJ2BtwdLabsTks92hQ5joLffW5d
+Vk3BUswTADTOWLIJPLfhDR+t5R1+iYN+6nmtc5PwY91FD1b5HvArftAK7BMwhqu7
+QIzGP1m7isn3jS7o8zIDvFIB643zuh8yCEoOBPD+btYoZI55wK2tFs1H08orJDB6
+kCdGQ5T76oeZ6MkjGkh1BVh5Pu6DrLfY8bilnihWg7Bb9iVzYIQIVcwFXCFxKWve
+at4Qlldj7MmUZvoip03XKqsxp2EYXGHJuvy+m4yZr9j03LT1M+jQVBY8kQARAQAB
+tBhxbW52ZyA8cW1udmdAcmlzZXVwLm5ldD6JAjcEEwEIACEFAIIDy8ACGyMFCwkI
+BwIGFQgJCgsCBBYCAwECHgECF4AACgkQnDTKisMg25wDtQ//UHxUgH+MmCkJDBjg
+p2izR43oRu0iJHw6KYQPOgCYEW9QRva0VucD7BXXETMjwm/iYk9hl91gv2xqHYuy
+sZTGfCtMEqs7DQe1GQQYDHq8SF4ko0ITfdmlXTUcaLG80qbuTvUVsFdr6FNGrPOS
+I5QxZN20Jy3xb5NO6bz2loeBzyEBOFkPgimAQ9ZnFpQLPjTWnjHOvkQEz7IdgPJM
+esANtx8MwFFbHlrVYF55sRPE/yTyszNRntf4t+7g6llasODX77jyQzO7WBAPi7Ej
+Bzpd/M2SzJn1f099wOPzYA08BpdNaPs6gF4ANRC+DYx8HvKKilByiabAaOEIRzyq
+vJuAWscUCTM/OvF2Oa6MDfBDdCN7iQ/g0yN/LA/hRZDrjDJH5CeR3/Zbj4AYhlj/
+P/zYs4sDB0YOhTqG0M00siq4Zd+8ofrvjDHmgSNn6hfuRw6Sbgj6cPmcdPC/pkP7
+i3+15jxEXguVzQR1fUCYCF8V4sxjVjUx+yjC9CAvcDMcVIII5S/UIqyrx5BLxmZx
+xEAPArBOMCBqpL+y2cinegloW+ojnnWExLVPZbFx9gB1Trk0XqEjurVc9Nt0370h
++w0NeaF5d2sNKKhUpSBSeg3vmXUqOkBaINMIYbWG9ZokBKc9MnxBqKMe847iBFDv
++vYZqsCq+zbv1CXP3KCIAQLOGcS5Ag0EWUPLwAEQAMuLZZqujPgZ6RIRm4gHxAim
+FLISTpgGbgZsiTS9cak1FfCDoUCcYDjR+JovNK8WBcmUYq8qPzINsWENWKj6X62x
+iyHj+unGk0G3aNdrN69xXomlPiXai4aUMY4r3usgn5sO7+3MSsQFtlYEOAfPUurc
+xTpGw+5up1n33/ry04045QiZU0pH0R08zIFRTaK4TBvYhfV7eS1/ZysCfDXaMfme
+SmLRRXuUpo+mDo0XzFal0ebMKF5geUlYDuGxcPY/yTk9xeEf+Wh22pkmxtdMtIXM
+WAosNcunDEPurSLqeWpM/DJ2ITDOhQFNg9EP9tqx3BWkvBKCBNPapeQfTCxnQ5M[неразборчиво]
+YqU+hYR8pGhr2e7KcISclh/Y50xWAUFgJWi3q0xdn9HX6uXjlh7JgMGpWXcn/0AT
+HXH3PMfrVOJ3PbBgWH4EtcpImwbrG/j3T0vB2IqULSY6/wj7p6x30lepr7FfdfbQ
+e7oJROObxs8jy6VFqDCv/Tuvg5BPN6cGQv9IZU8m4YUR76Y7H4cjlizeSRp3VHH6
+TV9g2FE3H4A3Yol4JLAosC6k1nWNXq5XYq/YxGFRG7+wi40kbVAotgOxZcckPFYA
+bKzInFsgSd3JNa0rggJImJAzOcX/mrmxn/urpgEO289N5hyMOpuZnfZ095sY+jPZ
+
+[печать: Федеральная служба безопасности Российской Федерации. Управление по Пензенской области] [подпись]
+
+===== v28_gray-021.jpg =====
+16                                                                 19
+
+F6Ou20GPsE5j6tkpByyLABEBAAGJAh8EGAEIAAkFAIIDy8ACGwwACgkQnDTKisMg
+25zSzQ/+N0G0fKjnxJRjtVUxXep2sq6YfMcmj2QxTk+spdcziLagP/IDYLqiYMbC
+HS9joLK/5b6hA9+dnE6IkMquKjAsh8ULqGJvbLK5jqAy25wMKP6KFWHNq8rxCG/W
+znYKG3JL6oQYtUUXTJDSflfoW9OSJ8C7XMK66xLd0cr7jD6gGG8cSs6PEYMTctM8
+824SzlgtXD1Pi95pPydEcmGTQ3dbDngzIFmGqqJsO7RS0O3vipid44JqLh/zUZwV
+PQRUZGPdRXss8hcz+xZAa075lipEBgdx9W77kijuJVwTsa065E2VtEOvILER8NPt
+PLO4bL96uaMw61jksSrq/ffhtQfj2tkksbNHIPsOmyYchw2NIPIE9oXVpAlq8OXK
+T+rudUWyUiVHmFvCCFC7dZ/gPXdctIEo0DyLRpZiosr7Wwl2h2K9wjjORuWOh2TN
+b1G1paX5mekb/rhd5vEg2Fak3TA645n6l6a5l9tdcU5r3Rflyxzd5J6+UHENHlyu
+ejLz38gfVndMAXo0fFjiQoPLnePk1cbi4ztgxQ+/WgqWDzY5qHnID9impUpVn62d
+MnNznK0gbyWeyQSXRBL2fQH72q+LirX7H6CDHVndGPaGueu+9/LKc7luQagvl7Mb
+vmlgEqqIhhRMInB+I9rl0IuowCsoR18oKdDW7xweekZflkBhdQM=
+=nrNL
+-----END PGP PUBLIC KEY BLOCK-----
+
+Creation 25.05.2017 0:39:11
+Time:
+
+Group: txt
+Title: н
+Notes: У меня тут пиздец произошел. У меня на работе ноут забрали в четверг на проходной, когда я с работы выходил. До этого постоянно его с собой таскал, но в этот раз просто весь рюкзак у меня перерыли охранники. Отдал им в руки, потому что подумал, что доебались, потому что думали, что я его спиздил, потому что в последнее время на завод компы всякие завозить стали. Пришел какой-то хрен из отдела безопасности и сказал, что проверить смогут только утром, потому что рабочий день кончился и все домой свалили, и что по правилам завода нельзя с собой на завод личную видео и оргтехнику носить. Я оставил до утра, пришел домой и позвонил крестной, через которую мы с братом туда работать устроились. Она главным конструктором там работает. Спросил, знает ли она начальника охраны, сказал, что ноут у меня забрали. Она ему позвонила, потом перезвонила мне и сказала, что он утром мне ноут отдаст, только телегу мне какую-нибудь расскажет про то, что теперь нельзя такие вещи с собой носить без оформления специальных разрешений. Написал про эту хуйню Давиду. Он написал, что утром уезжает на 2-3 дня по работе. Утром я пришел к этому сотруднику отдела безопасности, думал сейчас заберу и пойду работать, а он начал хуйню нести, что нельзя ноут было проносить, потому что это запрещено правилами безопасности из-за того, что кто-нибудь может информацию какую-нибудь с завода спиздить. Я сказал, что меня никто никогда об этом не предупреждал. Там и в самом деле раньше кто-нибудь планшет или ноут приносил. Я слышал, что до них из-за этого доебывались, но потому что они на рабочем месте игрались в них. Я вообще ноут из рюкзака даже не доставал на работе. Этот ссаный безопасник выебываться стал, что завод - это режимный объект, что я должен сам откуда-то знать регламент работы завода. Сказал, что отдаст мне ноут, только после того, как проверят, что на нем, что надо подождать специально обученного сотрудника, который этим займется. Спросил запаролен ли ноут. Сказал, что могу или сейчас разблокировать и прийти в обед забрать или в обед разблокировать, чтобы при мне посмотрели. Я сказал, что в обед зайду. Пошел на работу. Там написал Насте, чтобы она к этому времени подъехала во дворы за пару кварталов от проходной. Пришел в обед, зашел к нему в кабинет. За мной зашел еще какой-то мужик. Ноут лежал на столе перед ним. Он начал с этим мужиком говорить. Я взял ноут и вышел. Добежал, петляя дворами до Насти, отдал ей ноут и пошел обратно на работу. По дороге мне позвонила Крестная. Сказала, что этот безопасник ахуел, от такого поворота, что он сказал передать, что если я сейчас к нему не зайду, то меня уволят. Я зашел. Там уже еще трое сидели: специально обученный очкарик, тетка, вроде как из отдела кадров, и еще какой-то мужик. Спросили, где ноут. Я сказал, что не скажу. Они все разом начали выебываться, что я типа ахуел, что это режимное предприятие, что мне пиздец, если я ноут им не покажу. Спросили, сколько времени мне нужно, чтобы я ноут принес. Я сказал, что не собираюсь им его показывать. Безопасник сказал, что если через час ноута не будет, то мной уже другие люди займутся. Потом сказал, что этим вообще ФСБ займется. Я спросил: "И что тогда будет?" Он сказал, что они со мной уже по другому говорить будут. Я сказал, что не буду показывать, что на ноуте. Безопасник сказал, что сейчас за мной сюда придут какие-то другие люди. Я мы зашли вышел из его кабинета, пошел дворами в сторону центра города. Написал Насте адрес через несколько кварталов, где меня подобрать, выключил все телефоны и пошел к месту встречи. Я собирался вывезти все палево из своей съемной квартиры. Настя довезла меня до леса на моем районе, мы зашли в лес, я скинул сначала свой смартфон, на котором жабу юзаю, и ключи от конспиративной хаты, потом подальше рюкзак с ноутом. Вернулись с Настей к машине, договорились, где она меня будет ждать. Я пошел домой. К тому времени прошло уже несколько часов с тех пор, как я вышел с завода. Зашел к себе, собрал вещи, пошел к лесу петляя по
+
+[печать: Федеральная служба безопасности Российской Федерации. Управление по Пензенской области] [подпись]
+
+===== v28_gray-022.jpg =====
+17                                                                 20
+
+дворам. Забрал рюкзак с ноутом, ключи и смартфон не получилось, потому что из леса вышли два мужика и стояли около того места долго. Пошел через заросли к месту, где ждала настя. Поехали купили чистую симку для моего чистого смартфона. Потом я решил отвезти вепря, на которого у меня еще нет разрешения на ношение и которыйт лежал у меня на съемной квартире, по месту моей прописки, на случай, если придут с обыском, чтобы еще из-за него проблем у меня не было. Живу с тех пор у Насти. Давид на связь так и не выходил. Вчера в пятницу вечером, когда брат заканчивает работать, написал ему в вк через https://secserv.me/ с чистой страницы, заеганной на чистую симку, не включавшуюся рядом с другими нашими телефонами, через тор+впн. Спрсил его, что ему сказали про меня на работе. Вот что он ответил:
+карочь тебя не уволили и если придёш в понедельник то даж прогул мож непоставят.а с ноутом ты чёт переборщил.тёть света говорит что его тебе начальник охраны мог вечером отдать непроверяя еслиб ты дурочком притворился и хуйни ему какойнить наплёл.а ты его спиздил при ещё двух свидетелях и теперь начальник охраны шоб перед ними отмазаться должен сам проверить твой ноут а если ты его не принесёш то в фсб это дело передаст.тёть света вроде договорилась шоб пака не передовал если в понедельник принесёш ноут.можешь жёсткий диск на него другой поставить и всякую хуйню на него записать с обычной виндой
+Думаю теперь переустановить убунту с полным форматированием, может накачать на ноут порнухи и отнести на работу. И вот хочу спросить, они же после этого ничего не смогут восстановить? Т.е. если даже смогут, то все зашифровано будет же
+
+Creation 23.09.2017 14:12:32
+Time:
+
+Group: txt
+Title: Пер
+Notes: -нууу
+такие не обязательно слать)
+- А такие? <3
+- и такие)
+- Сердца у тебя нет(((
+- У меня кусок льда вместо него
+окруженный 9ю каменными стенами
+а за стенами ещё Арчи сидит
+-А куда нормальное живое делось?
+-украли
+-Кто посмел?
+- Арчи
+- И что же ты молчала? Или ты хочешь сказать, что это Арчи виноват, что у тебя кусок льда вместо сердца? Никогда не замечал за ним такой способностей
+Таких способностей*
+- а что я должна была говорить?
+ниче не поняла
+- Ну уж не знаю, что ты имеешь ввиду под тем, что арчи украл твое сердце
+- да у меня моё сердце, всё с ним норм. качает кровь, бьётся)
+- А арчи тут причем?
+- а ключики от него у Арчи
+- Считаешь не нужно было об этом мне сразу сказать? И зачем тогда были всякие поцелуйчики?
+- я всем шлю поцелуйчики)
+и Г, и Д, и М
+нет, считаю,что не нужно было об этом говорить
+- Почему? И при всирече ты тоже всех целуешь?
+- что почему?
+ну вообще да, я могу поцеловать человека при встрече иии я не припомню, чтобы я целовала тебя при встрече) максимум, что я могла сделать - это обнять
+- Пиздец, у кого-то из нас проблемы с памятью
+- когда?
+ммм
+я могла поцеловать тебя в щечку, там в садах мб, нооо я также подходила к Д и тоже целовала его в щечку)
+Ванес, ты [неразборчиво: вероятно «ревнуешь»] что?)
+
+[печать: Федеральная служба безопасности Российской Федерации. Управление по Пензенской области] [подпись]
+
+===== v28_gray-023.jpg =====
+18                                                                 21
+
+когда ты пытался меня поцеловать, я отворачивалась и говорила, что не надо этого делать)
+- В последнее время да, а я не мог понять, почему ты даже не говоришь почему. Видимо, мне надо проверить голову или мне все приснилось
+- что в последнее время?
+aaaaaaaaa
+а до этого что?
+- Хватит издеваться. Скажи, что я вообще для тебя значу? Я всегда для тебя был только товарищем в нашей борьбе или даже им не был? Почему ты ведешь себя так, как будто тебе на меня вообще плевать?
+- Ванес
+я не над кем не издеваюсь
+я вообще не понимаю,что происходит, сс честно
+ты для меня всегда был товарищем, но не более
+извини,если я что то не так сказала,но я хорошо отношусь ко всем своим товарищам и все мои товарищи для меня абсолютно равны
+- Так и не могу решить то ли у меня действительно пиздец с головой, то ли у нас очень разное понимание того, что такое хорошее отношение к кому-либо. Ну да хрен с ним, главное постарайся, чтобы и с Арчи потом не оказалось того, что он сам себе что-то придумал или ему все приснилось
+- Ванес
+что ты блять несёшь?
+мы с тобой товарищи и всёёё
+- Ок
+- нас связывали и связывают только дела
+
+Creation 14.09.2017 20:57:21
+Time:
+
+Group: txt
+Title: пер1
+Notes: [00:03:27] <waifuclub> раньше не спрашивал, но думал, еще с тех пор, как планировалось, что вы втроем будете границу укр переходить, что вы вместе жить будете там, по крайней мере до тех пор, пока сами деньги там мутить не начнете или не свалите к курдам. а ты написал, что им деньги на квартиру нужны. мы тебе-то деньги на квартиру с трудом находим (кирилл вот на днях писал, что у него с баблом проблемы), а на две квартиры вообще гемор будет
+[00:06:08] <waifuclub> вы вместе пожить не сможете какое-то время?
+[00:08:00] <waifuclub> с глебом сегодня связывался, он напсал, что будет как только сможет пытаться попасть в курдистан
+[00:08:47] <waifuclub> а вы с н туда планиуете сваливать?
+[00:11:25] <birnabir@riseup.net> зачем тебе все это?
+[00:12:48] <waifuclub> пытаюсь понять масштабы проблемы с баблом, например
+[00:13:36] <birnabir@riseup.net> ну жить вместе не получится
+[00:14:09] <birnabir@riseup.net> что не понятного, им нужны деньги на хату и дорогу
+[00:19:36] <waifuclub> не хочется прост возвращаться, а где еще столько денег взять, у меня идей нет
+[00:24:07] <waifuclub> ты глебу про н рассказал уже? он постоянно спрашивает, как у нас дела, когда мы связываемся. про нее пока не спрашивал, но хочется знать, стоит ли от него и дальше скрывать?
+[00:24:22] <waifuclub> если спросит
+[00:37:08] <birnabir@riseup.net> я с глебом взаимодействовать не собираюсь
+[00:37:13] <birnabir@riseup.net> больше
+[00:37:34] <waifuclub> почему?
+[00:38:07] <birnabir@riseup.net> и знать ему не обязательно это
+[00:38:11] <birnabir@riseup.net> и не за чем
+[00:38:27] <birnabir@riseup.net> ты Д передал, чтобы никому не говорил??
+[00:38:33] <waifuclub> да
+[00:39:33] <waifuclub> что с глебом не так?
+[00:39:49] <birnabir@riseup.net> кек
+[00:43:19] <waifuclub> какой же ты мозгоеб, нихуя уже ничего не говоришь толком. с нами-то ты взаимодействовать собираешься?
+[00:43:50] <birnabir@riseup.net> эм
+[00:44:23] <birnabir@riseup.net> 1. какой же ты мозгоеб я тебе написал??
+[00:45:06] <birnabir@riseup.net> 2. нихуя уже ничего не говоришь толком что тебе рассказать??
+
+[печать: Федеральная служба безопасности Российской Федерации. Управление по Пензенской области] [подпись]
+
+===== v28_gray-024.jpg =====
+19                                                                 22
+
+[00:45:28] <birnabir@riseup.net> 3. с нами-то ты взаимодействовать собираешься? взаимодействую
+[00:45:57] <waifuclub> почему с г не собираешься взаимодействовать?
+[00:48:11] <birnabir@riseup.net> не хочу чтобы это звучало так, что я за глаза что-то говорю
+[00:50:42] <waifuclub> бля, ладно, я спать. завтра может вернемся к этому разговору
+[00:50:58] <birnabir@riseup.net> ок
+[00:51:07] <birnabir@riseup.net> кс
+
+[18:40:19] <birnabir@riseup.net> в общем
+[18:40:33] <birnabir@riseup.net> давай базарить
+[18:40:48] <waifuclub> давай
+[18:41:42] <birnabir@riseup.net> меня беспокоит безопасность пнз в целом
+[18:41:47] <birnabir@riseup.net> и мотивация
+[18:42:05] <birnabir@riseup.net> например когда ты смотришь паспорт Н
+[18:42:29] <waifuclub> она сама его показала
+[18:42:39] <birnabir@riseup.net> да?
+[18:42:43] <birnabir@riseup.net> она говорит нет
+[18:44:41] <waifuclub> ну и она дала мне его как-то и забыла забрать, и я тоже про него забыл и когда нашел его в кармане, то даже не вспомнил, что это и откуда, пока не раскрыл
+[18:44:50] <birnabir@riseup.net> она говорит, что когда ты отдавал его назвал ее по имени и она спросила "все выучил?" ты-"кроме прописки"
+[18:45:20] <waifuclub> бля, прост пошутил
+[18:46:05] <waifuclub> не вижу в этом особой проблемы
+[18:46:21] <waifuclub> вообще не вижу
+[18:46:34] <birnabir@riseup.net> она говорит "прошел день и она тебе напоминала"
+[18:47:02] <waifuclub> мы и без паспартов знаем друг о друге слишком много
+[18:47:10] <birnabir@riseup.net> а я вижу, и думаю она очевидна
+[18:47:30] <waifuclub> мне что-то нет
+[18:47:33] <birnabir@riseup.net> но это не повод узнавать еще больше
+[18:49:46] <birnabir@riseup.net> ну если ты не знаешь фио человека
+[18:50:02] <birnabir@riseup.net> то у тебя его паяльником не достанут
+[18:51:13] <waifuclub> и без этого знаю дохуя, по чему ее найдут без проблем
+[18:51:21] <birnabir@riseup.net> ну блядь
+[18:51:49] <birnabir@riseup.net> копы могут не знать
+[18:51:52] <birnabir@riseup.net> что ты знаешь
+[18:52:21] <waifuclub> как и про фио
+[18:52:31] <birnabir@riseup.net> бляяяяяяяя
+[18:52:36] <birnabir@riseup.net> ты серьезно?
+[18:52:54] <birnabir@riseup.net> кароч, не могу с тобой общаться на эту тему
+[18:53:00] <birnabir@riseup.net> напиши корпусу безопасности "почему нельзя смотреть паспорт"
+[18:53:17] <birnabir@riseup.net> если у кого-то есть желание объяснять это тебе
+[18:53:26] <birnabir@riseup.net> объяснят
+[18:54:00] <birnabir@riseup.net> я думал всем очевидно почему нельзя это делать
+[18:54:11] <birnabir@riseup.net> ну пока ты единственный
+[18:54:15] <birnabir@riseup.net> кому не понятно
+[18:54:55] <birnabir@riseup.net> все с этим вопросом?
+[18:55:03] <birnabir@riseup.net> можно переходить к следующему?
+[18:55:09] <waifuclub> да
+[18:55:58] <birnabir@riseup.net> когда я говорил "нельзя взаимодействовать с гражданскими(понял с какими?)" меня совершенно не слушали
+[18:56:23] <waifuclub> ты про нло?
+[18:56:29] <birnabir@riseup.net> да
+[18:56:42] <waifuclub> как раз ты мне совершенно обран
+[18:56:48] <waifuclub> обратное говорил
+[18:56:54] <waifuclub> на съезде
+[18:57:09] <birnabir@riseup.net> ты ебанулся?)
+[18:57:24] <birnabir@riseup.net> спроси у Г и Д я всегда был против них
+[18:57:32] <birnabir@riseup.net> и говорил им это
+[18:57:47] <birnabir@riseup.net> а они говорили - "да все норм"
+[18:57:51] <birnabir@riseup.net> а потом бля я занимался вопросом их
+[18:57:57] <birnabir@riseup.net> чтобы они никого не сдали
+[18:59:40] <waifuclub> я тоже самое всем всегда говорил, а когда на съезде мы обсуждали вопрос вербовки, я сказал, что со всеми нужно общаться по нашим вопросам только через кого-то, а ты сказал,
+
+[печать: Федеральная служба безопасности Российской Федерации. Управление по Пензенской области] [подпись]
+
+===== v28_gray-025.jpg =====
+20                                                                 23
+
+что если кореша, то и так норм
+[19:00:18] <birnabir@riseup.net> ты понимаешь, что это блядь не на всех работает???
+[19:00:28] <birnabir@riseup.net> что с кем-то можно
+[19:00:31] <birnabir@riseup.net> с кем-то нет
+[19:02:54] <waifuclub> ну да, только понятно, с кем как, становится в любом случае только когда уже корешь либо в сети либо устранен
+[19:03:21] <waifuclub> точнее не так правильнее по моему сказать лучше
+[19:04:43] <birnabir@riseup.net> если нас всех они знают, то толку уже было одному заниматься ними. ну вообще по сути только Г и занимался ну и Д, а у меня блядь выбора большого не было
+[19:04:53] <birnabir@riseup.net> мне жить же где-то надо
+[19:07:03] <waifuclub> а так, что, для меня во всяком случае, кореша, т.е. те, кому я доверяю хорошо, только те, кто уже занимается нашими делами вместе со мной
+[19:08:12] <waifuclub> хз, конечно, может только у меня уже других настолько близких людей нет
+[19:09:11] <waifuclub> я стобой по поводу нло полностью согласен, явсегда был против того, чтоб они в садах, например, тусили
+[19:10:36] <waifuclub> только я о таких решениях узнавал (приводить ли их в сады и тп) только после того, как все уже свершилось, потому что я в то время очень мало виделся с вами
+[19:11:16] <waifuclub> я даже и не знал до того момента, когда вас приняли, что они в садах тусили
+[19:12:58] <birnabir@riseup.net> ну сидишь такой в садах, а тут бля Г и Д приходят с ними
+[19:13:12] <waifuclub> со мной так и было
+[19:14:03] <waifuclub> хотя получается, что знал
+[19:14:14] <waifuclub> митя как раз так заходил
+[19:14:38] <waifuclub> и д сказал, что он тут часто бывает
+[19:15:09] <waifuclub> уже не помню всего в подробностях
+[19:16:25] <birnabir@riseup.net> ну вот теперь когда говорю " я же вот говорил, что нельзя с ними взаимодействовать, был прав?" мне говорят -"говорил, да"
+[19:16:33] <birnabir@riseup.net> только теперь уже бля поздно
+[19:17:17] <birnabir@riseup.net> с этим вопросом все?
+[19:20:54] <waifuclub> ясно, что много, чего проебали, но идельно безопасно маловероятно, что мы сможем в ближайшее время делать, от риска в нашем деле по моему никуда не денешься, особенно на данном уровне нашего развития
+[19:21:17] <waifuclub> такие проебы у всех подразделений есть
+[19:21:50] <waifuclub> кирилл, например,женьку про сеть распиздел все
+[19:22:05] <birnabir@riseup.net> бля, давай сейчас про пнз???
+[19:22:07] <birnabir@riseup.net> мб???
+[19:22:12] <waifuclub> ок
+[19:23:24] <birnabir@riseup.net> потом когда я говорил "чуваки, блядь заканчивайте с этой работой, понимаете, что всех рано или поздно винтят? заканчивать надо!!" мне говорили - "да норм все будет, че ты" и когда теперь говорю - "вот я же говорил, вот я был прав?" мне говорят - "да, был прав"
+[19:23:59] <birnabir@riseup.net> риски есть, но их нужно минимализировать
+[19:24:04] <waifuclub> я к тому, что просто стараюсь всех заебывать с безопасностью, чтоб такого все меньше было
+[19:24:26] <waifuclub> и я об этом
+[19:24:53] <birnabir@riseup.net> ну прост ты просил поговорить про вас, а теперь начинаешь рассказывать про кого-то
+[19:28:39] <waifuclub> я тоже всегда был против этой работы, но когда предлагал попытаться мутить что-нибудь легальное, сам не мог ничего предложить, и д сказал, что это долго и заебишно, что времени на это нет
+[19:29:33] <waifuclub> и я согласился этим занимать, потому что не знал, как еще деньги для вас доставать
+[19:30:05] <waifuclub> если бы не это, я бы (ск) не стал вообще заниматься
+[19:31:45] <waifuclub> если бы дело было только в бабках на оснащение товарищей, то я бы этим не занялся
+[19:33:37] <birnabir@riseup.net> в общем проебов еще много
+[19:34:06] <birnabir@riseup.net> но остальное если что не сейчас
+[19:34:36] <waifuclub> хорошо
+[19:35:06] <waifuclub> а почему ты не хочешь взаимодействовать именно с г?
+[20:23:24] <waifuclub> дал ему почитать нашу переписку, он тоже не понял про паспорт
+[20:25:13] <waifuclub> точнее я еще как-то согласен в этом плане про тебя или кирилла
+[20:25:32] <waifuclub> т.е. про всех чуваков из других подразделений
+[20:26:02] <waifuclub> потому что я про них и так практически ничего не знаю
+
+[печать: Федеральная служба безопасности Российской Федерации. Управление по Пензенской области] [подпись]
+
+===== v28_gray-026.jpg =====
+21                                                                 24
+
+[20:26:58] <waifuclub> но в отношении н и д не считаю это пиздец прям косяком
+[20:29:04] <birnabir@riseup.net> давай потом
+[20:29:09] <birnabir@riseup.net> англ учим
+[20:31:49] <waifuclub> сегодня?
+[20:38:14] <birnabir@riseup.net> что сегодня?
+[20:40:19] <waifuclub> про г хотя бы ответишь?
+[20:41:54] <waifuclub>
+» [19:35:06] <waifuclub> а почему ты не хочешь взаимодействовать именно с г?
+
+[20:44:55] <birnabir@riseup.net> ну вот так вот сложилось из-за всех косяков или хз как это назвать в общем
+[20:45:05] <birnabir@riseup.net> не из-за чего-то одного
+[21:09:01] <waifuclub> понятно, что из-за его проебов тебе больше всех досталось и тебе пришлось решать проблему, но думаю, что все мы в разной степени косячим, что мы и должны друг другу помогать в том, чтобы эта степень становилась как можно меньше, если, конечно, товарищ понимает свой проеб и готов над собой работать в этом плане
+[21:09:54] <waifuclub> а н тоже не будет с ним взаимодействовать?
+[21:10:10] <birnabir@riseup.net> щас спрошу
+[21:12:01] <birnabir@riseup.net> говорит - уже
+[21:12:50] <waifuclub> что уже?) не взаимодействует или наоборт?
+[21:13:33] <birnabir@riseup.net> не взаимодействует
+[21:16:36] <waifuclub> а она почему? прост я от нее про г и м только и слышал, как она по ним соскучилась, говорила как-то, что хочет их навестить
+[21:17:23] <birnabir@riseup.net> это было давно
+[21:17:37] <waifuclub> да
+[21:17:53] <birnabir@riseup.net> это она сказала
+[21:18:05] <waifuclub> а что изменилось?
+[21:18:12] <birnabir@riseup.net> многое
+[21:19:57] <waifuclub> ахуительный ответ прост(
+[21:20:16] <birnabir@riseup.net> ну я ж сказал, что англ учим
+[21:29:05] <waifuclub> надеюсь ответит, когда закончите
+[21:41:05] <waifuclub> отвечу пока на вопросы, которые оставил без ответа, про которые только сейчас вспомнил, что не ответил
+[18:42:05] <birnabir@riseup.net> например когда ты смотришь паспорт Н
+[18:42:29] <waifuclub> она сама его показала
+[18:42:39] <birnabir@riseup.net> да?
+[18:42:43] <birnabir@riseup.net> она говорит нет
+Она мне как-то его показывала со словами:"Смотри, какая я тут страшная получилась"
+[18:46:34] <birnabir@riseup.net> она говорит "прошел день и она тебе напоминала"
+Насколько я помню, я после того, как нашел ее паспорт в своем кармане, её в жабе назвал по фио, чтобы она вспомнила, что паспорт ее уменя
+[21:42:21] <birnabir@riseup.net> я тебе сама напомнила
+
+waifuclub@jabber.calyxinstitute.org (13.10.2017 12:49)
+Блин, работать уже надо. Н так и не скажет, почему она к г так отношение изменила?
+birnabir@riseup.net (13.10.2017 13:02)
+по той же причине
+birnabir@riseup.net (13.10.2017 13:02)
+что и я
+birnabir@riseup.net (13.10.2017 13:05)
+и говорит, что это касается только узкого круга людей
+waifuclub@jabber.calyxinstitute.org (13.10.2017 14:33)
+В который я не вхожу? Это что, какие-то личные обиды?
+birnabir@riseup.net (13.10.2017 14:34)
+ты прав - В который я не вхожу?
+birnabir@riseup.net (13.10.2017 14:35)
+
+[печать: Федеральная служба безопасности Российской Федерации. Управление по Пензенской области] [подпись]
+
+===== v28_gray-027.jpg =====
+22                                                                 25
+
+Это что, какие-то личные обиды? - не прав
+waifuclub@jabber.calyxinstitute.org (13.10.2017 14:38)
+Тогда не понимаю, почему меня это не касается, если это не личное
+birnabir@riseup.net (13.10.2017 14:39)
+она еще раньше меня перестала взаимодействовать, так что это не я ее заставил, если что))
+waifuclub@jabber.calyxinstitute.org (13.10.2017 14:40)
+Тогда я вообще не понимаю)))
+birnabir@riseup.net (13.10.2017 14:41)
+ну написала же уже
+birnabir@riseup.net (13.10.2017 14:41)
+че ты пристал то
+birnabir@riseup.net (13.10.2017 14:41)
+)
+waifuclub@jabber.calyxinstitute.org (13.10.2017 19:07)
+> че ты пристал то
+Ну я-то не планирую с г прекращать взаимодействие, и если ты тоже из-за его косяков не будешь с ним взаимодействовать, то мне бы нужно знать, как он еще проебался с тех пор, как ты говорила, что хочешь съездить их навестить
+birnabir@riseup.net (13.10.2017 19:09)
+нет желания это обсуждать
+birnabir@riseup.net (13.10.2017 19:09)
+можешь считать, что я (арутр) прост так перестал взаимодействовать
+waifuclub@jabber.calyxinstitute.org (13.10.2017 19:17)
+Пиздец просто(
+> че ты пристал то
+Не понимаю (это и ответа твоего (артура) касается), как такое спросить можно, если только тебе/вам не плевать уже на все, ради чего мы объединялись в подразделение
+waifuclub@jabber.calyxinstitute.org (13.10.2017 19:19)
+И еще обижаешься, что я обзываться начал
+birnabir@riseup.net (13.10.2017 19:20)
+кеек)
+birnabir@riseup.net (13.10.2017 19:20)
+не обижался я
+birnabir@riseup.net (13.10.2017 19:21)
+я вроде не отписывался от анархо взглядов
+birnabir@riseup.net (13.10.2017 19:21)
+какая разница где, с кем, когда вести эту деятельность
+birnabir@riseup.net (13.10.2017 19:22)
+или о чем ты
+birnabir@riseup.net (13.10.2017 19:22)
+я прост не умный
+birnabir@riseup.net (13.10.2017 19:23)
+не понимаю
+waifuclub@jabber.calyxinstitute.org (13.10.2017 20:02)
+
+[печать: Федеральная служба безопасности Российской Федерации. Управление по Пензенской области] [подпись]
+
+===== v28_gray-028.jpg =====
+23                                                                 26
+
+> я прост не оч умный
+Хватит чушь-то писать)
+Позже напишу сообщение, в котором попытаюсь понятнее объяснить
+birnabir@riseup.net (13.10.2017 20:03)
+жду)
+birnabir@riseup.net (13.10.2017 20:03)
+ты мне льстишь)
+
+[21:41:14] <waifuclub> это просто пиздос
+[21:41:21] <waifuclub> то, что игорь рассказал
+[21:42:05] <waifuclub> говорили же, что с родителями проблем не будет
+[21:42:19] <waifuclub> они в розыск подали
+[21:43:22] <waifuclub> и теперь всех, с кем настя тусила в последние дни, на допрос вызывали
+[21:43:41] <waifuclub> и они там такого наговорили, что просто жопа
+[21:43:47] <birnabir@riseup.net> и шо
+[21:43:52] <birnabir@riseup.net> в курсе
+[21:43:56] <birnabir@riseup.net> мы
+[21:44:31] <waifuclub> что настя общалась в последнее время хз с кем в каких-то закрытых сетях
+[21:45:05] <waifuclub> и теперь, игорь сказал, родители думают, что она в какой-то игил уехала
+[21:45:11] <birnabir@riseup.net> ага
+[21:45:13] <birnabir@riseup.net> мы шарим
+[21:45:37] <waifuclub> этож пиздец
+[21:46:48] <waifuclub> если бы они просто сбежавшую из дома дочку искали это одно, а то, что теперь мусара будут искать эту организацию, это совсем другое
+[21:47:04] <waifuclub> и это еще конец пиздеца
+[21:47:57] <waifuclub> не конец*
+[21:48:42] <waifuclub> мать н игорю постоянно пишет-звони и спрашивает про новые всякие детали расследования, которые они узнают
+[21:49:04] <waifuclub> точнее она спрашивает про антоху в основном
+[21:49:13] <birnabir@riseup.net> мы шарим
+[21:49:18] <waifuclub> они его ищут
+[21:49:42] <birnabir@riseup.net> ну он сам виноват и игорь виноват
+[21:50:14] <birnabir@riseup.net> сам потому что с братом ее тусил, а игорь виноват потому что расспиздел про Д
+[21:52:23] <waifuclub> и знают, что он работает инструктором в каком-то тире или на стрельбище (игорь сказал, что мать сказала, что это н ей рассказала). и теперь ее батя все такие места разведывает
+[21:53:58] <birnabir@riseup.net> игорь бля вообще много что пиздит
+[21:54:40] <birnabir@riseup.net> н ничего не рассказывала про Д
+[21:55:09] <waifuclub> и еще они откуда-то знают про то, что антоха то ли сам живет, то ли у него родственники живут на ульяновской
+[21:56:19] <waifuclub> потом еще мать игорю звонила и спрашивала: "а может его не антон зовут?"
+[21:57:20] <waifuclub> последнее, что она спросила: "а он женат?"
+[22:00:22] <waifuclub> кароче это пиздец
+[22:00:56] <waifuclub> если к нему придут, то ноут найдут шифрованный
+[22:01:08] <birnabir@riseup.net> ты это Давиду говори и Игорю скажи
+[22:01:42] <birnabir@riseup.net> Н ни слова ни говорила про Д
+[22:02:13] <birnabir@riseup.net> Д просил сам у Н контакты ее брата и И расспиздел мамке Насти про Д
+[22:03:10] <waifuclub> а меня какая-нибудь вика не сдаст?
+[22:03:25] <birnabir@riseup.net> не должна
+[22:03:36] <birnabir@riseup.net> раньше надо было думать, кек)
+[22:12:23] <waifuclub> еще игорь сказал, что батя дохуя кого подпрячь под это дело может
+[22:12:36] <birnabir@riseup.net> в курсе
+[22:12:40] <waifuclub> хотелось бы знать, что он может
+[22:12:55] <birnabir@riseup.net> хз, говорили фсб подключил
+[22:16:04] <waifuclub> пиздос. и вы молчали?
+[22:16:25] <birnabir@riseup.net> ну, узнал
+[22:16:29] <birnabir@riseup.net> что
+[22:16:39] <birnabir@riseup.net> что-то изменилось?
+[22:17:12] <waifuclub> конечно, я только все флешки и телефон откопал
+[22:17:26] <waifuclub> теперь снова все удалять надо
+
+[печать: Федеральная служба безопасности Российской Федерации. Управление по Пензенской области] [подпись]
+
+===== v28_gray-029.jpg =====
+24                                                                 27
+
+[22:17:50] <birnabir@riseup.net> а, точн, ты же тусил у нее дома и с Викой
+[22:17:57] <birnabir@riseup.net> я и забыл
+[22:18:15] <birnabir@riseup.net> ну да, тебе можно было и рассказать
+[22:20:03] <waifuclub> пиздец, а если бы не тусил, то не надо было бы рассказывать, что к д походу скоро придет фсб
+[22:20:27] <birnabir@riseup.net> ну то что к Д кто-то придет мы не знали
+[22:20:28] <waifuclub> ебанульс там совсем
+[22:21:23] <birnabir@riseup.net> > ну то что к Д кто-то придет мы не знали
+[22:25:52] <waifuclub> и то, что они думают, что н вступила в какую-то организацию, тоже не знали?
+[22:26:27] <birnabir@riseup.net> знали
+[22:26:40] <birnabir@riseup.net> организация "игил"
+[22:27:43] <waifuclub> надеюсь н не оставила вмашине флешку с музыкой, на которой куча треков муцураева)
+[22:27:59] <birnabir@riseup.net> кек)
+[22:28:07] <birnabir@riseup.net> будет забавно
+[22:37:18] <birnabir@riseup.net> сам Д напишешь?
+[22:37:41] <waifuclub> уже написал
+[22:37:48] <birnabir@riseup.net> четко
+[22:42:18] <waifuclub> игорь думает, что н уехала к г и м
+[22:46:33] <birnabir@riseup.net> ну пускай, наверное
+
+я согласен с тобой, что в общем-то не важно где, с кем, когда вести эту деятельность.
+> или о чем ты
+я о том, что не в восторге от того, как вы ее ведете. да и не только вы. особенно теперь, потому что раньше все времени не мог найти поговорить толком ни с кем и думал, что а теперь, когда со мной и так пиздец за пиздецом случается и время появилось, потому что все дела бросил из-за этого, добавилось ощущение, что всем самым небезразличным мне людям резко стало плевать на все, что все только своими делами решили заниматься.
+
+как я по вашему себя чувствовать должен, когда все таким пиздецом обернулось? всё думал, что мы все действуем ради одной цели. планировали же, как я думал, после того, как вас приняли, что
+
+Creation 11.10.2017 0:52:15
+Time:
+
+Group: txt
+Title: пер2
+Notes: waifuclub@jabber.calyxinstitute.org (10.10.2017 17:30)
+101
+qumhe (10.10.2017 17:53)
+Я
+qumhe (10.10.2017 17:53)
+Г
+waifuclub@jabber.calyxinstitute.org (10.10.2017 18:04)
+Здарова
+waifuclub@jabber.calyxinstitute.org (10.10.2017 18:05)
+Давно не спрашивал, как у вас дела вообще?
+qumhe (10.10.2017 18:06)
+Норм
+qumhe (10.10.2017 18:06)
+Ищем консенсус
+qumhe (10.10.2017 18:06)
+Ищем деньги
+
+[печать: Федеральная служба безопасности Российской Федерации. Управление по Пензенской области] [подпись]
+
+===== v28_gray-030.jpg =====
+25                                                                 28
+
+qumhe (10.10.2017 18:06)
+Едим мухоморы
+waifuclub@jabber.calyxinstitute.org (10.10.2017 18:09)
+Вы все так же только в хате тусите, никуда не выходите?
+qumhe (10.10.2017 18:14)
+А у вас чего нового?
+waifuclub@jabber.calyxinstitute.org (10.10.2017 18:18)
+Да нихуя
+waifuclub@jabber.calyxinstitute.org (10.10.2017 18:19)
+Не знаю, как вы еще не ебнулись в четырех стенах сидеть так долго
+waifuclub@jabber.calyxinstitute.org (10.10.2017 18:23)
+Я, хоть и на работу выхожу, все равно ахуеваю от однообразия: с тех пор, как меня приняли, и я подписался под околокарантин
+waifuclub@jabber.calyxinstitute.org (10.10.2017 18:24)
+В жабе даже с н и д связи толком нет
+waifuclub@jabber.calyxinstitute.org (10.10.2017 18:25)
+Так все это заебало. Начинаю жалеть уже, что вепря купил
+waifuclub@jabber.calyxinstitute.org (10.10.2017 18:25)
+Надо было лучше вам бабки скинуть
+waifuclub@jabber.calyxinstitute.org (10.10.2017 18:26)
+И валить а питер
+waifuclub@jabber.calyxinstitute.org (10.10.2017 18:26)
+Вепрь там хранить все-равно проблематично
+waifuclub@jabber.calyxinstitute.org (10.10.2017 18:27)
+Антоху только не знаю стоит ли одного оставлять
+qumhe (10.10.2017 18:27)
+Мы щас выходим
+qumhe (10.10.2017 18:27)
+Но не очень то далеко
+qumhe (10.10.2017 18:27)
+Хоть природа рядом
+qumhe (10.10.2017 18:28)
+Связь то же стараемся ни с кем не поддерживаю
+qumhe (10.10.2017 18:28)
+А шо с ним?
+waifuclub@jabber.calyxinstitute.org (10.10.2017 18:28)
+Ну он в питер не хочет
+waifuclub@jabber.calyxinstitute.org (10.10.2017 18:28)
+Вроде бы
+waifuclub@jabber.calyxinstitute.org (10.10.2017 18:30)
+Потому что раньше, сколько я и кирилл его не спрашивали, он говорит, что не собирается из пнз уезжать
+waifuclub@jabber.calyxinstitute.org (10.10.2017 18:30)
+
+[печать: Федеральная служба безопасности Российской Федерации. Управление по Пензенской области] [подпись]
+
+===== v28_gray-031.jpg =====
+26                                                                 29
+
+Но сейчас хз
+waifuclub@jabber.calyxinstitute.org (10.10.2017 18:31)
+Я с ним даже никак не могу встретиться, поговорить об этом
+qumhe (10.10.2017 18:31)
+Мда
+waifuclub@jabber.calyxinstitute.org (10.10.2017 18:31)
+Да и о всем остальном тоже
+qumhe (10.10.2017 18:31)
+Проблемы с координацией
+waifuclub@jabber.calyxinstitute.org (10.10.2017 18:32)
+Со связью
+qumhe (10.10.2017 18:32)
+Мне он раньше то же говорил шо рот ебал съебываться
+waifuclub@jabber.calyxinstitute.org (10.10.2017 18:33)
+Думаю и сейчас его мнение не изменилось
+qumhe (10.10.2017 18:33)
+Я думаю шо буду к курдам старься перебираться
+waifuclub@jabber.calyxinstitute.org (10.10.2017 18:33)
+Особенно после того, как он начал траву растить
+qumhe (10.10.2017 18:34)
+Ее где угодно можно выращивать
+qumhe (10.10.2017 18:34)
+А Питер вообще раздолье для этого дерьма
+waifuclub@jabber.calyxinstitute.org (10.10.2017 18:35)
+Ну прост в пнз у него есть, где жить бесплатно
+qumhe (10.10.2017 18:35)
+Он же хотел съезжать оттуда
+waifuclub@jabber.calyxinstitute.org (10.10.2017 18:36)
+Да и дела со своим магазом без всяких залогов пока может мутить через захара
+waifuclub@jabber.calyxinstitute.org (10.10.2017 18:36)
+Откуда?
+qumhe (10.10.2017 18:36)
+Из садов
+waifuclub@jabber.calyxinstitute.org (10.10.2017 18:37)
+Причем здесь сады?
+qumhe (10.10.2017 18:37)
+Через Захара какие то странные мутки
+waifuclub@jabber.calyxinstitute.org (10.10.2017 18:37)
+Он там и живет
+qumhe (10.10.2017 18:37)
+Я думал он там и живет все еще
+waifuclub@jabber.calyxinstitute.org (10.10.2017 18:37)
+
+[печать: Федеральная служба безопасности Российской Федерации. Управление по Пензенской области] [подпись]
+
+===== v28_gray-032.jpg =====
+27                                                                 30
+
+По сути, он там и не жил никогда
+qumhe (10.10.2017 18:38)
+Я не знал
+waifuclub@jabber.calyxinstitute.org (10.10.2017 18:38)
+Для жилья сады никогда и не планировали использовать
+qumhe (10.10.2017 18:38)
+Я планировал
+waifuclub@jabber.calyxinstitute.org (10.10.2017 18:38)
+Иначе я бы давно туда переселился)
+qumhe (10.10.2017 18:39)
+Мда
+qumhe (10.10.2017 18:39)
+Темное время какое то настало
+waifuclub@jabber.calyxinstitute.org (10.10.2017 18:40)
+Мы планировали использовать сады для всякой совсем уж мутной хуйни, которую дома у себя мутить тупо
+waifuclub@jabber.calyxinstitute.org (10.10.2017 18:41)
+> Темное время какое то настало
+И не говори
+waifuclub@jabber.calyxinstitute.org (10.10.2017 18:41)
+Безысходность просто какая-то
+qumhe (10.10.2017 18:41)
+В точку
+qumhe (10.10.2017 18:45)
+А что с Д происходит вообще?
+qumhe (10.10.2017 18:45)
+Мне кажется с ним что то не то
+waifuclub@jabber.calyxinstitute.org (10.10.2017 18:45)
+> Я думаю шо буду к курдам старься перебираться
+Я бы тоже старался туда попасть, если со мной гавно какое-нибудь случиться, что из страны валить придется
+waifuclub@jabber.calyxinstitute.org (10.10.2017 18:46)
+Точно не знаю
+waifuclub@jabber.calyxinstitute.org (10.10.2017 18:52)
+Но думаю, он после "доебов" до него со стороны сетевых товарищей и написания им письма, что он больше не в сети, решил сетевыми вопросами заниматься по стольку по скольку, только растить траву продавать это все дерьмо и скидывать бабло товарищам на вооружение
+qumhe (10.10.2017 18:54)
+Мда(
+qumhe (10.10.2017 18:54)
+Обидно
+qumhe (10.10.2017 18:54)
+Очень обидно
+waifuclub@jabber.calyxinstitute.org (10.10.2017 18:55)
+
+[печать: Федеральная служба безопасности Российской Федерации. Управление по Пензенской области] [подпись]
+
+===== v28_gray-033.jpg =====
+28
+[рукописно: 31]
+
+За последнее время, сколько ни пытаюсь обсуждать с ним дальнейшие планы, только и слышу от него всякие предложения о том, как сделать так, чтобы травы побольше выращивать
+qumhe
+(10.10.2017 18:56)
+
+Пздц
+qumhe
+(10.10.2017 18:56)
+
+Ну ладн
+qumhe
+(10.10.2017 18:56)
+
+Это его выбор
+qumhe
+(10.10.2017 18:56)
+
+Не мне судить
+qumhe
+(10.10.2017 18:56)
+
+Но я расстроен
+qumhe
+(10.10.2017 18:56)
+
+Пизда как расстроен
+waifuclub@jabber.calyxinstitute.org
+(10.10.2017 18:57)
+
+Да все у нас не то, о чем я думал, когда мы со съезда возвращались
+waifuclub@jabber.calyxinstitute.org
+(10.10.2017 18:58)
+
+Но хз еще, может я рано приуныл
+waifuclub@jabber.calyxinstitute.org
+(10.10.2017 18:58)
+
+С ним еще не говорил все-таки толком
+qumhe
+(10.10.2017 18:59)
+
+> Да все у нас не то, о чем я думал, когда мы со съезда возвращались
+Бля, прям та же хуйня
+qumhe
+(10.10.2017 18:59)
+
+Я щас методички пишу хотя бы
+qumhe
+(10.10.2017 18:59)
+
+Хоть как то стараюсь участие принимать
+waifuclub@jabber.calyxinstitute.org
+(10.10.2017 19:01)
+
+Но и встретиться с ним никак не могу, даже после того, как он в жабу на этой неделе заходить начал
+waifuclub@jabber.calyxinstitute.org
+(10.10.2017 19:02)
+
+Говорил, что с этой недели посвободнее будет
+waifuclub@jabber.calyxinstitute.org
+(10.10.2017 19:02)
+
+Но все какие-то дела у него
+qumhe
+(10.10.2017 19:02)
+
+Интересно какие
+qumhe
+(10.10.2017 19:02)
+
+Боюсь как бы это не оказалось просто отговорками
+qumhe
+(10.10.2017 19:03)
+
+Может быть я и прав
+qumhe
+(10.10.2017 19:03)
+
+Но мне так кажется
+waifuclub@jabber.calyxinstitute.org
+(10.10.2017 19:03)
+
+[печать: Федеральная служба безопасности Российской Федерации. Управление по Пензенской области; «Д»]
+[подпись]
+
+===== v28_gray-034.jpg =====
+29
+[рукописно: 32]
+
+Даже не говорит
+waifuclub@jabber.calyxinstitute.org
+(10.10.2017 19:03)
+
+Но я думаю, что ты прав
+qumhe
+(10.10.2017 19:04)
+
+Жаль(
+qumhe
+(10.10.2017 19:04)
+
+Пиздец обидно(((
+waifuclub@jabber.calyxinstitute.org
+(10.10.2017 19:08)
+
+Потому что в один из последних разов, когда он пропадал хз куда, а потом говорил, что дела/работа, сам, когда мы встретились рассказывал, что с "чайными" товарищами ходил на какое-то поле бохи срезать, а потом они простр в лесу валялись и укуривались этими бохами
+qumhe
+(10.10.2017 19:09)
+
+Мда
+qumhe
+(10.10.2017 19:09)
+
+Ну хуй с ним
+qumhe
+(10.10.2017 19:09)
+
+Надо дальше двигаться
+qumhe
+(10.10.2017 19:09)
+
+Я был бы рад вытянуть его из этого сльояния
+qumhe
+(10.10.2017 19:10)
+
+Но боюсь что не в силаз
+qumhe
+(10.10.2017 19:10)
+
+Меня бы кто вытянул)
+qumhe
+(10.10.2017 19:10)
+
+Он взрослый мальчик
+waifuclub@jabber.calyxinstitute.org
+(10.10.2017 19:10)
+
+Я бы тоже
+waifuclub@jabber.calyxinstitute.org
+(10.10.2017 19:10)
+
+И меня)
+qumhe
+(10.10.2017 19:10)
+
+Сам выберется я думаю
+qumhe
+(10.10.2017 19:10)
+
+Займись какой либо теорией
+qumhe
+(10.10.2017 19:10)
+
+Это помогает
+qumhe
+(10.10.2017 19:11)
+
+Я тут спецуху свою в теории развиваю
+qumhe
+(10.10.2017 19:11)
+
+Норм помогает
+qumhe
+(10.10.2017 19:11)
+
+Напиши курс по связи
+qumhe
+(10.10.2017 19:11)
+
+Мне корешу надо преподавать
+
+[печать: Федеральная служба безопасности Российской Федерации. Управление по Пензенской области; «Д»]
+[подпись]
+
+===== v28_gray-035.jpg =====
+30
+[рукописно: 33]
+
+qumhe
+(10.10.2017 19:11)
+
+А материала нет
+qumhe
+(10.10.2017 19:12)
+
+Или по безопасности
+qumhe
+(10.10.2017 19:12)
+
+Я и сам в этих сферах дно
+waifuclub@jabber.calyxinstitute.org
+(10.10.2017 19:15)
+
+Надо бы, но я вообще ничем по сетевым делам не занимался с тех пор, как м отправили к тебе. Забил на все, чтобы как можно быстрее магаз нам свой замутить и бабок вам заработать
+waifuclub@jabber.calyxinstitute.org
+(10.10.2017 19:16)
+
+И с бабками вопрос по сути никуда не продвинулся
+qumhe
+(10.10.2017 19:16)
+
+Ну щас то ты ничем не занят?
+waifuclub@jabber.calyxinstitute.org
+(10.10.2017 19:16)
+
+Все-таки это хочу первым делом решить
+qumhe
+(10.10.2017 19:17)
+
+Благодарны
+waifuclub@jabber.calyxinstitute.org
+(10.10.2017 19:17)
+
+Кроме работы ничем
+qumhe
+(10.10.2017 19:18)
+
+Я если честно думал что на нас все хуй положили. Я уже не на чью помощь не надеюсь
+waifuclub@jabber.calyxinstitute.org
+(10.10.2017 19:19)
+
+Но после того, как я пару месяцев работал практически без сна и выходных на заводе и потом еще с закладками ебаными, сейчас после завода даже ничего делать себя заставить не могу
+waifuclub@jabber.calyxinstitute.org
+(10.10.2017 19:20)
+
+Уже неделю даже вещи разложить после переезда не могу
+waifuclub@jabber.calyxinstitute.org
+(10.10.2017 19:20)
+
+Все так и лежит в куче
+waifuclub@jabber.calyxinstitute.org
+(10.10.2017 19:20)
+
+Как перевезли
+waifuclub@jabber.calyxinstitute.org
+(10.10.2017 19:24)
+
+Хотя это все таки не от прежних заебов, а от уныния по поводу всей этой безысходности
+qumhe
+(10.10.2017 19:26)
+
+Хуй знает. Возможно
+qumhe
+(10.10.2017 19:26)
+
+Может и брат ещё отойдет
+qumhe
+(10.10.2017 19:26)
+
+Может не все потеряно
+qumhe
+(10.10.2017 19:27)
+
+Но хз
+qumhe
+(10.10.2017 19:27)
+
+Не знаю что я знаю
+waifuclub@jabber.calyxinstitute.org
+(10.10.2017 19:41)
+
+[печать: Федеральная служба безопасности Российской Федерации. Управление по Пензенской области; «Д»]
+[подпись]
+
+===== v28_gray-036.jpg =====
+31
+[рукописно: 34]
+
+Вот опять, пишу ему, ответит раз или два и все, блять
+waifuclub@jabber.calyxinstitute.org
+(10.10.2017 19:42)
+
+Заебало
+waifuclub@jabber.calyxinstitute.org
+(10.10.2017 19:44)
+
+> Ищем консенсус
+Консенсус между тобой и митей?
+waifuclub@jabber.calyxinstitute.org
+(10.10.2017 19:47)
+
+Пиздец просто
+waifuclub@jabber.calyxinstitute.org
+(10.10.2017 19:48)
+
+Прошу его встретиться, чтобы дела обсудить
+waifuclub@jabber.calyxinstitute.org
+(10.10.2017 19:48)
+
+Он ответил
+qumhe
+(10.10.2017 19:48)
+
+> Вот опять, пишу ему, ответит раз или два и все, блять
+Со мной так же
+waifuclub@jabber.calyxinstitute.org
+(10.10.2017 19:48)
+
+Но я сейчас занимаюсь разведением грибов
+waifuclub@jabber.calyxinstitute.org
+(10.10.2017 19:48)
+
+Это его ответ
+qumhe
+(10.10.2017 19:49)
+
+> > Ищем консенсус между тобой и митей?
+Да. Отношения не очень складываются. Но мы вроде прогрессируем
+waifuclub@jabber.calyxinstitute.org
+(10.10.2017 19:49)
+
+Это хорошо
+waifuclub@jabber.calyxinstitute.org
+(10.10.2017 19:49)
+
+Что прогрессируете
+qumhe
+(10.10.2017 19:50)
+
+На счёт Д, думаю ему просто время нужно. Надо делать дела и он со временем подтянется
+waifuclub@jabber.calyxinstitute.org
+(10.10.2017 19:50)
+
+А в чем разногласия?
+qumhe
+(10.10.2017 19:51)
+
+Он многое делал и многое на своём горбу вытянул. Пришла пора и нам поднапрячься. Теперь нам его тянуть
+qumhe
+(10.10.2017 19:52)
+
+> А в чем разногласия?
+Да много в чем, просто разные дохуя и не уживаемся чутка
+qumhe
+(10.10.2017 19:53)
+
+Я на него авторитаризмом давлю, а он на меня безответственностью
+qumhe
+(10.10.2017 19:54)
+
+Он разочаровывается во мне, я в нем
+qumhe
+(10.10.2017 19:54)
+
+Вроде оба все понимаем, но конструктивный диалог не всегда получается
+qumhe
+(10.10.2017 19:55)
+
+[печать: Федеральная служба безопасности Российской Федерации. Управление по Пензенской области; «Д»]
+[подпись]
+
+===== v28_gray-037.jpg =====
+32
+[рукописно: 35]
+
+Да и оба в унынии из за того что с деньгами траболы
+qumhe
+(10.10.2017 19:56)
+
+И не выгорает ни одна из идей
+qumhe
+(10.10.2017 19:56)
+
+Вот и сремся даже на бытовой почве
+qumhe
+(10.10.2017 19:58)
+
+Вроде стараемся на свтречу друг другу идти, но старания эти нихуя не стоят
+qumhe
+(10.10.2017 19:58)
+
+Вот и все
+waifuclub@jabber.calyxinstitute.org
+(10.10.2017 20:02)
+
+Да, д говорил, что вы сретесь постоянно
+qumhe
+(10.10.2017 20:02)
+
+Щас лучше
+qumhe
+(10.10.2017 20:03)
+
+В разы
+waifuclub@jabber.calyxinstitute.org
+(10.10.2017 20:03)
+
+Ну а по дальнейшим планам после перехода нет разногласий?
+qumhe
+(10.10.2017 20:03)
+
+Хз покп
+qumhe
+(10.10.2017 20:03)
+
+Думаем
+qumhe
+(10.10.2017 20:03)
+
+Может разбедимся
+qumhe
+(10.10.2017 20:03)
+
+Может будем вместе мутиться
+qumhe
+(10.10.2017 20:03)
+
+Разбежимся*
+qumhe
+(10.10.2017 20:04)
+
+Пока надо вместе из очка вылести
+qumhe
+(10.10.2017 20:04)
+
+Как вылезем, там и будем регать
+qumhe
+(10.10.2017 20:04)
+
+Может все наладится
+qumhe
+(10.10.2017 20:05)
+
+> Ну а по дальнейшим планам после перехода нет разногласий?
+Он нас видел в самой депрессивной фазе и сделал выводы из этого
+qumhe
+(10.10.2017 20:06)
+
+Бля
+qumhe
+(10.10.2017 20:06)
+
+> Да, д говорил, что вы сретесь постоянно
+Он нас видел в самой депрессивной фазе и сделал выводы из этого
+
+[печать: Федеральная служба безопасности Российской Федерации. Управление по Пензенской области; «Д»]
+[подпись]
+
+===== v28_gray-038.jpg =====
+33
+[рукописно: 36]
+
+qumhe
+(10.10.2017 20:06)
+
+Вот так
+qumhe
+(10.10.2017 20:06)
+
+Выводы*
+waifuclub@jabber.calyxinstitute.org
+(10.10.2017 20:07)
+
+Просто, когда я был в садах пару раз, когда митя еще там жил, я от него, как и от д сейчас, ничего, кроме мыслей про выращивание травы, не слышал
+qumhe
+(10.10.2017 20:08)
+
+Щас вообще про это не говорит
+waifuclub@jabber.calyxinstitute.org
+(10.10.2017 20:08)
+
+Норм)
+qumhe
+(10.10.2017 20:08)
+
+Говорит как сильно вована ненавидит и какие все кругом безответственные
+qumhe
+(10.10.2017 20:08)
+
+В ахуе с людей
+qumhe
+(10.10.2017 20:09)
+
+У него есть потенциал
+qumhe
+(10.10.2017 20:09)
+
+Но он не знает как им пользоваться
+qumhe
+(10.10.2017 20:10)
+
+Да и руки у нас немного связаны
+qumhe
+(10.10.2017 20:10)
+
+По этому не получается реализовать все планы
+waifuclub@jabber.calyxinstitute.org
+(10.10.2017 20:13)
+
+Так, пойду пока, раз д молчит, вещи рабирать
+qumhe
+(10.10.2017 20:13)
+
+Давай
+qumhe
+(10.10.2017 20:14)
+
+А куда их собирал то?
+waifuclub@jabber.calyxinstitute.org
+(10.10.2017 20:15)
+
+Переехали мы с братом на другую хату, я же писал
+qumhe
+(10.10.2017 20:15)
+
+Бля, чет я забыл
+qumhe
+(10.10.2017 20:15)
+
+Норм
+qumhe
+(10.10.2017 20:15)
+
+Ладн
+qumhe
+(10.10.2017 20:15)
+
+Давай
+qumhe
+(10.10.2017 20:15)
+
+Не унывай только
+qumhe
+(10.10.2017 20:16)
+
+[печать: Федеральная служба безопасности Российской Федерации. Управление по Пензенской области; «Д»]
+[подпись]
+
+===== v28_gray-039.jpg =====
+34
+[рукописно: 37]
+
+Это делу не поможет
+
+Creation 11.10.2017 20:04:54
+Time:
+
+Group: txt
+Title: пер3
+Notes:
+[16:29:59] <hlvcfrwl> Ты хоть примерно представляешь вообще какие чувства я испытываю в том смысле что я всё таки из сети вышел, потерял много товарищей, отказался от дохуя важных вещей
+[16:30:38] <hlvcfrwl> Ну типа ты же не думаешь, что это я просто так делаю и я могу просто взять и не делать этого
+[16:31:32] <waifuclub> что это?
+[16:31:55] <waifuclub> чего этого?
+[16:32:07] <waifuclub> ты про хешь?
+[16:32:10] <hlvcfrwl> Выхожу из сети, отказываюсь от важны вещей и тд
+[16:32:28] <hlvcfrwl> Какой нахуй хэш
+[16:32:38] <hlvcfrwl> Причём тут он вообще
+[16:35:15] <waifuclub> ну да, я нихуя не понял, почему и зачем ты из сети вышел..
+[16:35:34] <waifuclub> и что значит, ты потерял товарищей?
+[16:35:35] <hlvcfrwl> Ясн
+[16:35:49] <hlvcfrwl> Ну у меня было много товарищей
+[16:35:57] <hlvcfrwl> Осталось несколько
+[16:37:28] <waifuclub> т.е. я не понял, как ты их потерял, потому что вышел из сети или наоборот, ты вышел из сети, потому что потерял?
+[16:38:14] <hlvcfrwl> Ну от меня фактически отказались
+[16:38:23] <hlvcfrwl> И я ушёл
+[16:38:23] <waifuclub> да кто?
+[16:38:35] <waifuclub> с чего ты взял?
+[16:39:20] <hlvcfrwl> Ну те кто говорил что то что написано в письме сияжа действительно похоже на меня и что от Пензы только проблемы
+[16:39:40] <hlvcfrwl> И те кто им на это нихуя не сказал
+[16:44:45] <waifuclub> я кроме кирилла и феди (с олей может еще немного), ни с кем больше из сети не общаюсь, поэтому не знаю знаю точно, но по моему ты сам себе придумал, что от тебя отказались
+[16:46:09] <hlvcfrwl> Бля, да все кроме марса поддержали Игоря и в основном поддерживали сияж
+[16:46:46] <hlvcfrwl> И я общался кроме Кирилла Феди и оли ещё дохуя с кем
+[16:48:26] <waifuclub> а то, что от пнз только проблемы, не удивительно, потому что у нас и правда пиздец за пиздецом случаются постоянно
+[16:49:18] <hlvcfrwl> И раз так, то значит Давид и правда хуйло
+[16:49:52] <waifuclub> арчи кстати рассказал кириллу, что меня приняли мусара
+[16:50:18] <hlvcfrwl> Бля
+[16:50:22] <hlvcfrwl> Вот нахуя
+[16:50:38] <hlvcfrwl> Ну хотя ты в сети
+[16:50:46] <hlvcfrwl> Так что это правильно
+[16:51:03] <hlvcfrwl> Арчи норм сделал
+[16:53:44] <waifuclub> я тоже так думаю, поэтому и сказал, чтоб он написал об этом, если хочет, когда он у меня спрашивал, может ли он написать про это кириллу
+[16:54:25] <waifuclub> точнее я сам хотел, но хотел сначала с тобой поговорить
+[16:54:47] <waifuclub> но ты на связь не выходил долго
+[17:03:08] <waifuclub> что значит, что от тебя отказались? тебе кто-то сказал, что не будет больше с тобой взаимодействовать?
+[17:03:25] <waifuclub> кроме игоря и сияжа
+[17:05:07] <hlvcfrwl> Я считаю что слова сказанные выше это тоже отказ
+[17:05:46] <waifuclub> какие слова?
+[17:05:52] <hlvcfrwl> И я не хочу дожидаться пиздец чтобы они отказались в письменной или устной форме, как игорь и сияж
+[17:06:02] <hlvcfrwl> > Ну те кто говорил что то что написано в письме сияжа действительно похоже на меня и что от Пензы только проблемы
+[17:19:46] <waifuclub> все-таки думаю, что ты преувеличиваешь, потому что игорь наоборот жалуется, что все теперь думают, что он хуйло
+
+[22:38:32] <hlvcfrwl> Бля, надо Игорю скорее ебало набить
+
+[печать: Федеральная служба безопасности Российской Федерации. Управление по Пензенской области; «Д»]
+[подпись]
+
+===== v28_gray-040.jpg =====
+35
+[рукописно: 38]
+
+[22:38:43] <waifuclub> заебал)
+[22:39:18] <waifuclub> за то, что он рассказал мне все это?
+[22:39:52] <hlvcfrwl> За то что в попытках найти сочувствие у мамы Н распиздел про меня
+[22:40:06] <hlvcfrwl> И у своей мамы
+[22:40:24] <hlvcfrwl> Своей маме он говорил про стрельбище и про ульяновскую
+[22:40:44] <waifuclub> откуда ты знаешь?
+[22:42:03] <hlvcfrwl> Когда мы выясняли откуда мама Н знает про меня, мы от мамы И услышали что она наслышанп про меня
+[22:42:18] <hlvcfrwl> Первое что она у неё спросила это как у меня дела онлайн?
+[22:42:49] <hlvcfrwl> Он
+[22:43:01] <waifuclub> игорь?
+[22:43:04] <hlvcfrwl> Да
+[22:43:08] <waifuclub> нет
+[22:43:11] <hlvcfrwl> Блять
+[22:45:49] <waifuclub> ноут бы тебе спрятать куда-то навремя
+[22:46:40] <waifuclub> сам-то еще нахуя с братом ее тусил?
+[22:48:19] <waifuclub> [22:42:18] <waifuclub> игорь думает, что н уехала к г и м
+[22:46:33] <birnabir@riseup.net> ну пускай, наверное
+[22:52:44] <hlvcfrwl> Я не тусил с ним
+[22:52:48] <hlvcfrwl> Только с ней
+[23:04:25] <waifuclub> ноут спрячешь?
+[23:07:30] <waifuclub> ну вот, а ты жаловался на того, кто говорил, что пенза проблемная
+[23:08:13] <waifuclub> у нас тут какой-то перманентный пиздец с тех пор, как мы вернулись со съезда
+[23:08:35] <hlvcfrwl> Бля, у меня без всего этого критинизма проблем вообще не было
+[23:08:45] <hlvcfrwl> Да, сложности происходили
+[23:09:35] <hlvcfrwl> Но я не ссал за свою или чужую свободу и безопасность, зная, что никто не будет говнить и портить мне жизнь
+[23:10:42] <hlvcfrwl> Но видимо Игорь не мог не насрать ещё больше, поскольку я не унижался и не признавал всего того бреда что они написали про меня
+[23:11:50] <waifuclub> да забил он уже на всю эту хуйню
+[23:12:06] <hlvcfrwl> Ну ясен хуй
+[23:12:23] <hlvcfrwl> Эмоционально ему всегда было легко
+[23:12:48] <hlvcfrwl> И просто он хотел унизить меня
+[23:12:59] <hlvcfrwl> По выдуманной себе причине
+[23:13:25] <hlvcfrwl> Он забил, а я нет
+[23:13:44] <hlvcfrwl> И как минимум что я сделаю это разнесу его ебало
+[23:17:24] <waifuclub> зря ты так
+[23:17:52] <hlvcfrwl> Ему так говорили, он не понял
+[23:18:12] <hlvcfrwl> Я крайний чтобы понимать за всех?
+[23:21:39] <waifuclub> что ему говорили?
+» [23:18:12] <hlvcfrwl> Я крайний чтобы понимать за всех?
+не понял о чем ты
+[23:24:46] <hlvcfrwl> Ему говорили зря ты так
+[23:24:54] <hlvcfrwl> Но он делал
+[23:25:13] <hlvcfrwl> Теперь мне говоришь ты зря ты так
+[23:25:49] <hlvcfrwl> А я считаю, что не зря, потому что я так и буду думать о том на сколько хуёвыми люди бывают
+[23:26:25] <hlvcfrwl> Но вот дам ему пизды и тогда точно полегчает
+[23:26:34] <hlvcfrwl> Добро в моей голове победит
+[23:26:43] <hlvcfrwl> А зло получит пизды
+[23:32:07] <waifuclub> мне кажется, что он и так давно уже пожалел о том, что написал письмо, где сказал, что вышел из 5.11 и что не будет больше с тобой взаимодействовать, и о том, что подписался под письмом сияжа
+[23:33:14] <hlvcfrwl> Мне от этого вообще никак
+[23:36:16] <waifuclub> спрячешь что ли ноут?
+[23:36:53] <hlvcfrwl> Да
+[23:37:19] <hlvcfrwl> Жёсткий диск норм?
+[23:37:25] <hlvcfrwl> Или весь надо?
+[23:37:52] <waifuclub> зачем он тебе без жесткого диска?
+[23:38:10] <hlvcfrwl> А нахуй мне его весь таскать
+[23:38:18] <hlvcfrwl> И места меньше
+[23:39:33] <waifuclub> подозрительно не будет, что у тебя ноут лежит, с которого жесткий диск скручен?
+
+[печать: Федеральная служба безопасности Российской Федерации. Управление по Пензенской области; «Д»]
+[подпись]
+
+===== v28_gray-041.jpg =====
+36
+[рукописно: 39]
+
+[23:41:19] <hlvcfrwl> И какой вывод они сделают от этого
+[23:42:07] <waifuclub> то что он где-то все-таки есть
+[23:42:36] <waifuclub> ну да ладно, может я уже параною слишком
+[23:42:59] <waifuclub> делай, как хочешь
+[23:43:57] <waifuclub> и с хешем теперь возобновление работы думаю стоит отложить
+[23:44:25] <hlvcfrwl> Да
+[23:44:27] <hlvcfrwl> Верно
+[23:44:44] <hlvcfrwl> Я вот не знаю
+[23:44:59] <hlvcfrwl> Есть у меня право злиться на Н или нет
+[23:45:15] <hlvcfrwl> Просто я не знаю почему так
+[23:45:40] <hlvcfrwl> И может быть она злитсяина меня ещё больше, что в принципе оправдывает её
+[23:46:03] <hlvcfrwl> Почему то все наровят сделать больно
+[23:46:40] <waifuclub> по-моему они оба на тебя злятся
+[23:46:43] <hlvcfrwl> Хлебом не корми дай какую-нить хуйню замутить
+[23:46:50] <hlvcfrwl> Они оба?
+[23:46:55] <hlvcfrwl> И арчи типа?
+[23:47:07] <waifuclub> судя по тому, что арчи мне писал
+[23:47:09] <waifuclub> да
+[23:47:13] <hlvcfrwl> А что он писал
+[23:47:48] <waifuclub> да он вас винит в том, что в такой жопе оказался
+[23:47:58] <waifuclub> судя по всему
+[23:48:49] <waifuclub> тебя и особенно глеба
+[23:49:05] <hlvcfrwl> Почему лично не говорит
+[23:50:35] <waifuclub> хз, мне он об этом прямо тоже не говорил
+[23:52:08] <waifuclub> прост из его слов так кажется
+[19:16:25] <birnabir@riseup.net> ну вот теперь когда говорю " я же вот говорил, что нельзя с ними взаимодействовать, был прав?" мне говорят "-говорил, да"
+[19:16:33] <birnabir@riseup.net> только теперь уже бля поздно
+[23:53:15] <hlvcfrwl> Сейчас как его эта проблема напрягает?
+[23:53:41] <hlvcfrwl> Кроме морального духа
+[23:53:57] <hlvcfrwl> Вроде никак
+[23:54:10] <hlvcfrwl> В РФ вернуться не может
+[23:54:37] <hlvcfrwl> Он перед приездом в пнз писал что готов бегать если что
+
+*** 2017-10-17
+
+[00:06:01] <waifuclub> сейчас может и никак, хотя я не уверен, а до того, как н к нему приехала, напрягала тем, что не может быть с ней, потому что, насколько я понял, они далеко не сразу решились и придумали, как это все провернуть. я точно не знаю, потому что она мне нихуя не рассказывала, но по ее поведению подозреваю, что она к нему давно готова была все бросить и уехать, но он ей не разрешал, потому что не хотел, чтобы она в такой же жопе оказалась. может и понимал сразу, что ее родители искать начнут, что из-за этого они нас подставят. но в итоге, чтоб оправдаться перед самим сабой, вас/нас винить начал
+[00:06:57] <hlvcfrwl> Охуеть
+[00:07:27] <hlvcfrwl> Ты очень нихуёво разложил
+[00:08:19] <hlvcfrwl> И я конечно могу только согласиться со всем, поскольку разложено логично
+[00:10:35] <waifuclub> поначалу-то, когла он в укр попал, он как и раньше вел себя, говорил, что они с г и м свое подразделение, что он связистом будет, а теперь пишет, что на г ему насрать вообще и только и отвечает на все, что сами виноваты
+[00:11:06] <waifuclub> свое подразделение создадут*
+[00:12:24] <hlvcfrwl> Например на что?
+[00:13:12] <hlvcfrwl> Типа почему?
+[00:13:24] <waifuclub> [21:49:18] <waifuclub> они его ищут
+[21:49:42] <birnabir@riseup.net> ну он сам виноват и игорь виноват
+[00:18:27] <waifuclub>
+» [00:13:12] <hlvcfrwl> Типа почему?
+потому что из-за того, что н уехала, проблемы начались, а уехала она из-за него
+[00:20:16] <waifuclub> или вот еще по поводу
+» [00:12:24] <hlvcfrwl> Например на что?
+[22:03:10] <waifuclub> а меня какая-нибудь вика не сдаст?
+[22:03:25] <birnabir@riseup.net> не должна
+[22:03:36] <birnabir@riseup.net> раньше надо было думать, кек)
+[00:22:18] <hlvcfrwl> Надеюсь она ему поможет
+[00:22:33] <hlvcfrwl> Видимо ему плохо
+
+[печать: Федеральная служба безопасности Российской Федерации. Управление по Пензенской области; «Д»]
+[подпись]
+
+===== v28_gray-042.jpg =====
+37
+[рукописно: 40]
+
+[00:32:55] <waifuclub> да, но это не удивительно, он там один торчит уже полгода
+hlvcfrwl
+(17.10.2017 11:12)
+
+Хорошо
+hlvcfrwl
+(17.10.2017 11:12)
+
+Но блять
+hlvcfrwl
+(17.10.2017 11:12)
+
+Если бы этот кретин с самого начала знал что происходит
+hlvcfrwl
+(17.10.2017 11:12)
+
+То вообще бы ничего не было
+waifuclub@jabber.calyxinstitute.org
+(17.10.2017 11:13)
+
+Про что бы он знал?
+waifuclub@jabber.calyxinstitute.org
+(17.10.2017 11:13)
+
+Что она к арчи свалила?
+hlvcfrwl
+(17.10.2017 11:14)
+
+Что у них любовь с момента, когда арчи в садах жил
+hlvcfrwl
+(17.10.2017 11:14)
+
+Перед отправкой
+hlvcfrwl
+(17.10.2017 11:17)
+
+Хотя я как бы знал
+hlvcfrwl
+(17.10.2017 11:18)
+
+Потому что арчи постоянно писал ей в жабу я тебя люблю, когда телефон был у меня в руках
+hlvcfrwl
+(17.10.2017 11:19)
+
+По работе даже или вифи себе раздавал или музыку в тачке включал
+hlvcfrwl
+(17.10.2017 11:19)
+
+Смотрели на её компе что-то пишет арчи
+hlvcfrwl
+(17.10.2017 11:19)
+
+И конечно как она сначала делала копии доков со словами "не важно зачем"
+hlvcfrwl
+(17.10.2017 11:20)
+
+Как она пришла в сады и сказала, что поссорилась с мамкой и уходит в подполье
+hlvcfrwl
+(17.10.2017 11:21)
+
+И как при мне отправляла эти цветные документы на райзап арчи
+hlvcfrwl
+(17.10.2017 11:21)
+
+А потом я бы у неё и она меня просто ни с хуя обняла и держала
+hlvcfrwl
+(17.10.2017 11:22)
+
+Я грю типа ты шо мать
+hlvcfrwl
+(17.10.2017 11:22)
+
+Она грит типа ниче
+hlvcfrwl
+(17.10.2017 11:22)
+
+И дальше улыбается после слёз
+hlvcfrwl
+(17.10.2017 11:22)
+
+И Г писал мне типа не знаешь че Н так туда рвётся?
+hlvcfrwl
+(17.10.2017 11:23)
+
+[печать: Федеральная служба безопасности Российской Федерации. Управление по Пензенской области; «Д»]
+[подпись]
+
+===== v28_gray-043.jpg =====
+38
+[рукописно: 41]
+
+А я такой типа ой да первый раз слышу
+waifuclub@jabber.calyxinstitute.org
+(17.10.2017 11:25)
+
+Да, такая же по сути хуйня с ней при мне
+hlvcfrwl
+(17.10.2017 11:26)
+
+Она ещё спрашивает типа, а пустые страницы тоже ксерить?
+hlvcfrwl
+(17.10.2017 11:26)
+
+Я говорю а тебе для чего?
+hlvcfrwl
+(17.10.2017 11:27)
+
+Она не говорит типа не могу сказать
+hlvcfrwl
+(17.10.2017 11:27)
+
+А я примерно в то же время делал доки на въезд туда же
+hlvcfrwl
+(17.10.2017 11:27)
+
+И как бы мне было это очевидно
+hlvcfrwl
+(17.10.2017 14:53)
+
+Ко мне приходили на работу
+hlvcfrwl
+(17.10.2017 14:53)
+
+Хз кто
+hlvcfrwl
+(17.10.2017 14:53)
+
+Возможно батя
+waifuclub@jabber.calyxinstitute.org
+(17.10.2017 16:18)
+
+Когда приходили? И что сказали?
+waifuclub@jabber.calyxinstitute.org
+(17.10.2017 16:19)
+
+101
+hlvcfrwl
+(17.10.2017 18:32)
+
+11
+hlvcfrwl
+(17.10.2017 18:35)
+
+11
+waifuclub@jabber.calyxinstitute.org
+(17.10.2017 18:36)
+
+100
+waifuclub@jabber.calyxinstitute.org
+(17.10.2017 18:37)
+
+> Когда приходили? И что сказали?
+hlvcfrwl
+(17.10.2017 18:37)
+
+Вчера
+hlvcfrwl
+(17.10.2017 18:37)
+
+На стрельбище выходной и был только сторож
+hlvcfrwl
+(17.10.2017 18:38)
+
+Задавали странные вопросы
+hlvcfrwl
+(17.10.2017 18:38)
+
+Что именно я не в курсе
+hlvcfrwl
+(17.10.2017 18:38)
+
+Странные вопросы это цитата
+waifuclub@jabber.calyxinstitute.org
+(17.10.2017 18:39)
+
+Что думаешь делать?
+
+[печать: Федеральная служба безопасности Российской Федерации. Управление по Пензенской области; «Д»]
+[подпись]
+
+===== v28_gray-044.jpg =====
+39
+[рукописно: 42]
+
+hlvcfrwl
+(17.10.2017 18:40)
+
+Ничего
+hlvcfrwl
+(17.10.2017 18:40)
+
+Вывез всё
+hlvcfrwl
+(17.10.2017 18:40)
+
+Работать пока буду
+hlvcfrwl
+(17.10.2017 18:40)
+
+Ну и Игорь не стукач
+waifuclub@jabber.calyxinstitute.org
+(17.10.2017 18:40)
+
+Ахаха)
+hlvcfrwl
+(17.10.2017 18:41)
+
+Он объяснил как там вся инфа проходила
+waifuclub@jabber.calyxinstitute.org
+(17.10.2017 18:41)
+
+Я и не думал так
+hlvcfrwl
+(17.10.2017 18:41)
+
+И он сказал, что Н говорила его Мамке про меня
+hlvcfrwl
+(17.10.2017 18:41)
+
+А не он
+waifuclub@jabber.calyxinstitute.org
+(17.10.2017 18:41)
+
+Мне он тоже сказал
+hlvcfrwl
+(17.10.2017 18:42)
+
+Но как бы когда Н писала ему мол нахуй ты рассказал моей Мамке про А, тот вроде не мог ничего ответить вразумительного
+waifuclub@jabber.calyxinstitute.org
+(17.10.2017 18:42)
+
+Но н вчера сказала, что не она
+waifuclub@jabber.calyxinstitute.org
+(17.10.2017 18:42)
+
+Что он пиздит
+hlvcfrwl
+(17.10.2017 18:43)
+
+Ну я подумал так же
+hlvcfrwl
+(17.10.2017 18:43)
+
+Но
+hlvcfrwl
+(17.10.2017 18:43)
+
+Но!
+hlvcfrwl
+(17.10.2017 18:43)
+
+Н была мной лично уличена во лжи
+hlvcfrwl
+(17.10.2017 18:43)
+
+Дважды
+hlvcfrwl
+(17.10.2017 18:43)
+
+Поэтому какое к ней доверие
+hlvcfrwl
+(17.10.2017 18:44)
+
+С другой стороны ей об этом как бы хуй знает говорить ли
+waifuclub@jabber.calyxinstitute.org
+(17.10.2017 18:44)
+
+[печать: Федеральная служба безопасности Российской Федерации. Управление по Пензенской области; «Д»]
+[подпись]
+
+===== v28_gray-045.jpg =====
+40
+[рукописно: 43]
+
+Да я тоже не особо ей поверил
+hlvcfrwl
+(17.10.2017 18:44)
+
+Чтобы она напугалась и сделала что-то ещё более тупое
+waifuclub@jabber.calyxinstitute.org
+(17.10.2017 18:45)
+
+По моему вообще разбираться в том, кто из них пропизделся, смысла нет
+hlvcfrwl
+(17.10.2017 18:45)
+
+Ну да
+waifuclub@jabber.calyxinstitute.org
+(17.10.2017 18:46)
+
+Оба они много накосячили в разговорах с родителями
+waifuclub@jabber.calyxinstitute.org
+(17.10.2017 18:48)
+
+Я тут кириллу хотел написать
+waifuclub@jabber.calyxinstitute.org
+(17.10.2017 18:48)
+
+Но он быстро свалил
+waifuclub@jabber.calyxinstitute.org
+(17.10.2017 18:48)
+
+Сказал с витьком поговорить
+waifuclub@jabber.calyxinstitute.org
+(17.10.2017 18:52)
+
+0dark@riseup.net (17.10.2017 17:05) Привет
+waifuclub@jabber.calyxinstitute.org (17.10.2017 17:11) Привет
+0dark@riseup.net (17.10.2017 17:12) как там дела у вас? как Давид?
+waifuclub@jabber.calyxinstitute.org (17.10.2017 17:14) Чуть позже отвечу, когда до остановки дойду и в транспорт сяду
+0dark@riseup.net (17.10.2017 17:16) хорошо
+waifuclub@jabber.calyxinstitute.org (17.10.2017 17:28) Жопа полная у нас как всегда. Даже давид наконец осознал, что валить надо из пнз
+0dark@riseup.net (17.10.2017 17:30) да давно пора уже
+0dark@riseup.net (17.10.2017 17:30) ещё не решили куда валить?
+waifuclub@jabber.calyxinstitute.org (17.10.2017 17:31) Я к вам хочу, а д не знает пока, думает или тоже к вам или в мск
+waifuclub@jabber.calyxinstitute.org (17.10.2017 17:37) Когда мы это обсуждали, то все равно не планировали, что это скоро получится, потому что он думал еще на работе своей поработать, чтоб опыта побольше было, чтоб на такую же устроится на новом месте, да и чуваков мы так и не переправили
+waifuclub@jabber.calyxinstitute.org (17.10.2017 17:38) И если переедем, то им помогать наверное и не сможем
+waifuclub@jabber.calyxinstitute.org (17.10.2017 17:38) Как минимум первое время
+waifuclub@jabber.calyxinstitute.org (17.10.2017 17:40) Но теперь, может так случиться, что нам валить придется, все бросив
+0dark@riseup.net (17.10.2017 17:41) чет otr вылетел
+waifuclub@jabber.calyxinstitute.org (17.10.2017 17:42) У меня норм
+waifuclub@jabber.calyxinstitute.org (17.10.2017 17:42) Что последнее принял?
+waifuclub@jabber.calyxinstitute.org (17.10.2017 17:45) > Что последнее принял?
+0dark@riseup.net (17.10.2017 17:46) только мои сообщения отоброзились, а твои все не принял
+waifuclub@jabber.calyxinstitute.org (17.10.2017 17:46) > Я к вам хочу, а д не знает пока, думает или тоже к вам или в мск
+> Когда мы это обсуждали, то все равно не планировали, что это скоро получится, потому что он думал еще на работе своей поработать, чтоб опыта побольше было, чтоб на такую же устроится на новом месте, да и чуваков мы так и не переправили
+> И если переедем, то им помогать наверное и не сможем
+> Как минимум первое время
+> Но теперь, может так случиться, что нам валить придется, все бросив
+0dark@riseup.net (17.10.2017 17:48) из-за чего?
+waifuclub@jabber.calyxinstitute.org (17.10.2017 17:53) Бля, я даже не знаю уже, что можно мне рассказывать, а что нет, потому что меня уже заебали все, один про одно говорит, чтоб никому не говорил, другрй про другое
+waifuclub@jabber.calyxinstitute.org (17.10.2017 17:54) Что последнее кирил рассказывал про пнз?
+waifuclub@jabber.calyxinstitute.org (17.10.2017 17:54) Про каккие пиздецы?
+waifuclub@jabber.calyxinstitute.org (17.10.2017 17:56) Что ты знаешь про обстановку у нас?
+0dark@riseup.net (17.10.2017 17:57) ну я в курсе про нло
+waifuclub@jabber.calyxinstitute.org (17.10.2017 17:58) Так это давно уже было. Я про недавние пиздецы)
+0dark@riseup.net (17.10.2017 17:59) ну про недавние я не в курсе
+0dark@riseup.net (17.10.2017 17:59) мне видимо из-за этого Кирилл и сказал с тобой поговорить
+waifuclub@jabber.calyxinstitute.org (17.10.2017 18:00) Уже не могу писать
+waifuclub@jabber.calyxinstitute.org (17.10.2017 18:08) К стоматологу на прием иду
+waifuclub@jabber.calyxinstitute.org (17.10.2017 18:08) Позже отвечу
+
+hlvcfrwl
+(17.10.2017 18:54)
+
+Норм сходил?
+hlvcfrwl
+(17.10.2017 18:54)
+
+[печать: Федеральная служба безопасности Российской Федерации. Управление по Пензенской области; «Д»]
+[подпись]
+
+===== v28_gray-046.jpg =====
+Тоже надо
+hlvcfrwl
+(17.10.2017 18:54)
+
+Ток бабок нет
+hlvcfrwl
+(17.10.2017 18:54)
+
+Это кто ваше
+waifuclub@jabber.calyxinstitute.org
+(17.10.2017 18:55)
+
+Вроде норм пломбу поставили
+waifuclub@jabber.calyxinstitute.org
+(17.10.2017 18:55)
+
+Я бесплатно всю жизнь зубы делаю
+waifuclub@jabber.calyxinstitute.org
+(17.10.2017 18:55)
+
+Переписка с кем?
+hlvcfrwl
+(17.10.2017 18:55)
+
+Бля, может тоже похуй бесплатно пойти
+hlvcfrwl
+(17.10.2017 18:55)
+
+Мне просто вырывать надо
+hlvcfrwl
+(17.10.2017 18:55)
+
+Да
+hlvcfrwl
+(17.10.2017 18:56)
+
+Я не знаю эту жабк
+waifuclub@jabber.calyxinstitute.org
+(17.10.2017 18:56)
+
+Это витек
+hlvcfrwl
+(17.10.2017 18:56)
+
+Понял
+waifuclub@jabber.calyxinstitute.org
+(17.10.2017 18:56)
+
+Бля, нахуя за вырывание-то платить вообще
+waifuclub@jabber.calyxinstitute.org
+(17.10.2017 18:57)
+
+Мне три зуба вырвали бесплатно
+waifuclub@jabber.calyxinstitute.org
+(17.10.2017 18:57)
+
+И норм
+hlvcfrwl
+(17.10.2017 18:57)
+
+Один который надо было и два соседних?
+waifuclub@jabber.calyxinstitute.org
+(17.10.2017 18:57)
+
+Не
+hlvcfrwl
+(17.10.2017 18:58)
+
+Шучу
+waifuclub@jabber.calyxinstitute.org
+(17.10.2017 18:58)
+
+Один, который совсем уже ремонту не поддавался и два зуба мудрости
+waifuclub@jabber.calyxinstitute.org
+(17.10.2017 18:59)
+
+Бля, я щас короче в магазе, погоди, домой зайду
+waifuclub@jabber.calyxinstitute.org
+(17.10.2017 18:59)
+
+Игорю дал пизды?
+hlvcfrwl
+(17.10.2017 19:03)
+
+[печать] [подпись]
+
+===== v28_gray-047.jpg =====
+Нет, решил приберечь силы для тебя
+waifuclub@jabber.calyxinstitute.org
+(17.10.2017 19:05)
+
+Да ладно, он прост тебе нахуярил видимо)
+hlvcfrwl
+(17.10.2017 19:05)
+
+Это было задание для бойцовского клуба
+hlvcfrwl
+(17.10.2017 19:05)
+
+Завязать драку и проиграть в ней
+waifuclub@jabber.calyxinstitute.org
+(17.10.2017 19:10)
+
+Когда ты ему сказал, что н сказала, что это он распиздел родителям, он надеюсь не понял, что у нас с ней связь есть?
+hlvcfrwl
+(17.10.2017 19:10)
+
+Нет
+hlvcfrwl
+(17.10.2017 19:10)
+
+Я сказал что мне на работе так сказали
+hlvcfrwl
+(17.10.2017 19:11)
+
+Я и про тебя особо ниче не говорил
+hlvcfrwl
+(17.10.2017 19:11)
+
+Теперь общесетевое мероприятие отменяется из-за слежки
+hlvcfrwl
+(17.10.2017 19:11)
+
+В пензе
+hlvcfrwl
+(17.10.2017 19:12)
+
+Которое скоро должно быть
+waifuclub@jabber.calyxinstitute.org
+(17.10.2017 19:14)
+
+У нас должно было быть мероприятие?
+hlvcfrwl
+(17.10.2017 19:15)
+
+Да
+hlvcfrwl
+(17.10.2017 19:15)
+
+Он звал же
+hlvcfrwl
+(17.10.2017 19:15)
+
+Осенью
+
+[19:58:19] <waifuclub> а брат ее как тебя знал?
+[19:58:27] <hlvcfrwl> Как а
+[19:58:57] <hlvcfrwl> Но когда хуйня началась переименовал меня в телеге на котика обормотика
+[19:59:25] <waifuclub> думаешь он родителям ничего не рассказал?
+[19:59:55] <hlvcfrwl> Нет
+[20:00:55] <hlvcfrwl> И вообще он сказал мне, что всё бы ничего, если бы она в жабе была
+[20:01:05] <hlvcfrwl> Но её уже неделю там нет
+[20:02:39] <waifuclub> игорь говорил, она родителям жабу передавала через вику
+[20:02:49] <waifuclub> и писала им что-то
+[20:03:03] <hlvcfrwl> Ну вот мне брат её сказал
+[20:03:19] <hlvcfrwl> Что она в жабе отвечала по началу
+[20:03:27] <hlvcfrwl> И никто не кипишевал
+[20:03:57] <hlvcfrwl> А как перестала, так они развели пиздец какой большой кипишь
+
+Я сейчас базарю с Н
+hlvcfrwl
+(18.10.2017 14:39)
+
+[печать] [подпись]
+
+===== v28_gray-048.jpg =====
+Конечно ваще полную хуйню несут
+hlvcfrwl
+(18.10.2017 14:39)
+
+И я спросил у брата слышал ли он как Игорь говорил про меня их маике
+hlvcfrwl
+(18.10.2017 14:39)
+
+Мамке
+hlvcfrwl
+(18.10.2017 14:39)
+
+Он говорит не слышал и никогда такого не говорил
+hlvcfrwl
+(18.10.2017 14:40)
+
+А она утверждает что это единственное и прямое доказательство её невиновности
+waifuclub@jabber.calyxinstitute.org
+(18.10.2017 14:40)
+
+Да похуй уже кто из них пропиздился
+hlvcfrwl
+(18.10.2017 14:41)
+
+Арчи обвиняет во всём нас
+hlvcfrwl
+(18.10.2017 14:41)
+
+А я их
+waifuclub@jabber.calyxinstitute.org
+(18.10.2017 16:19)
+
+Хотелось бы увидеть переписку
+hlvcfrwl
+(18.10.2017 16:20)
+
+Она в виде скриншотов на телефоне
+hlvcfrwl
+(18.10.2017 16:20)
+
+Но не вся
+hlvcfrwl
+(18.10.2017 16:21)
+
+У меня телефон на середине разрядился
+hlvcfrwl
+(18.10.2017 16:21)
+
+Но во второй половине тоже интересно
+hlvcfrwl
+(18.10.2017 16:21)
+
+В любом случае я просто их хуесосил в первой половине
+hlvcfrwl
+(18.10.2017 16:22)
+
+И это не особо иньормативно
+hlvcfrwl
+(18.10.2017 16:22)
+
+А арчи писал что я сам виноват
+hlvcfrwl
+(18.10.2017 16:22)
+
+И игорь
+hlvcfrwl
+(18.10.2017 16:22)
+
+Хотя я про игоря ничего не писал вообще
+hlvcfrwl
+(18.10.2017 16:22)
+
+Важного
+hlvcfrwl
+(18.10.2017 16:22)
+
+Но упоминал
+hlvcfrwl
+(18.10.2017 16:23)
+
+Что типа верю ему
+hlvcfrwl
+(18.10.2017 16:23)
+
+[печать] [подпись]
+
+===== v28_gray-049.jpg =====
+Опять пишет
+hlvcfrwl
+(18.10.2017 16:25)
+
+Бля
+hlvcfrwl
+(18.10.2017 16:25)
+
+Ебланы
+waifuclub@jabber.calyxinstitute.org
+(18.10.2017 16:41)
+
+Заебал сраться со всеми)
+hlvcfrwl
+(18.10.2017 17:05)
+
+Я их осуждаю за то что они не посоветовавшись и даже не предупредив замутили полную хуйню
+hlvcfrwl
+(18.10.2017 17:05)
+
+И сейчас он мне пишет
+hlvcfrwl
+(18.10.2017 17:05)
+
+Вечером мы решим вопрос с родителями
+hlvcfrwl
+(18.10.2017 17:05)
+
+Я спрашиваю как это будет выглядеть?
+hlvcfrwl
+(18.10.2017 17:06)
+
+Мам, пап я точно не в игил и Антон точно к этому не причастен
+hlvcfrwl
+(18.10.2017 17:06)
+
+На что мне отвечаю ладно забей конец связи
+hlvcfrwl
+(18.10.2017 17:07)
+
+И вот снова они мутят полную хуйню и снова полны решимости
+hlvcfrwl
+(18.10.2017 17:07)
+
+И снова они ничего не говорят и снова не посоветовавшись приняли решение
+hlvcfrwl
+(18.10.2017 17:13)
+
+Я сказал им что пишу отчёт для сети раз они такие ебланы
+
+Creation 14.10.2017 19:52:35
+Time:
+
+Group: txt
+Title: пер4
+Notes: waifuclub@jabber.calyxinstitute.org
+(18.10.2017 12:34)
+
+Перманентный пиздец
+
+Вобщем после того, как те, кого искали мусара, свалили из города, мы только и занимались тем, что пытались намутить денег, чтоб они свалили из страны. Но где взять так быстро и так много бабок легальным путем придумать не смогли, поэтому занялись тем же, чем и нло. И поначалу все шло неплохо
+waifuclub@jabber.calyxinstitute.org
+(18.10.2017 12:35)
+
+Мы скидывали им бабки постоянно на житье и копили на переезд
+waifuclub@jabber.calyxinstitute.org
+(18.10.2017 12:35)
+
+Но потом начался пиздец
+0dark@riseup.net
+(18.10.2017 12:39)
+
+Перманентный пиздец это очень хорошая формулировка для описания того, что происходит
+waifuclub@jabber.calyxinstitute.org
+(18.10.2017 12:42)
+
+[печать] [подпись]
+
+===== v28_gray-050.jpg =====
+Сначала на в нашу конспиративную хату, где мы всей хуйней и занимались (и работой и всем остальным палевом), начали ломиться судебные приставы, с чего я охуел, потому что только после этого д сказал, что оказывается долг по коммуналке за хату уже 80к, хотя я его, как только узнал про эту квартиру, немало раз спрашивал, чего она нам будет стоить, на что он отвечал всегда, чтоб я не парился вообще, что он все решил
+waifuclub@jabber.calyxinstitute.org
+(18.10.2017 12:43)
+
+Мы оттуда все вывезли и перестали там тусить
+waifuclub@jabber.calyxinstitute.org
+(18.10.2017 12:44)
+
+Я из своих денег оплатил часть долга, чтоб приставы успокоились немного
+waifuclub@jabber.calyxinstitute.org
+(18.10.2017 12:45)
+
+Всякой хуйней по работе стали заниматься у н дома
+0dark@riseup.net
+(18.10.2017 12:46)
+
+пиздец
+waifuclub@jabber.calyxinstitute.org
+(18.10.2017 12:49)
+
+К тому времени д этой работой почти не занимался уже, говорил постоянно, что времени нет из-за официальной работы и хз из-за каких еще дел
+waifuclub@jabber.calyxinstitute.org
+(18.10.2017 14:39)
+
+Когда мы об этом договаривались, планировали, что наоборот в основном они (д и н) будут этим заниматься, потому что я в отличии от них работал и до сиз пор работаю 5 дней в неделю
+0dark@riseup.net
+(18.10.2017 14:41)
+
+ии дальше всем этиим занимались дома?
+waifuclub@jabber.calyxinstitute.org
+(18.10.2017 14:41)
+
+Да но не долго
+waifuclub@jabber.calyxinstitute.org
+(18.10.2017 14:46)
+
+В итоге д практически этим не занимался, н тоже все больше проебывалась
+0dark@riseup.net
+(18.10.2017 15:00)
+
+и все в итоге на это забил?
+waifuclub@jabber.calyxinstitute.org
+(18.10.2017 17:04)
+
+С д с тех пор практически не виделись и в жабе тоже практически не общались. Он только на этой неделе начал нормально на связь выходить. Н мне и дальше в этом помогала. Потом д сообщил, что рядом с конспиративной хатой какая-то подозрительная хрень началась, какие-то подозрительные машины туда подъезжать стали. Мы туда еще заезжали иногда после случая с приставами, до того там практически жили, теперь вообще появляться перестали
+waifuclub@jabber.calyxinstitute.org
+(18.10.2017 17:06)
+
+Потом н сказала, что ей у дома ее какой-то чел странные вопросы задавал
+waifuclub@jabber.calyxinstitute.org
+(18.10.2017 17:06)
+
+Мы на время всю деятельность прекратили
+waifuclub@jabber.calyxinstitute.org
+(18.10.2017 17:07)
+
+Про н я теперь правда вообще не уверен, что она не пиздила
+waifuclub@jabber.calyxinstitute.org
+(18.10.2017 17:09)
+
+Потому что потом она сказала, что она больше не будет в нашей работе участвовать, потому что у нее соседа за наркоту мусара взяли
+waifuclub@jabber.calyxinstitute.org
+(18.10.2017 17:10)
+
+В чем я тоже, теперь сомневаюсь
+waifuclub@jabber.calyxinstitute.org
+(18.10.2017 17:11)
+
+[печать] [подпись]
+
+===== v28_gray-051.jpg =====
+Прост она по моему хотела, чтобы мы тоже с этим завязали
+waifuclub@jabber.calyxinstitute.org
+(18.10.2017 17:13)
+
+Короче в тот же день, как она мне это сказала, я пошел работать один и меня приняли мусара
+waifuclub@jabber.calyxinstitute.org
+(18.10.2017 17:13)
+
+Но я все скинул прям по дороге в отделение
+waifuclub@jabber.calyxinstitute.org
+(18.10.2017 17:14)
+
+Меня обшмонали всего ничего не нашли и отпустили
+waifuclub@jabber.calyxinstitute.org
+(18.10.2017 17:14)
+
+Решили, что я нарк, который закладку искал
+waifuclub@jabber.calyxinstitute.org
+(18.10.2017 17:15)
+
+Дальше напишу когда домой доберусь
+0dark@riseup.net
+(18.10.2017 17:15)
+
+пиздец, я даже не знал что тебя принимал
+
+Creation 18.10.2017 19:29:55
+Time:
+
+Group: txt
+Title: пер5
+Notes:
+[23:21:01] <piligrim@firemail.cc> это кирилл
+[23:21:01] <waifuclub> привет
+[23:21:06] <waifuclub> я понял
+[23:21:12] <piligrim@firemail.cc> он немного ввел меня в курс событий))4
+[23:21:16] <piligrim@firemail.cc> ноут на работе
+[23:21:21] <piligrim@firemail.cc> пишу с солиного
+[23:21:29] <waifuclub> а ты был не в курсе?
+[23:21:48] <waifuclub> арчи сказал, что писал тебе про это
+[23:21:50] <piligrim@firemail.cc> чего конкретно? ну ты вчера пытался мне рассказать
+[23:22:00] <piligrim@firemail.cc> он тоже начинал что-то про настю
+[23:22:04] <piligrim@firemail.cc> но я вчера вышел же
+[23:22:06] <piligrim@firemail.cc> и свалил
+[23:22:08] <piligrim@firemail.cc> и не зашел
+[23:22:23] <waifuclub> тебе арчи про настю писал?
+[23:22:29] <piligrim@firemail.cc> мне витя рассказал
+[23:22:34] <piligrim@firemail.cc> что мусора шмусора
+[23:22:45] <waifuclub> что рассказал?
+[23:22:47] <piligrim@firemail.cc> ищут её
+[23:22:54] <piligrim@firemail.cc> что вышли на давида-антона
+[23:23:00] <waifuclub> и откуда он знает?
+[23:23:04] <piligrim@firemail.cc> а давид во всем винит настю и игоря
+[23:23:19] <waifuclub> я ему про это не успел еще написать
+[23:23:27] <piligrim@firemail.cc> это от арчи инфа
+[23:23:43] <piligrim@firemail.cc> опять пензенский пиздец(
+[23:23:47] <waifuclub> я тоже тебе про это хотел написать
+[23:23:47] <piligrim@firemail.cc> че делать жумаешь?
+[23:23:53] <piligrim@firemail.cc> думаешь?
+[23:24:05] <piligrim@firemail.cc> рассказывай че хотел написать(
+[23:24:16] <piligrim@firemail.cc> т.к. я не оч понимаю какого хуя вообще
+[23:24:31] <piligrim@firemail.cc> и как давид связан с родичами насти
+[23:30:03] <waifuclub> ну когда настя игоря бросила, игорева мамка его расспрашивала, как так и почему, и он сказал ей, что она бросила его из-за чувака по имени антон, а мамка игоря рассказала об этом мамке насти, когда настя в первый раз из дома пропала и ее мать всех подряд обзванивала и спрашивала, где она может быть
+[23:30:24] <piligrim@firemail.cc> кек
+[23:31:05] <waifuclub> откуда настины родители узнали остальные подробности про антона мы так и не
+
+[печать] [подпись]
+
+===== v28_gray-052.jpg =====
+выяснили
+[23:31:27] <waifuclub> точнее понятно, что либо игорь либо настя пропизделись
+[23:31:43] <waifuclub> но они оба валят все друг на друга
+[23:31:49] <piligrim@firemail.cc> ох ясно
+[23:32:07] <piligrim@firemail.cc> какие именно подробности?
+
+------------------------------
+
+[23:36:07] <piligrim@firemail.cc> а че за брат?
+[23:36:17] <waifuclub> настин
+[23:36:24] <piligrim@firemail.cc> Так, во первых без паники
+
+------------------------------
+
+[23:36:32] <piligrim@firemail.cc> нихуя серьезного не случилось
+[23:36:42] <piligrim@firemail.cc> не дума, что ФСБ нахуй уперлось искать пропавшую дочку
+[23:36:59] <piligrim@firemail.cc> Вы сейчас там опять перепугаетесь за зря
+[23:37:25] <waifuclub> ты прочитал, что настины гражданские друзья напиздели мусорам?
+[23:37:35] <piligrim@firemail.cc> что она в ИГИЛ уехала, это хуета
+[23:37:45] <piligrim@firemail.cc> ничего страшного в этом нет
+[23:37:54] <piligrim@firemail.cc> в ИГИЛ ездили все, от Оли до Арчи
+[23:38:17] <waifuclub> да они не про игил именно сказали
+[23:38:30] <piligrim@firemail.cc> Серьезно, Ваня, успокойся и не предпринимай никаких необдуманных действий, и Давида успокой
+[23:38:35] <piligrim@firemail.cc> А че они сказали?
+[23:38:47] <waifuclub> я точно не знаю
+[23:38:50] <piligrim@firemail.cc> Мы спишемся с арчи и решим вопрос с её родичами
+[23:39:01] <waifuclub> да я и не думал что-то делать
+[23:39:57] <waifuclub> вот только и думал сказать арчи, чтоб н время от времени хотя бы родичам писала, чтоб они не заебывали
+[23:40:22] <piligrim@firemail.cc> [19:58:57] <hlvcfrwl> Но когда хуйня началась переименовал меня в телеге на котика обормотика
+
+ну пиздец, мож соле мою мамку в телеграм добавить? и сестра шоб мне звонила на работу когда я 2 месяца на связь не выхожу и доебывала там всех в игил я уехал или нет? Ну что за отношение
+
+[23:40:46] <piligrim@firemail.cc> Всё, проблема с родичами решена
+[23:40:49] <piligrim@firemail.cc> Настя в мусарку позвонила
+[23:40:54] <piligrim@firemail.cc> Мусор вышлет ей бланк
+[23:41:00] <piligrim@firemail.cc> она его заполнит и они отъебтся
+[23:41:11] <piligrim@firemail.cc> Дело десяти минут, и без паники и необдуманных решений
+[23:41:22] <piligrim@firemail.cc> Мамке тоже позвонила
+[23:41:24] <piligrim@firemail.cc> Все в порядке
+[23:42:04] <waifuclub> ну и ок
+[23:42:37] <piligrim@firemail.cc> Все, успокоился теперь? Как себя чувствуешь?
+[23:43:02] <waifuclub> да я и не беспокоился
+[23:43:26] <piligrim@firemail.cc> Ладно, напишешь письмо всем? на почту, если тебе не сложно
+[23:43:30] <waifuclub> я уже походу привык к тому, что только один пиздец кругом)
+[23:43:38] <piligrim@firemail.cc> а тоя ересылать не хочу диалог, а о ситуации нать всем положено
+[23:43:45] <piligrim@firemail.cc> знать*
+[23:43:49] <piligrim@firemail.cc> пересылать*
+
+Creation 19.10.2017 0:18:16
+Time:
+
+Group: txt
+Title: Пер6
+Notes: Я хочу кое что сказать тебе и всем кто сейчас держит контакты с людьми которых брали. Предпосылки ко всему говну проявлялись и до этого, за что пенза нас всех очень карила и собственно это стало причиной почему Давид перестал с нами общаться, якобы мы зазря клевещем. <br>Каждый из нас, что в спб что в мск не знаем к чему это приведет. Возможно это касается и нас тоже, и мусора уже раскручивают эту цепочку событий и скоро постучатся к нам в дверь, а может быть это связано с совсем другими вещами. сейчас у нас есть такие варианты - все сидят и ничего не делают, тогда шансы 50\50 сядем мы все или нет; никто дальше ничего не знает но мы валим из страны (что может быть поспешно и обратно мы вернуться уже не сможем); мы узнаем касается ли эта ситуация всех нас и действуем по ситуации - если дело в другом то сидим дальше на жопе и не привлекаем внимания, если это угроза
+
+[печать] [подпись]
+
+===== v28_gray-053.jpg =====
+для всех нас то мы продумываем точно как мы съебываем и куда.<br>Мы не можем сидеть и ждать не зная что с нами произойдет завтра. Именно поэтому ОЧЕНЬ ВАЖНО ЧТО БЫ БРАТ СТАСА СВЯЗАЛСЯ С МАТЕРЬЮ, ЗАСТАВИЛ ЕЕ ПОЗВОНИТЬ ПРАВОЗАЩИТНИКАМ КОТОРЫЕ ЗАНИМАЮТСЯ ТАКИМИ ДЕЛАМИ И ВВЕЛ НАС В КУРС ДЕЛА. что ОЧЕНЬ важно: нужно что бы информация поступала так как она есть в действительности, без додумок, без предположений, без переиначивания, максимально полная. Чем больше вы тянете с этим тем меньше у нас времени на принятия решения. <br>Если ты готов идти получать паспорт когда вокруг всех вяжут, то я не готова. Я уже приходила за паспортом и оттуда меня вели под конвоем в отделение потому что я была в розыске. Не думай что это тебя не касается, если это так то из МФЦ ты поедешь в мусарню. Пожалуйста, приложи все усилия что бы можно было узнать хоть какую то информацию. Подежурить недалеко у дома давида, может быть он просто сменил каналы связи или выкинул ноут, попросить Катю как нибудь связаться с родственниками или другими публичными каналами. Как угодно, лишь бы тебя не палили на этом
+мы все очень сильно рискуем
+
+Creation 06.11.2017 0:14:11
+Time:
+
+Group: txt
+Title: пер41
+Notes: после того, как меня приняли, я тоже завязал с этой работой. арчи доебал меня, чтобы я какое-то время вообще ни с кем не виделся, я с ним согласился, договорились, что я неделю минимум буду в околокарантине. д про это все узнал только через несколько дней, может как раз неделю, потому что даже в жабе не появлялся все это время. неделю я вообще ничем не занимался, дом-работа и все. н тоже стала пропадать, тоже в жабе появлялась чуть ли не раз в неделю. и только я решил, что все уже более-менее спокойно стало, как пиздец случился просто, блять, на ровном месте. вот что я просил арчи отправить кириллу на почту про это:
+
+У меня тут пиздец произошел. У меня на работе ноут забрали в четверг на проходной, когда я с работы выходил. До этого постоянно его с собой таскал, но в этот раз просто весь рюкзак у меня перерыли охранники. Отдал им в руки, потому что подумал, что доебались, потому что думали, что я его спиздил, потому что в последнее время на завод компы всякие завозить стали. Пришел какой-то хрен из отдела безопасности и сказал, что проверить смогут только утром, потому что рабочий день кончился и все домой свалили, и что по правилам завода нельзя с собой на завод личную видео и оргтехнику носить. Я оставил до утра, пришел домой и позвонил крестной, через которую мы с братом туда работать устроились. Она главным конструктором там работает. Спросил, знает ли она начальника охраны, сказал, что ноут у меня забрали. Она ему позвонила, потом перезвонила мне и сказала, что он утром мне ноут отдаст, только телегу мне какую-нибудь расскажет про то, что теперь нельзя такие вещи с собой носить без оформления специальных разрешений. Написал про эту хуйню Д. Он написал, что утром уезжает на 2-3 дня по работе. Утром я пришел к этому сотруднику отдела безопасности, думал сейчас заберу и пойду работать, а он начал хуйню нести, что нельзя ноут было проносить, потому что это запрещено правилами безопасности из-за того, что кто-нибудь может информацию какую-нибудь с завода спиздить. Я сказал, что меня никто никогда об этом не предупреждал. Там и в самом деле раньше кто-нибудь планшет или ноут приносил. Я слышал, что до них из-за этого доебывались, но потому что они на рабочем месте игрались в них. Я вообще ноут из рюкзака даже не доставал на работе. Этот ссаный безопасник выебываться стал, что завод - это режимный объект, что я должен сам откуда-то знать регламент работы завода. Сказал, что отдаст мне ноут, только после того, как проверят, что на нем, что надо подождать специально обученного сотрудника, который этим займется. Спросил запаролен ли ноут. Сказал, что могу или сейчас разблокировать и прийти в обед забрать или в обед разблокировать, чтобы при мне посмотрели. Я сказал, что в обед зайду. Пошел на работу. Там написал Н, чтобы она к этому времени подъехала во дворы за пару кварталов от проходной. Пришел в обед, зашел к нему в кабинет. За мной зашел еще какой-то мужик. Ноут лежал на столе перед ним. Он начал с этим мужиком говорить. Я взял ноут и вышел. Добежал, петляя дворами до Н, отдал ей ноут и пошел обратно на работу. По дороге мне позвонила крестная. Сказала, что этот безопасник ахуел, от такого поворота, что он сказал передать, что если я сейчас к нему не зайду, то меня уволят. Я зашел. Там уже еще трое сидели: специально обученный очкарик, тетка, вроде как из отдела кадров, и еще какой-то мужик. Спросили, где ноут. Я сказал, что не скажу. Они все разом начали выебываться, что я типа ахуел, что это режимное предприятие, что мне пиздец, если я ноут им не покажу. Спросили, сколько времени мне нужно, чтобы я ноут принес. Я сказал, что не собираюсь им его показывать. Безопасник сказал, что если через час ноута не будет, то мной уже другие люди займутся. Потом сказал, что этим вообще ФСБ займется. Я спросил: "И что тогда будет?" Он сказал, что они со мной уже по-другому
+
+[печать] [подпись]
+
+===== v28_gray-054.jpg =====
+говорить будут. Я сказал, что не буду показывать, что на ноуте. Безопасник сказал, что сейчас за мной сюда придут какие-то другие люди. Я вышел из его кабинета, пошел дворами в сторону центра города. Написал Н адрес через несколько кварталов, где меня подобрать, выключил все телефоны и пошел к месту встречи. Я собирался вывезти все палево из своей съемной квартиры. Н довезла меня до леса на моем районе, мы зашли в лес, я скинул сначала свой смартфон, на котором жабу юзаю, и ключи от конспиративной хаты, потом подальше рюкзак с ноутом. Вернулись с Н к машине, договорились, где она меня будет ждать. Я пошел домой. К тому времени прошло уже несколько часов с тех пор, как я вышел с завода. Зашел к себе, собрал вещи, пошел к лесу петляя по дворам. Забрал рюкзак с ноутом, ключи и смартфон не получилось, потому что из леса вышли два мужика и стояли около того места долго. Пошел через заросли к месту, где ждала настя. Поехали купили чистую симку для моего чистого смартфона. Потом я решил отвезти вепря, на которого у меня еще нет разрешения на ношение и который лежал у меня на съемной квартире, по месту моей прописки, на случай, если придут с обыском, чтобы еще из-за него проблем у меня не было. Живу с тех пор у Н. Д на связь так и не выходил. Вчера в пятницу вечером, когда брат заканчивает работать, написал ему в вк через https://secserv.me/ с чистой страницы, зареганной на чистую симку, не включавшуюся рядом с другими нашими телефонами, через тор+впн. Спросил его, что ему сказали про меня на работе. Вот что он ответил:
+
+карочь тебя не уволили и если придёш в понедельник то даж прогул мож непоставят.а с ноутом ты чёт переборщил.тёть света говорит что его тебе начальник охраны мог вечером отдать непроверяя еслиб ты дурочком притворился и хуйни ему какойнить наплёл.а ты его спиздил при ещё двух свидетелях и теперь начальник охраны шоб перед ними отмазаться должен сам проверить твой ноут а если ты его не принесёш то в фсб это дело передаст.тёть света вродь договорилась шоб пака не передовал если в понедельник принесёш ноут.можешь жёсткий диск на него другой поставить и всякую хуйню на него записать с обычной виндой
+
+Думаю теперь переустановить убунту с полным форматированием, может накачать на ноут порнухи и отнести на работу. И вот хочу спросить, они же после этого ничего не смогут восстановить? Т.е. если даже смогут, то все зашифровано будет же.
+
+Точнее это не все, что я кириллу просил передать, окончание истории у меня не сохранилось.
+Закончилось тем, что ноут я так и не принес и все это оказалось хуйней, как я и думал, что фсб на заводе никакого нет, а просто моя крестная и начальники все на заводе фсб'шниками называли двоих начальников отдела безопасности непонятно с какого перепугу. меня только штрафанули на какую-то часть премии и я целый день объяснительные писал.
+после этого с д я не мог связаться еще неделю, а с н неделю общался только через арчи (думаю сам теперь понимаешь почему, потому что про последний пиздец ты уже вкурсе). когда д вышел на связь, сказал ему, что надо бы нам собрание устроить, чтобы дальнейшие планы обсудить. он согласился. через пару дней увиделся с н и тоже самое сказал. она сказала, что ок, что свяжется, после чего снова пропала, а через неделю мне арчи написал, что она передает привет, что она у него. дальше ты вроде бы вкурсе событий, но напишу, что знаю
+
+[23:21:01] <piligrim@firemail.cc> это кирилл
+[23:21:01] <waifuclub> привет
+[23:21:06] <waifuclub> я понял
+[23:21:12] <piligrim@firemail.cc> он немного ввел меня в курс событий))4
+[23:21:16] <piligrim@firemail.cc> ноут на работе
+[23:21:21] <piligrim@firemail.cc> пишу с солиного
+[23:21:29] <waifuclub> а ты был не в курсе?
+[23:21:48] <waifuclub> арчи сказал, что писал тебе про это
+[23:21:50] <piligrim@firemail.cc> чего конкретно? ну ты вчера пытался мне рассказать
+[23:22:00] <piligrim@firemail.cc> он тоже начинал что-то про настю
+[23:22:04] <piligrim@firemail.cc> но я вчера вышел же
+[23:22:06] <piligrim@firemail.cc> и свалил
+[23:22:08] <piligrim@firemail.cc> и не зашел
+[23:22:23] <waifuclub> тебе арчи про настю писал?
+[23:22:29] <piligrim@firemail.cc> мне витя рассказал
+[23:22:34] <piligrim@firemail.cc> что мусора шмусора
+[23:22:45] <waifuclub> что рассказал?
+[23:22:47] <piligrim@firemail.cc> ищут её
+[23:22:54] <piligrim@firemail.cc> что вышли на давида-антона
+[23:23:00] <waifuclub> и откуда он знает?
+[23:23:04] <piligrim@firemail.cc> а давид во всем винит настю и игоря
+[23:23:19] <waifuclub> я ему про это не успел еще написать
+[23:23:27] <piligrim@firemail.cc> это от арчи инфа
+[23:23:43] <piligrim@firemail.cc> опять пензенский пиздец(
+
+[печать] [подпись]
+
+===== v28_gray-055.jpg =====
+[23:23:47] <waifuclub> я тоже тебе про это хотел написать
+[23:23:47] <piligrim@firemail.cc> че делать жумаешь?
+[23:23:53] <piligrim@firemail.cc> думаешь?
+[23:24:05] <piligrim@firemail.cc> рассказывай че хотел написать(
+[23:24:16] <piligrim@firemail.cc> т.к. я не оч понимаю какого хуя вообще
+[23:24:31] <piligrim@firemail.cc> и как давид связан с родичами насти
+[23:30:03] <waifuclub> ну когда настя игоря бросила, игорева мамка его расспрашивала, как так и почему, и он сказал ей, что она бросила его из-за чувака по имени антон, а мамка игоря рассказала об этом мамке насти, когда настя в первый раз из дома пропала и ее мать всех подряд обзванивала и спрашивала, где она может быть
+
+забыл упомянуть, что н сваливала от родителей, потому что поругалась с мамкой, еще когда мы только начинали работать
+
+[23:30:24] <piligrim@firemail.cc> кек
+[23:31:05] <waifuclub> откуда настины родители узнали остальные подробности про антона, мы так и не выяснили
+[23:31:27] <waifuclub> точнее понятно, что либо игорь либо настя пропизделись
+[23:31:43] <waifuclub> но они оба валят все друг на друга
+[23:31:49] <piligrim@firemail.cc> ох ясно
+[23:32:07] <piligrim@firemail.cc> какие именно подробности?
+[23:32:57] <waifuclub> [21:41:14] <waifuclub> это просто пиздос
+[21:41:21] <waifuclub> то, что игорь рассказал
+[21:42:05] <waifuclub> говорили же, что с родителями проблем не будет
+[21:42:19] <waifuclub> они в розыск подали
+[21:43:22] <waifuclub> и теперь всех, с кем настя тусила в последние дни, на допрос вызывали
+[21:43:41] <waifuclub> и они там такого наговорили, что просто жопа
+[21:43:47] <birnabir@riseup.net> и шо
+[21:43:52] <birnabir@riseup.net> в курсе
+[21:43:56] <birnabir@riseup.net> мы
+[21:44:31] <waifuclub> что настя общалась в последнее время хз с кем в каких-то закрытых сетях
+[21:45:05] <waifuclub> и теперь, игорь сказал, родители думают, что она в какой-то игил уехала
+[21:45:11] <birnabir@riseup.net> ага
+[21:45:13] <birnabir@riseup.net> мы шарим
+[21:45:37] <waifuclub> этож пиздец
+[21:46:48] <waifuclub> если бы они просто сбежавшую из дома дочку искали это одно, а то, что теперь мусара будут искать эту организацию, это совсем другое
+[21:47:04] <waifuclub> и это еще конец пиздеца
+[21:47:57] <waifuclub> не конец*
+[21:48:42] <waifuclub> мать н игорю постоянно пишет-звони и спрашивает про новые всякие детали расследования, которые они узнают
+[21:49:04] <waifuclub> точнее она спрашивает про антоху в основном
+[21:49:13] <birnabir@riseup.net> мы шарим
+[21:49:18] <waifuclub> они его ищут
+[21:49:42] <birnabir@riseup.net> ну он сам виноват и игорь виноват
+[21:50:14] <birnabir@riseup.net> сам потому что с братом ее тусил, а игорь виноват потому что про Д распиздел
+[21:52:23] <waifuclub> и знают, что он работает инструктором в каком-то тире или на стрельбище (игорь сказал, что мать сказала, что это н ей рассказала). И теперь ее батя все такие места разведывает
+[21:53:58] <birnabir@riseup.net> игорь бля вообще много что пиздит
+[21:54:40] <birnabir@riseup.net> н ничего не рассказывала про д
+[21:55:09] <waifuclub> и еще они откуда-то знают про то, что антоха то ли сам живет, то ли у него рдственники живут на ульяновской
+[21:56:19] <waifuclub> потом еще мать игорю звонила и спрашивала: "а может его не антон зовут?"
+[21:57:20] <waifuclub> последнее, что она спросила: "а он женат?"
+[22:00:22] <waifuclub> короче это пиздец
+[22:00:56] <waifuclub> если к нему придут, то ноут найдут шифрованный
+[22:01:08] <birnabir@riseup.net> ты это Давиду говори и Игорю скажи
+[22:01:42] <birnabir@riseup.net> Н ни слова не говорила про Д
+[22:02:13] <birnabir@riseup.net> Д просил сам у Н контакты ее брата и И распиздел мамке Насти про Д
+[22:03:10] <waifuclub> а меня какая-нибудь вика не сдаст?
+[22:03:25] <birnabir@riseup.net> не должна
+[22:03:36] <birnabir@riseup.net> раньше надо было думать кек)
+
+[печать] [подпись]
+
+===== v28_gray-056.jpg =====
+[22:12:23] <waifuclub> еще игорь сказал, что батя дохуя кого подрядить под это дело может
+[22:12:36] <birnabir@riseup.net> в курсе
+[22:12:40] <waifuclub> хотелось бы знать, что он может
+[22:12:55] <birnabir@riseup.net> хз говорили фсб подключили
+[22:16:04] <waifuclub> пиздос. и вы молчали?
+[22:16:25] <birnabir@riseup.net> ну узнал
+[22:16:29] <birnabir@riseup.net> и что
+[22:16:39] <birnabir@riseup.net> что-то изменилось?
+[22:17:12] <waifuclub> конечно, я только все флешки и телефон откопал
+[22:17:26] <waifuclub> теперь снова все удалять надо
+[22:17:50] <birnabir@riseup.net> а, точн, ты же тусил у нее дома и с Викой
+[22:17:57] <birnabir@riseup.net> я и забыл
+[22:18:15] <birnabir@riseup.net> да, тебе можно было и рассказать
+[22:20:03] <waifuclub> пиздец, а если бы не тусил, то не надо было бы рассказывать, что к д походу скоро фсб придет?
+[22:20:27] <birnabir@riseup.net> ну то что к Д кто-то придет мы не знали
+[22:20:28] <waifuclub> ебанулись там совсем
+[22:21:23] <birnabir@riseup.net> > ну то что к Д кто-то придет мы не знали
+[22:25:52] <waifuclub> и то, что они думают, что н вступила в какую-то организацию, тоже не знали?
+[22:26:27] <birnabir@riseup.net> знали
+[22:26:40] <birnabir@riseup.net> организация "игил"
+[22:27:43] <waifuclub> надеюсь н не оставила вмашине флешку с музыкой, на которой куча треков мушураева)
+[22:27:59] <birnabir@riseup.net> кек)
+[22:28:07] <birnabir@riseup.net> будет забавно
+[22:37:18] <birnabir@riseup.net> сам Д напишешь?
+[22:37:41] <waifuclub> уже написал
+[22:37:48] <birnabir@riseup.net> четко
+[22:42:18] <waifuclub> игорь думает, что н уехала к г и м
+[22:46:33] <birnabir@riseup.net> ну пускай, наверное
+
+[23:36:07] <piligrim@firemail.cc> а че за брат?
+[23:36:17] <waifuclub> настин
+[23:36:24] <piligrim@firemail.cc> Так, во первых без паники
+[23:36:29] <waifuclub> [19:58:19] <waifuclub> а брат ее как тебя знал?
+[19:58:27] <hlvcfrwl> Как а
+[19:58:57] <hlvcfrwl> Но когда хуйня началась переименовал меня в телеге на котика обормотика
+[19:59:25] <waifuclub> думаешь он родителям ничего не рассказал?
+[19:59:55] <hlvcfrwl> Нет
+[20:00:55] <hlvcfrwl> И вообще он сказал мне, что всё бы ничего, если бы она в жабе была
+[20:01:05] <hlvcfrwl> Но её уже неделю там нет
+[20:02:39] <waifuclub> игорь говорил, она родителям жабу передавала через вику
+[20:02:49] <waifuclub> и писала им что-то
+[20:03:03] <hlvcfrwl> Ну вот мне брат её сказал
+[20:03:19] <hlvcfrwl> Что она в жабе отвечала по началу
+[20:03:27] <hlvcfrwl> И никто не кипишевал
+[20:03:57] <hlvcfrwl> А как перестала, так они развели пиздец какой большой кипишь
+[23:36:32] <piligrim@firemail.cc> нихуя серьезного не случилось
+[23:36:42] <piligrim@firemail.cc> не дума, что ФСБ нахуй уперлось искать пропавшую дочку
+[23:36:59] <piligrim@firemail.cc> Вы сейчас там опять перепугаетесь за зря
+[23:37:25] <waifuclub> ты прочитал, что настины гражданские друзья напиздели мусорам?
+[23:37:35] <piligrim@firemail.cc> что она в ИГИЛ уехала, это хуета
+[23:37:45] <piligrim@firemail.cc> ничего страшного в этом нет
+[23:37:54] <piligrim@firemail.cc> в ИГИЛ ездили все, от Оли до Арчи
+[23:38:17] <waifuclub> да они не про игил именно сказали
+[23:38:30] <piligrim@firemail.cc> Серьезно, Ваня, успокойся и не предпринимай никаких необдуманных действий, и Давида успокой
+[23:38:35] <piligrim@firemail.cc> А че они сказали?
+[23:38:47] <waifuclub> я точно не знаю
+[23:38:50] <piligrim@firemail.cc> Мы спишемся с арчи и решим вопрос с её родичами
+[23:39:01] <waifuclub> да я и не думал что-то делать
+[23:39:57] <waifuclub> вот только и думал сказать арчи, чтоб н время от времени хотя бы родичам писала, чтоб они не заебывали
+[23:40:22] <piligrim@firemail.cc> [19:58:57] <hlvcfrwl> Но когда хуйня началась переименовал меня в
+
+[печать] [подпись]
+
+===== v28_gray-057.jpg =====
+телеге на котика обормотика
+
+ну пиздец, мож соле мою мамку в телеграм добавить? и сестра шоб мне звонила на работу когда я 2 месяца на связь не выхожу и доебывала там всех в игил я уехал или нет? Ну что за отношение
+
+[23:40:46] <piligrim@firemail.cc> Всё, проблема с родичами решена
+[23:40:49] <piligrim@firemail.cc> Настя в мусарку позвонила
+[23:40:54] <piligrim@firemail.cc> Мусор вышлет ей бланк
+[23:41:00] <piligrim@firemail.cc> она его заполнит и они отъебтся
+[23:41:11] <piligrim@firemail.cc> Дело десяти минут, и без паники и необдуманных решений
+[23:41:22] <piligrim@firemail.cc> Мамке тоже позвонила
+[23:41:24] <piligrim@firemail.cc> Все в порядке
+[23:42:04] <waifuclub> ну и ок
+[23:42:37] <piligrim@firemail.cc> Все, успокоился теперь? Как себя чувствуешь?
+[23:43:02] <waifuclub> да я и не беспокоился
+[23:43:26] <piligrim@firemail.cc> Ладно, напишешь письмо всем? на почту, если тебе не сложно
+[23:43:30] <waifuclub> я уже походу привык к тому, что только один пиздец кругом)
+
+Creation 19.10.2017 1:33:21
+Time:
+
+Group: txt
+Title: Правозащитники
+Notes: Агора. Правозащитная организация<br><br>Полит.дела, нарушение прав, пытки<br><br>+7-843-537-89-00 (по всей РФ)<br><br>537-89-01 (номер спб)<br><br><A HREF="mailto:agorarights@gmail.com">agorarights@gmail.com</A><br><br><br>Общественный вердикт. Правозащитная организация.<br><br>Нарушение прав сотрудниками правоохранительных органов.<br><br>+7-495-951-12-01 (по всей РФ)<br><br><br>Мемориал. Правозащитная организация.<br><br>Политические дела. Работают по Мск, Дагестане, Чечне и Ингушетии.<br><br>+7-495-225-31-18<br><br><A HREF="mailto:memohrc@memohrc.org">memohrc@memohrc.org</A><br><br><br>Гражданское содействие. Правозащитная организация.<br><br>Помощь беженцам, иностранным гражданам чьи права нарушаются.<br><br>+7-495-681-18-23 (по всей РФ)<br><br><br>ОВД-ИНФО.<br><br>Освещение дел по нарушениям гражданских свобод, полит преследований и<br>пр. Могут предоставить первоначальную юридическую помощь, сообщить о<br>вашем задержании.<br><br>+7-495-374-66-75<br><br><br>Объединеная группа общественного наблюдения.<br><br>Наблюдатели на судах, публичных акциях и пр. т.е. освещение в масс-медиа<br><br><A HREF="mailto:people@ogonwatch.org">people@ogonwatch.org</A><br>
+
+Название:<br>Направления деятельности:<br>Номера:<br>Почта:<br><br>Название:<br>Направления деятельности:<br>Номера:<br>Почта:<br><br>Название: Агора<br>Направления деятельности: Политические, нарушение прав человека, пытки<br>Номера: +7-843-537-89-00<br> 537-89-01<br>Почта: <A HREF="mailto:agorarights@gmail.com">agorarights@gmail.com</A><br><br>Название: Общественный вердикт<br>Направления деятельности: Нарушение прав струдниками правоохранительных органов<br>Номера: +7-495-951-12-01<br>Почта:<br><br>Название: ОВД-Инфо<br>Направления деятельности: Освещение дел, Первая юридическая помощь<br>Номера: +7-495-374-66-75<br> 8 800 707-05-28<br>Почта:<br><br>Название: Мемориал<br>Направления деятельности: Работают по Москве, Чечне, Дагестану, Ингушетии<br>Номера: +7-495-225-31-18<br> +7-916-061-05-00<br>Почта: <A HREF="mailto:memohrc@memohrc.org">memohrc@memohrc.org</A><br><br><br>Название: Гражданское содействие<br>Направления деятельности: Помощь беженцам, вынужденным переселенцам<br>Номера: +7-495-681-18-23<br>Почта:<br><br><br>Название: Московская Хельсинская группа<br>Направления деятельности: Права человека<br>Номера: +7-499-553-03-12<br>Почта:<br><br><br>Название: Общественное наблюдение<br>Направления деятельности: Общественное наблюдение на судах, акциях и т.п.<br>Номера:<br>Почта: <A HREF="mailto:people@ogonwatch.org">people@ogonwatch.org</A><br>
+
+Москва: <a href="https://vk.com/write?email=ns-moscow@riseup.net">ns-moscow@riseup.net</a><br><a
+
+[печать] [подпись]
+
+===== v28_gray-058.jpg =====
+href="https://avtonom.org/contact">https://avtonom.org/contact</a> сюда можно на автоном написать
+
+ineedyourhelp@riseup.net
+
+Creation 28.10.2017 15:28:40
+Time:
+
+Group: txt
+Title: Про д
+Notes: 25-летний антифашист, защитник животных и активист антиавторитарного движения Дмитрий Пчелинцев арестован в Пензе и помещён под стражу по неизвестным обвинениям. Дмитрий много лет проявлял гражданскую активность в своём городе, и известен как позитивный и конструктивный человек. Участвовал в организации "веганских Маслениц" с угощениями и информационной программой для взрослых и детей, а также кинопоказов, в частности, - известного про-веганского фильма "Осознавая связь". <br/><br/>В начале ноября он, по имеющимся сведениям, был арестован и помещён под стражу. При этом на данный момент сведений о его местоположении и предъявленных обвинениях нет. Мы призываем все правозащитные, антиавторитарные и зоозащитные круги объединить усилия и выяснить местоположение и причину задержания Дмитрия Пчелинцева, оказать ему необходимую помощь с юридической защитой, моральной и материальной поддержкой под стражей!
+
+Creation 08.11.2017 1:11:40
+Time:
+
+Состав индивидуальной аптечки
+1. Кровоостанавливающий жгут/турникек CAT 2шт (алиэкспресс 570р шт, самый дешевый)
+2. Термоодеяло (раньше были в сплаве 90р)
+3. Мед. перчатки (стерильные)
+4. Рулонный пластырь 5-сантиметровый
+5. Назофарингеальный воздуховод для восстановления проходимости дыхательных путей
+6. Бинты (гемостатический 1шт (вк wall-59147204_111738 2950р, обычные неск.шт и эластичный 1шт)
+7. ИПП 2шт (желательно израельские бандажи вк wall-59147204_106666 500р)
+8. Маркер
+9. Декомпрессионная игла для предотвращения пневмоторакса
+10. Спиртовые салфетки
+11. Перекись/хлоргексидин
+12. Пилбокс (ампула с тремя препаратами в таблетках/капсулах: парацетомол 1г, мелоксикам 15 мг, левофлоксацин 500мг)
+13. Окклюзионная наклейка для закрытия отверстий при ранениях грудной полости (HALO seals (вк wall-59147204_113595 1800р или ACS Asherman Chest Seal, но лучше бы и ту и другую по 1шт)
+14. Обезболивающие и противошоковые препараты в ампулах для инъекций, шприцы
+15. Одноразовые стерильные скальпели 2шт
+16. Кровоостанавливающий аппликатор CELOX (вк wall-59147204_111738 2100р)
+
+То, что желательно, но не жизненноважно:
+- Тактические ножницы (али 145р)
+- Гидрогелевые салфетки для наложения на ожоги
+- Бактерицидные пластыри (их, наверн, каждый сам себе покупает, если нужны)
+- Ампуловскрыватель 2шт
+- Презервативы 2шт
+- Шовный материал, пинцет/иглодержатель
+
+[подпись] [печать]
