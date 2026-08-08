@@ -24,8 +24,8 @@
 }
 
 :root {
-  --body:'Source Serif 4',Georgia,serif;
-  --ui:'Source Sans 3',system-ui,sans-serif;
+  --body:InterVar,sans-serif;
+  --ui:InterVar,sans-serif;
   --mono:'IBM Plex Mono',ui-monospace,monospace;
   --bg:#FDFCFA; --bg-warm:#F5F3EE; --text:#1C1D1F; --text-secondary:#484B50;
   --text-muted:#6A6D72; --border:#DDD9D1; --border-light:#EAE6DF;
