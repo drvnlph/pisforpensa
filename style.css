@@ -39,7 +39,18 @@
 }
 
 html { font-size:18px; scroll-behavior:smooth; scroll-padding-top:40px; background:var(--bg); }
-body { font-family:var(--body); color:var(--text); background:var(--bg); line-height:1.68; font-optical-sizing:auto; font-variant-emoji:text; -webkit-font-smoothing:antialiased; text-rendering:optimizeLegibility; min-height:100vh; }
+body {
+  font-family:var(--body);
+  color:var(--text);
+  background:var(--bg);
+  line-height:1.68; font-optical-sizing:auto;
+  font-variant-emoji:text;
+  text-align:justify;
+  hyphens:auto;
+  -webkit-font-smoothing:antialiased;
+  text-rendering:optimizeLegibility;
+  min-height:100vh;
+}
 ::selection { background:var(--accent-faint); }
 a { color:var(--accent); text-decoration:underline; text-decoration-color:var(--accent-underline); text-decoration-thickness:1px; text-underline-offset:3px; }
 a:hover { color:var(--accent-hover); text-decoration-color:var(--accent-hover); }
