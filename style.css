@@ -45,8 +45,8 @@ body {
   background:var(--bg);
   line-height:1.68; font-optical-sizing:auto;
   font-variant-emoji:text;
-  text-align:justify;
-  hyphens:auto;
+  /* text-align:justify; */
+  /* hyphens:auto; */
   -webkit-font-smoothing:antialiased;
   text-rendering:optimizeLegibility;
   min-height:100vh;
